@@ -119,6 +119,12 @@ If your team has published a translation, open an issue to get listed.
 | Reputation | ~55 | Rank and scope names |
 | Mining | ~38 | Mineable elements |
 
+## What is translated?
+
+Translations cover **in-game data only** — mission titles, descriptions, location names, ship names, item names, faction names, and other strings sourced from Star Citizen's `global.ini`.
+
+Website UI elements (buttons, labels, column headers, tooltips, filters, etc.) always remain in English. This is intentional — UI localization would require layout adjustments, pluralization rules, and formatting changes that go far beyond simple string replacement.
+
 ## FAQ
 
 **Q: Do I need a Star Citizen account?**
