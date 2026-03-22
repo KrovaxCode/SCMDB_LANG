@@ -47,6 +47,8 @@ _TOKEN_DISPLAY_MAP = {
     "Contractor|DestroyProbeInformant": "[INFORMANT]",
     "Contractor|DestroyProbeAmount": "[MONITOR_COUNT]",
     "Contractor|DestroyProbeTimed": "", "Contractor|DestroyProbeDanger": "",
+    "ReputationRank": "[RANK]",
+    "CargoGradeToken": "[CARGO_GRADE]",
 }
 
 
@@ -106,22 +108,42 @@ def load_ini(path: str) -> dict:
     return loc
 
 
+def _lookup_ini(ini: dict, ini_lower: dict, key: str) -> str | None:
+    """Look up a key in the INI dict with multiple fallbacks."""
+    clean = key.lstrip("@")
+    return (ini.get(clean) or ini.get(f"@{clean}")
+            or ini_lower.get(clean.lower()) or ini_lower.get(f"@{clean}".lower()))
+
+
 # ---------------------------------------------------------------------------
 # Build translation
 # ---------------------------------------------------------------------------
 
 def build_translation(template: dict, ini: dict, lang_code: str) -> tuple:
     """Builds translation JSON from template + INI.
-    Returns (output_dict, stats)."""
+    Returns (output_dict, stats).
+
+    Token substitution: the template may include tokenSubstitutions
+    (e.g. ReputationRank -> @rank_master). After normalizing ~mission()
+    tokens to placeholders like [RANK], these are replaced by looking up
+    the loc-key in the foreign INI (e.g. [RANK] -> "Мастер")."""
 
     # Also keep lowercase keys for fallback
     ini_lower = {k.lower(): v for k, v in ini.items()}
+
+    # Token substitutions from template (loc-key per token per key)
+    token_subs = template.get("tokenSubstitutions", {})
 
     translated = {}
     missing = []
     noloc = []
     placeholder_only = 0
+    substituted = 0
+    mismatched = []
     bracket_re = re.compile(r"^\s*(\[[A-Z_]+\]\s*)+$")
+
+    # rawKeys for mismatch detection
+    raw_keys = template.get("rawKeys", {})
 
     for key, english_text in template.get("keys", {}).items():
         if key.startswith("_noloc_"):
@@ -130,13 +152,41 @@ def build_translation(template: dict, ini: dict, lang_code: str) -> tuple:
             continue
 
         # Look up key in INI (with and without @, case-insensitive)
-        val = (ini.get(key) or ini.get(f"@{key}") or
-               ini_lower.get(key.lower()) or ini_lower.get(f"@{key}".lower()))
+        val = _lookup_ini(ini, ini_lower, key)
 
         if val:
             while val.endswith("\\n"):
                 val = val[:-2].rstrip()
             val = normalize_runtime_tokens(val)
+
+            # Apply token substitutions: replace placeholders with
+            # foreign language values (e.g. [RANK] -> "Мастер")
+            subs = token_subs.get(key, {})
+            if subs:
+                for token_name, loc_key in subs.items():
+                    placeholder = _TOKEN_DISPLAY_MAP.get(
+                        token_name,
+                        f"[{token_name.split('|')[0].upper()}]"
+                    )
+                    if not placeholder or placeholder not in val:
+                        continue
+                    foreign_value = _lookup_ini(ini, ini_lower, loc_key)
+                    if foreign_value:
+                        while foreign_value.endswith("\\n"):
+                            foreign_value = foreign_value[:-2].rstrip()
+                        val = val.replace(placeholder, foreign_value)
+                        substituted += 1
+
+            # Mismatch detection: foreign text still has token placeholders
+            # that were resolved in the EN text
+            raw_en = raw_keys.get(key)
+            if raw_en and "~mission(" in raw_en:
+                for token_placeholder in set(_TOKEN_DISPLAY_MAP.values()):
+                    if (token_placeholder
+                            and token_placeholder in val
+                            and token_placeholder not in english_text):
+                        mismatched.append(key)
+                        break
 
             # Placeholder-only check (e.g. just "[CONTRACTOR]")
             if bracket_re.match(val):
@@ -157,7 +207,10 @@ def build_translation(template: dict, ini: dict, lang_code: str) -> tuple:
         "missing": len(missing),
         "placeholderOnly": placeholder_only,
         "noLocKey": len(noloc),
+        "mismatch": len(mismatched),
+        "tokenSubstitutions": substituted,
         "missingKeys": sorted(missing),
+        "mismatchKeys": sorted(mismatched),
     }
 
     output = {
@@ -200,8 +253,11 @@ def main():
 
     version = template.get("version", "unknown")
     key_count = template.get("keyCount", len(template.get("keys", {})))
+    has_subs = bool(template.get("tokenSubstitutions"))
     print(f"  Version: {version}")
     print(f"  Keys: {key_count}")
+    if has_subs:
+        print(f"  Token substitutions: {len(template['tokenSubstitutions'])} keys")
 
     # Load INI
     if not os.path.exists(args.ini):
@@ -232,6 +288,10 @@ def main():
     print(f"  Missing:          {stats['missing']} (fallback: English)")
     print(f"  Placeholder-Only: {stats['placeholderOnly']} (fallback: English)")
     print(f"  No Loc-Key:       {stats['noLocKey']} (kept as-is)")
+    if stats.get("tokenSubstitutions"):
+        print(f"  Substituted:      {stats['tokenSubstitutions']} (token placeholders resolved)")
+    if stats.get("mismatch"):
+        print(f"  Mismatches:       {stats['mismatch']} (unresolvable token placeholders)")
     print(f"{'=' * 50}")
 
     if stats["missing"] > 0:
@@ -240,10 +300,30 @@ def main():
             en_text = template["keys"].get(k, "")
             short = en_text[:60] + "..." if len(en_text) > 60 else en_text
             print(f"  {k}")
-            print(f"    EN: {short}")
+            try:
+                print(f"    EN: {short}")
+            except UnicodeEncodeError:
+                print(f"    EN: {short.encode('ascii', 'replace').decode()}")
         if stats["missing"] > 30:
             print(f"  ... and {stats['missing'] - 30} more")
         print(f"\nThese keys are missing from the INI. English text is used as fallback.")
+
+    if stats.get("mismatch", 0) > 0:
+        print(f"\nToken Mismatches ({stats['mismatch']}):")
+        print(f"These keys have token placeholders that could not be resolved.")
+        for k in stats["mismatchKeys"][:20]:
+            en_text = output["keys"].get(k, {}).get("en", "?")
+            tr_text = output["keys"].get(k, {}).get("tr", "?")
+            en_short = (en_text[:60] + "...") if len(en_text) > 63 else en_text
+            tr_short = (tr_text[:60] + "...") if len(tr_text) > 63 else tr_text
+            print(f"  {k}")
+            for label, text in [("EN", en_short), ("TR", tr_short)]:
+                try:
+                    print(f"    {label}: {text}")
+                except UnicodeEncodeError:
+                    print(f"    {label}: {text.encode('ascii', 'replace').decode()}")
+        if stats["mismatch"] > 20:
+            print(f"  ... and {stats['mismatch'] - 20} more")
 
     print(f"\nDone! Host the file and share the link: scmdb.dev?lang=<FILE_URL>")
 
