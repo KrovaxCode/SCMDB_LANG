@@ -16,10 +16,14 @@ SCMDB displays all data in English by default. This repo provides the tools for 
 ### How to build a translation
 
 ```bash
-python build_lang_template.py \
-  -p ptu \
-  --translate path/to/your_global.ini
+# PTU (default)
+python build_lang_template.py --translate path/to/your_global.ini
+
+# LIVE (when a live template is available)
+python build_lang_template.py -p live --translate path/to/your_global.ini
 ```
+
+The `-p` flag selects which template to use when multiple are present (e.g. `lang-template-*-ptu.*.json` vs `lang-template-*-live.*.json`). Default is `ptu`.
 
 This produces a `lang-your_global-4.7.0-ptu.11494258.json` file with a coverage report:
 
@@ -63,7 +67,7 @@ The output filename is derived from your `global.ini` filename. To control the l
 
 3. When a new patch drops:
    - Pull the updated `lang-template-*.json` and `build_lang_template.py` from this repo
-   - Re-run `build_lang_template.py --translate` with your latest `global.ini`
+   - Re-run `python build_lang_template.py --translate path/to/your_global.ini`
    - Update your hosted file
 
 ### File format
