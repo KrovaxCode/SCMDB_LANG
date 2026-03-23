@@ -9,31 +9,45 @@ SCMDB displays all data in English by default. This repo provides the tools for 
 ### What you need
 
 1. **Python 3.10+** (no external dependencies)
-2. **`build_translation.py`** (this repo)
+2. **`build_lang_template.py`** (this repo)
 3. **`lang-template-*.json`** (this repo, updated each patch by SCMDB)
 4. **Your community `global.ini`** (the Star Citizen translation file your team maintains)
 
 ### How to build a translation
 
 ```bash
-python build_translation.py \
-  --template lang-template-4.7.0-ptu.11475995.json \
-  --ini path/to/your_global.ini \
-  --lang de
+python build_lang_template.py \
+  -p ptu \
+  --translate path/to/your_global.ini
 ```
 
-This produces a `lang-de-4.7.0-ptu.11475995.json` file with a coverage report:
+This produces a `lang-your_global-4.7.0-ptu.11494258.json` file with a coverage report:
 
 ```
-==================================================
-  Total Keys:       3186
-  Translated:       2819 (88.5%)
-  Missing:          235 (Fallback: English)
-  Placeholder-Only: 50 (Fallback: English)
-==================================================
+=== Result ===
+  File:          lang-your_global-4.7.0-ptu.11494258.json
+  Total:         3340
+  Translated:    3250
+  Missing:       3
+  Mismatch:      26 (token placeholders in foreign text)
+  Substituted:   165 (placeholders replaced with foreign values)
+  No loc key:    80 (kept as-is)
 ```
 
 Missing keys automatically fall back to English text.
+
+#### Token substitution
+
+The tool automatically resolves token placeholders in translated text. For example, if a mission title contains `[RANK]`, the tool looks up the translated rank name (e.g. "Master" -> "Мастер") in your `global.ini` and inserts it. This reduces manual post-processing significantly.
+
+#### Output filename
+
+The output filename is derived from your `global.ini` filename. To control the language code in the output, name your INI file accordingly:
+
+```bash
+# Input: global_ru.ini -> Output: lang-global_ru-4.7.0-ptu.11494258.json
+# Input: german_global.ini -> Output: lang-german_global-4.7.0-ptu.11494258.json
+```
 
 ### How to publish your translation
 
@@ -44,12 +58,12 @@ Missing keys automatically fall back to English text.
 
 2. Share the direct URL with your community:
    ```
-   https://raw.githubusercontent.com/your-team/scmdb-translations/main/lang-de-4.7.0-ptu.11475995.json
+   https://raw.githubusercontent.com/your-team/scmdb-translations/main/lang-de-4.7.0-ptu.11494258.json
    ```
 
 3. When a new patch drops:
-   - Pull the updated `lang-template-*.json` from this repo
-   - Re-run `build_translation.py` with your latest `global.ini`
+   - Pull the updated `lang-template-*.json` and `build_lang_template.py` from this repo
+   - Re-run `build_lang_template.py --translate` with your latest `global.ini`
    - Update your hosted file
 
 ### File format
@@ -58,18 +72,18 @@ The output JSON contains English + translated text for each key:
 
 ```json
 {
-  "version": "4.7.0-ptu.11475995",
+  "version": "4.7.0-ptu.11494258",
   "sourceLanguage": "en",
-  "targetLanguage": "de",
-  "keyCount": 3186,
+  "targetLanguage": "global_ru",
+  "keyCount": 3340,
   "keys": {
-    "recovery_title": {
-      "en": "Getting Our Gear Back",
-      "tr": "Unsere Ausruestung zurueckholen"
+    "Adagio_BasicSalvage_Title_01": {
+      "en": "Claim #[CLAIM]: [SHIP] Salvage Rights",
+      "tr": "ПРАВО НА УТИЛИЗАЦИЮ #[CLAIM]: [SHIP]"
     },
     "items_commodities_gold_ore": {
       "en": "Gold (Ore)",
-      "tr": "Gold (Erz)"
+      "tr": "Золото (Руда)"
     }
   }
 }
@@ -106,15 +120,15 @@ Translation teams can be listed here once they publish their files:
 
 If your team has published a translation, open an issue to get listed.
 
-## Key Statistics (~3,200 keys per version)
+## Key Statistics (~3,300 keys per version)
 
 | Category | Count | Notes |
 |----------|-------|-------|
-| Mission Titles | ~620 | Contract/mission names |
-| Descriptions | ~640 | Mission briefing texts |
-| Locations | ~630 | Planets, moons, stations |
+| Mission Titles | ~685 | Contract/mission names |
+| Descriptions | ~724 | Mission briefing texts |
+| Locations | ~626 | Planets, moons, stations |
 | Ships | ~144 | Ship names |
-| Items | ~1,030 | Weapons, armor, equipment |
+| Items | ~1,033 | Weapons, armor, equipment |
 | Factions | ~35 | In-game organizations |
 | Reputation | ~55 | Rank and scope names |
 | Mining | ~38 | Mineable elements |
@@ -133,8 +147,11 @@ A: No. You just need Python and a `global.ini` file (your translation team provi
 **Q: Why are some keys missing from my translation?**
 A: CIG adds new mission texts each patch. If your `global.ini` doesn't have them yet, English is used as fallback.
 
-**Q: What are "Placeholder-Only" entries?**
-A: Some CIG translations contain only `~mission()` tokens instead of actual text (e.g. `~mission(Contractor|Title)`). These are automatically replaced with English text.
+**Q: What are "Mismatch" entries?**
+A: CIG sometimes has different English text in foreign language `global.ini` files compared to the English version. These mismatches are reported but the translated text is still included.
+
+**Q: What are "Substituted" entries?**
+A: Mission tokens like `[RANK]` or `[CARGO_GRADE]` are automatically replaced with the translated value from your `global.ini`. For example, `[RANK]` becomes "Мастер" in Russian.
 
 **Q: Can I manually edit the output JSON?**
 A: Yes. You can fix or improve any translation directly in the JSON file after generation.
