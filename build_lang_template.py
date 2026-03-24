@@ -557,6 +557,11 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
                                 placeholder, en_value
                             )
 
+            # Re-normalize: substituted values may contain ~mission() tokens
+            # (e.g. RU Adagio_BasicSalvage_Title_01 has ~mission(ClaimNumber))
+            if "~mission(" in foreign_normalized:
+                foreign_normalized = normalize_runtime_tokens(foreign_normalized)
+
             # Placeholder-only detection: if the entire foreign text is just
             # placeholders (e.g. "[CONTRACTOR]"), fall back to English.
             # Remove all [PLACEHOLDER] patterns (both known and dynamic).
