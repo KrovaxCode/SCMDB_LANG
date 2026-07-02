@@ -1,6 +1,6 @@
 {
-  "version": "4.9.0-ptu.12135599",
-  "keyCount": 2703,
+  "version": "4.9.0-ptu.12142716",
+  "keyCount": 2718,
   "keys": {
     "Headhunters_Delivery_Outpost_title_001": "[DESTINATION] Errand",
     "roughready_delivery_station_title_001": "[DESTINATION] Stroll",
@@ -261,6 +261,7 @@
     "Eckhart_EscortShips_M_title": "Experienced Protection Detail Needed",
     "cfp_maintenance_H_title_001": "Extensive Repairs Needed: Yang's Place",
     "Covalex_RecoverCargo_VeryEasy_Title": "Extra Small Covalex Shipment Needs Recovering",
+    "Battaglia_RPT_ScanMine_Golem_title": "Extra Special Job",
     "TheCollector_Recipes_Title_L22Wolf": "Extra Special Wolf",
     "EckhartSecurity_RecoverCargo_Super_Title": "Extreme Risk Cargo Retrieval",
     "eckhart_defendship_multi_SRT_title_001": "Extremely Dangerous Defense",
@@ -308,7 +309,6 @@
     "Foxwell_EliminateAll_Allies_title_001": "Help Protect Site",
     "TheCollector_Recipes_Title_Hush": "Hide Snow Suit",
     "Battaglia_RPT_Scan_06_title": "High Priority Ore Scan",
-    "Battaglia_RPT_ScanMine_06_title": "High Priority Ore To Mine",
     "EckhartSecurity_RecoverCargo_Hard_Title": "High Risk Shipment Recovery",
     "EckhartSecurity_EliminateBoss_DC_Title_001": "High-Risk Bounty: [TARGET]",
     "eckhart_defendship_multi_HRT_title_001": "High-Risk Ship Encounter",
@@ -407,6 +407,8 @@
     "Shubin_Industrial_ShipMining_Stanton_M_Solar_Title_001": "Med. Purchase Order: Ship Mined Ore",
     "Shubin_Industrial_GroundVehicle_Pyro_M_PlanetarySystem_Title_001": "Med. Purchase Order: Vehicle Mined Ore",
     "Shubin_Industrial_GroundVehicle_Stanton_H_Solar_Title_001": "Med. Purchase Order: Vehicle Mined Ore",
+    "Battaglia_RPT_ScanMine_06_title": "Mining and Data Collection",
+    "Battaglia_RPT_ScanMine_Mole_title": "Mining and MOLE",
     "Battaglia_RPT_ScanMine_01_title": "Minor Mining Job",
     "cfp_maintenance_E_title_001": "Minor Repairs Needed: [LOCATION]",
     "cfp_maintenance_local_E_title_001": "Minor Repairs Needed: Yang's Place",
@@ -630,6 +632,8 @@
     "Adagio_Industrial_Salvage_Universal_E_Title_002": "Salvager Needed (Small Supply of RMC / UCM)",
     "Adagio_Industrial_Salvage_Universal_E_Title_001": "Salvager Needed (Small Supply of RMC)",
     "eckhart_defendship_VLRT_title_001": "Save Ship",
+    "Battaglia_RPT_ScanMine_03_title": "Scan And Mining Needed",
+    "Battaglia_RPT_ScanMine_Prosp_title": "Scan, Mine, and Prospector Payout",
     "Headhunters_SecurityPatrol_E_Title_001": "Scout and Scan",
     "HeadHunters_DefendEntitesAndEscort_M_Title": "Secure [LOCATION] from Upstarts",
     "Headhunters_DefendDestructibleEntites_M_Title_001": "Secure Fuel Tanks From Rivals",
@@ -920,9 +924,9 @@
     "blackbox_recover_desc_H_001": "Don’t know if you’ve heard, but there’s a bunch of ships over at <EM4>[LOCATION]</EM4> surrounding a burnt-out ship. You curious why? I know we are.\\nThink you can get in that wreck, grab the blackbox, and get out? We’ll pay you for it.\\n\\nBased on the number of sketchy ships in the area, you should bring some friends with to watch your ass, unless you’re some crazy solo act, but we’d prefer if you actually survived this so you can drop off the blackbox at <EM4>[DESTINATION]</EM4> for us. \\n\\nBut hey, your call. As long as it gets done.\\n\\n-Bit Zeros",
     "Hockrow_BlackBox_space_H_Desc_001": "Hockrow Agency \\nCase File #BR744152\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nContract’s come through to look into a recent attack near <EM4>[LOCATION]</EM4>. Client claims that they were ambushed by a serious outlaw pack and need the proof. An operative with <EM4>significant combat experience</EM4> is needed to fly to scene and retrieve blackbox.\\n\\nContract Investigator Actions:\\nFind site of derelict ship at <EM4>[LOCATION]</EM4>, secure the blackbox, and deliver to <EM4>[DESTINATION]</EM4>.\\n\\nAdditional Notes:\\nExpect heavy resistance from outlaws present on the scene. As such, this has been flagged as a <EM4>combat mission</EM4>.",
     "BitZeros_blackbox_H_Desc_001": "Don’t know if you’ve heard, but there’s a bunch of ships over at <EM4>[LOCATION]</EM4> surrounding a burnt-out ship. You curious why? I know we are.\\nThink you can get in that wreck, grab the blackbox, and get out? We’ll pay you for it.\\n\\nBased on the number of sketchy ships in the area, you should bring some friends with to watch your ass, unless you’re some crazy solo act, but we’d prefer if you actually survived this so you can drop off the blackbox at <EM4>[DESTINATION]</EM4> for us. \\n\\nBut hey, your call. As long as it gets done.\\n\\n-Bit Zeros",
-    "Battaglia_RPT_RecoverItem_VE_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval\\n\\nWORK BRIEF: \\nReceived a tip about <EM4>a ship that had been attacked at [LOCATION]</EM4>.  Apparently it's been there for a little while, but the Governing Committee would like to know how it got there. \\n\\nWe're looking for someone to go out, <EM4>retrieve the blackbox and bring it to [DESTINATION]</EM4> so we can figure out what happened.\\n\\nPAYMENT:\\nStandard listed rate upon resource delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-    "Battaglia_RPT_RecoverItem_VH_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval Very Dangerous\\n\\nWORK BRIEF: \\nThere's been another attack out at [LOCATION]. Whoever did it killed the entire crew in the ambush. The Governing Committee wants answers so we're looking for someone to head out there, <EM4>retrieve the blackbox and deliver it [DESTINATION]</EM4>.\\n\\nBe incredibly careful. They said it was a large group that attacked them, and I'd be <EM4>they're still in the area</EM4>.\\n\\nPAYMENT:\\nStandard listed rate upon resource delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-    "Battaglia_RPT_RecoverItem_M_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval w/Danger\\n\\nWORK BRIEF: \\nWe had another ship attacked out near [LOCATION] and received conflicting reports about who did the ambush, so we're looking to hire someone to fly out and <EM4>retrieve the blackbox</EM4>. Last thing we want to do is blame the wrong people.\\n\\nJust be careful, there's a real good chance <EM4>the ambushers are still there waiting</EM4> for someone to claim it.\\n\\nIf you're able to get it, <EM4>deliver the blackbox to [DESTINATION]</EM4> and we'll get you paid.\\n\\nPAYMENT:\\nStandard listed rate upon resource delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_RecoverItem_VE_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval\\n\\nWORK BRIEF: \\nReceived a tip about <EM4>a ship that had been attacked at [LOCATION]</EM4>.  Apparently it's been there for a little while, but the Governing Committee would like to know how it got there. \\n\\nWe're looking for someone to go out, <EM4>retrieve the blackbox and bring it to [DESTINATION]</EM4> so we can figure out what happened. \\n\\nJust a reminder, the blackbox isn't small, so <EM4>you'll need a ship with some storage</EM4>.\\n\\nPAYMENT:\\nStandard listed rate upon delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_RecoverItem_VH_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval Very Dangerous\\n\\nWORK BRIEF: \\nThere's been another attack out at [LOCATION]. Whoever did it killed the entire crew in the ambush. The Governing Committee wants answers so we're looking for someone to head out there, <EM4>retrieve the blackbox and deliver it [DESTINATION]</EM4>. Make sure you <EM4>bring a ship with some storage to hold the blackbox</EM4>.\\n\\nBe incredibly careful. They said it was a large group that attacked them, and I'd be <EM4>they're still in the area</EM4>.\\n\\nPAYMENT:\\nStandard listed rate upon delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_RecoverItem_M_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval w/Danger\\n\\nWORK BRIEF: \\nWe had another ship attacked out near [LOCATION] and received conflicting reports about who did the ambush, so we're looking to hire someone to fly out and <EM4>retrieve the blackbox</EM4>. Last thing we want to do is blame the wrong people. You should be able to carry it, but <EM4>you'll need a ship with some storage.</EM4>\\n\\nJust be careful, there's a real good chance <EM4>the ambushers are still there waiting</EM4> for someone to claim it.\\n\\nIf you're able to get it, <EM4>deliver the blackbox to [DESTINATION]</EM4> and we'll get you paid.\\n\\nPAYMENT:\\nStandard listed rate upon delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "recovery_desc": "If you want something done right, you gotta do it yourself. That's what they say, right? Wish I had the time for that, but I have a business to run.\\n\\nSome of our goods have been mislaid and I need a contractor to put this right for me. Got some info that the guys at <EM4>[LOCATION]</EM4> ghosted one of my gang and got their hands on our gear. I need you to grab the stuff, deal with anyone at the location and take it to the drop-off at <EM4>[DESTINATION]</EM4> for me. Get it done and I'll sort out your payment.\\n\\n-Twitch",
     "BitZeros_RecoverItem_Generic_Desc_001": "Managed to hunt down a rare piece of tech only for it to get snagged by someone right at the last second. Tracking it isn't exactly hard, but I'd rather not keeping chasing this thing.\\n\\nHead to <EM4>[LOCATION]</EM4> and get it back for us. The people over there probably don't even know what it is, so let's do them a favor and take it off their hands. No idea if it's being guarded, so up to you how you wanna deal with any potential threats.\\n\\nOnce you've got it, take it to <EM4>[DESTINATION]</EM4> and then we'll send over the creds.\\n\\n-Bit Zeros",
     "BitZeros_RecoverItem_Generic_Desc_002": "If you're looking to make some primo creds then we've got a job for you. Someone stole a piece of tech from one of our transporters and is trying to sell it back to us.\\n\\nThe nullbrain didn't even realize we were tracing their comms when they comm'd us up trying to extort us. Now all you have to do is go to <EM4>[LOCATION]</EM4>, grab the tech, and take it to <EM4>[DESTINATION]</EM4>. We don't know what the situation is over there so maybe bring a weapon or two with you. Could be fine though.\\n\\n-Bit Zeros",
@@ -1052,7 +1056,7 @@
     "FTL_RecoverItem_Intro_Desc_001": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\n\\nPICKUP LOCATION – One of our ships went down at <EM4>[LOCATION]</EM4>. Need a courier to retrieve the package.\\n\\nDROPOFF LOCATION – Package will need to be delivered to <EM4>[DESTINATION]</EM4>. \\n\\nTHREAT LEVEL – <EM4>Minimal combat</EM4> expected.\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\n[SIGN_OFF]",
     "RedWind_RecoverItem_Intro_Desc_001": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nRed Wind is excited to announce that we are looking to hire new couriers to help with deliveries across the ’verse. We pride ourselves on been a flexible company that’s eager to meet the needs of all clients, everywhere. We’ll ask no questions; if you want it there, we’ll get it there. If that sounds like you, we have an introductory contract to see if you’re the right fit.\\n\\nWe need a resilient new hire to head to <EM4>[LOCATION]</EM4>, recover the package abandoned by a former employee, and finish the delivery.\\n\\nPACKAGES TO RECOVER\\n     · <EM4>1x [ITEM1]</EM4>\\n\\nDROP OFF LOCATION\\n     · Deliver to <EM4>[DESTINATION]</EM4>\\n\\nIf you’re able to handle this contract we’d be delighted to send you more courier opportunities.\\n\\nTAKE PRIDE IN YOUR WORK – Even as a contractor you are representing Red Wind Linehaul. Do not intentionally do anything to harm the company’s reputation.",
     "bitzeros_shipheist_E_desc_001": "Get this, we were sifting through some comms and picked up some excitement about a big score. It was easy work to figure out where they're hiding a ship loaded with cargo and we figured, hey, why keep this profitable knowledge to ourselves? \\n\\nSend us a few creds in finder fees and we'll send you the coordinates of the asteroid base where the ship is stashed. It’s locked inside a hangar, so you’ll need to get to it via the station’s elevators. But once inside, you’ll be able to override the lockdown at a console. Do that and it should be easy pickings.\\n\\n57 65 65 76 69 6c",
-    "Battaglia_RPT_ScanMine_05_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Efficient Miners Wanted\\n\\nWORK BRIEF: \\nNeed your help with something. Just got word that <EM4>[LOCATION]</EM4> has a big deposit of <EM4>[RESOURCETYPE]</EM4>. If you could go there and harvest <EM4>[AMOUNTTOSCAN]</EM4> of <EM4>[RESOURCETYPE]</EM4> <EM4>[MINEABLETYPE]</EM4>s, that’d really help me out. [RARITY]\\n\\nAlso, if you're stuck or new to mining, the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.\\n\\nThanks in advance.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_05_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Efficient Miners Wanted\\n\\nWORK BRIEF: \\nNeed your help with something. If you could harvest [RESOURCES] [MINEABLETYPE]</EM4>s, that would really help out our understanding of the current mineral levels in the system. [RARITY]\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks in advance.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Headhunters_DefendLocation_VE_Desc_001": "Headhunters flying in and out of <EM4>[LOCATION]</EM4> are being harassed by some aggressive upstarts. Need them dealt with before they become a real pain in the ass.   \\n\\nGet there and I’ll update you on what these pests are doing so you can hunt ‘em down. \\n\\nClear ‘em all out I’ll throw <EM4>2 Council Scrip</EM4> to whoever accepted this gig as a bonus.\\n\\n- Stows",
     "cfp_bombingrun_E_desc_001": "We've been having escalating issues with the outlaws at [LOCATION] and can no longer stand by and watch as their aggressive actions hurt our community. \\n\\nWe are wary of launching a full scale assault, but believe that if their fuel stores are wiped out, it would deter them from further hostile actions. \\n\\nIf you're able, I'd appreciate you handling the destruction of the fuel personally. A ship capable of launching missiles would probably make the most sense, but I leave that up to you.\\n\\nThanks,\\n \\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "InterSec_KillShip_Vanduul_Desc_Super_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated Ship\\nBriefing: InterSec requires the services of a skilled pilot who’s prepared to assist in taking down a dangerous Vanduul target that has been involved in numerous attacks.\\n\\nVanduul incursions have been on the rise recently, posing not only a threat to the system of Nyx, but the UEE as a whole. It is imperative that these sightings are responded to in a swift and efficient manner. \\n\\nWe require you to fly to the last known sighting of the Vanduul ship at <EM4>[LOCATION]</EM4> and eliminate them immediately.  \\n\\nVanduul pilots are highly skilled and extremely dangerous. Engage the enemy immediately and do not hesitate – they will not show the same mercy.\\n\\nCompensation proportionate to the risk of the contract will be awarded.\\n\\nRespectfully,\\nDeacon Tobin\\nOperations Manager\\nInterSec Defense Solutions\\n\\nThis communication consists of a non-binding offer that upon acceptance may be immediately terminated by either party without any given notice. All operations are conducted at the contractor’s own personal risk and must adhere to system law where applicable.",
@@ -1074,6 +1078,7 @@
     "Eckhart_EscortShips_M_desc": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Escort Ship\\nApproval code: = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nOne of my clients needs an immediate escort through dangerous space. Rendezvous at <EM4>[LOCATION]</EM4> and they’ll meet you after they launch. Reports indicate increased outlaw activity in the area, so don’t let your guard down.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "cfp_maintenance_H_desc_001": "We need some help. The CFP facility at <EM4>[LOCATION]</EM4> suffered severe damage during a recent electrical storm and we're looking for anyone who can help with repairs.\\n\\nSurveying the site, you'll have to bring <EM4>six fuses</EM4>, a <EM4>salvaging tool</EM4>, and <EM4>enough RMC canisters to take care of eight or so pipes</EM4>. That should be enough to repair the damage and get the outpost back in operation.\\n\\nIf you need more information on maintenance work, see <EM4>“Cornerstone Developments' Guide to Maintenance”</EM4> entry in your mobiGlas Journal.\\n\\nDo you think you can help?\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "Covalex_RecoverCargo_VeryEasy_Description": "Hi,\\n\\nSo I had a contractor who was supposed to deliver some stuff for us but has completely gone off the radar. I've pinged their ship and I've got no idea what's happened but they're floating around somewhere over at <EM4>[LOCATION]</EM4>. If you could head over there recover the cargo and take it to the freight elevator at <EM4>[DESTINATION]</EM4> you'd be doing me a huge favor.\\n\\nDon't forget to bring a <EM4>heavy-duty tractor beam</EM4> to move all the cargo. Oh and a ship that can transport <EM4>[MAX_SCU] cargo containers</EM4>.\\n\\nThanks in advance for ensuring prompt service,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.' \\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
+    "Battaglia_RPT_ScanMine_Golem_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Extra Special Job\\n\\nWORK BRIEF: \\nYou've been doing some excellent work for us lately and wanted to offer a special job with a special reward. I'm looking for some more data, so I need someone to scan [RESOURCES] [MINEABLETYPE]</EM4>s and send me what you find. [RARITY]\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nPolished up a special Drake Golem from Teach's for this one.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "TheCollector_Recipes_Desc_L22Wolf": "Wikelo very excited. Have idea for new material. But making it is most tricky. Very complicated. Need help fabricating a test sample. I give you blueprint, you make, bring to me, and I will trade. Give you extra special L-22 Wolf. Very powerful, very wolf.",
     "EckhartSecurity_RecoverCargo_Super_Description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Recover Cargo\\nApproval code: = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nPutting out an immediate call for a highly skilled contractor to reclaim a client's cargo located at <EM4>[LOCATION]</EM4>.\\n\\nClient hired an expert hauler to transport something discreetly, but it seems some information regarding the shipment was either hacked or leaked. The pilot was attacked and now the shipment is stranded. We need you and any support ships you bring to make it to the site before the cargo is lost for good. \\n\\nYou will need a <EM4>heavy-duty tractor beam</EM4> and a ship capable of storing <EM4>[MAX_SCU] cargo containers</EM4>.\\n\\nAfter assessing the situation and the importance the client has placed on the recovery of the cargo, we have decided to reward a high payout for the successful delivery of the shipment to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "eckhart_defendship_multi_SRT_desc_001": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Ship\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nWe have a client currently under attack at <EM4>[LOCATION]</EM4>. We have a long history with this client and know that they’re a skilled dogfighter. If they’re struggling to survive, then this situation must be dire.\\n \\nWe’re looking for a top-tier dogfighter to head out there and provide support. If you’re available, then this client could really use your help. \\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -1087,7 +1092,7 @@
     "cfp_hauling_intro_desc_001": "Welcome to the system, not sure if you're familiar with our organization but Citizens for Prosperity are a non-profit organization dedicated to bringing security and civilization to unclaimed systems.\\n\\nIf you're looking for work in the system and would like to help achieve our goal, we need a package picked up from <EM4>[LOCATION]</EM4> and taken to <EM4>[DESTINATION]</EM4>.\\n\\nOnce complete, we can offer you a variety of new job opportunities in this system and beyond.\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "TheCollector_Ships_Fortune_Indus_Desc": "Hello, practicing on making ship fly better. Xi'an help human make ship. Fly good. Salvage good. But Wikelo can make better if you want. Bring things and will do. Bye.",
     "vaughn_assassination_PA_M_desc": "It seems the People’s Alliance have been ruffling some feathers recently. A client of ours would be most thrilled if you can prevent [TARGET] from meddling in their affairs ever again.\\n\\nYou’ll find them around <EM4>[LOCATION]</EM4>, and from what our client has told us, it’s unlikely that they’re alone. These aren’t your run-of-the-mill pilots, they might even pose a slight threat to your safety.\\n\\nDo try your best to keep it as clean as possible.\\n\\nSincerely,\\nVaughn",
-    "Battaglia_RPT_Scan_04_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Full Area Scan For Ore\\n\\nWORK BRIEF: \\nI need you to check something out for me if you’re not busy. Got word that there might be a big deposit of <EM4>[RESOURCETYPE]</EM4> somewhere in the <EM4>[LOCATION]</EM4> area. I can handle the mining, just need someone to scope out of this tip is legit.\\n\\nLet me know.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_04_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Full Area Scan For Ore\\n\\nWORK BRIEF: \\nI need you to check something out for me if you’re not busy. I'm looking to build on our mineral database and need some scans of <EM4>[RESOURCES]</EM4>. I can handle the mining if you want to leave it. [RARITY]\\n\\nAlso, if you're stuck on where to look or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nLet me know.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "TheCollector_Recipes_Desc_KopSkull": "Hello. Can make fun change to gun if you want. Use kopion skin for pattern and little skull dangle. Very effective. Shoot much better.\\n\\nAll you need is bring me parts to <EM4>[DESTINATIONS]</EM4> and will make. \\n\\nBye.",
     "TheCollector_Recipes_Desc_MiltSkull": "Hello. Can do version of gun if you kopion soldier. Make material like soldier camouflage but with dead skull on front. Gun shoot better too.\\n\\nIf want, bring part to <EM4>[DESTINATIONS]</EM4> and will make.",
     "RAIN_CollectResources_storm_desc_003": "To all available contractors,\\n\\nWe at Rayari are dedicating all our energy to stopping the regeneration technology crisis in its tracks, but to continue their efforts our scientists need materials that the company's suppliers cannot obtain. \\n\\nRayari is seeking an experienced contractor to gather <EM4>irradiated valakkar fangs</EM4>, which can be extracted from adult valakkar that have been extensively exposed to radiation. Our scans have uncovered the existence of a qualifying population inside the storm near <EM4>[LOCATION]</EM4>. \\n\\nBecause these animals are highly dangerous, Rayari is offering premium pay to anyone who can assist with collecting the fangs.  \\n\\nOnce attained, please take these valuable resources to <EM4>[DESTINATION]</EM4>.\\n\\nTogether we can make the universe better for all.\\n\\nNarina Lerrem\\nSenior Manager\\nClinical Research Outsourcing",
@@ -1121,8 +1126,7 @@
     "headhunters_defendship_VLRT_PA_desc_001": "Guess some folks just can’t dogfight. Sent a young prospect out on patrol, and am now being barraged with comms about how they’re barely hanging on. Had them update me with the details about who they’re up against and I damn near fell outta my chair laughing.    \\n\\nIf this kid can’t handle a People’s Alliance ship, they sure ain’t ready for flight assignments. Appreciate it if you could save their hide anyway.\\n\\nIf you’re free, could you head over to <EM4>[LOCATION]</EM4> and show ‘em how it’s done?\\n\\n-Stows",
     "Foxwell_EliminateAll_Allies_desc_001": "Got word that outlaws are attempting to overrun <EM4>[LOCATION]</EM4>. There’s local security forces there, but they’re struggling to stop that attack.\\n\\nNeed a contractor to hustle there and help take care of the aggressors. Bring plenty of gear, and be careful when engaging targets. Don’t want to hear about any security team members getting caught in your crossfire.    \\n\\nMarcus Clenn\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "TheCollector_Recipes_Desc_Hush": "You want be hidden. Wikelo understand. Not ask questions why. But what do when you in snow? Wikelo have suit for that.\\n\\nWelcome.",
-    "Battaglia_RPT_Scan_06_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Priority Ore Scan\\n\\nWORK BRIEF: \\nGot a high priority job for you if you’re interested. According to one of my guys, <EM4>[LOCATION]</EM4> has a deposit of <EM4>[RESOURCETYPE]</EM4> that’s worth a lot. Knowing the area, it’s not gonna be easy to find, but if this is legit, I can send someone to handle that.\\n\\nHope I can rely on you.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-    "Battaglia_RPT_ScanMine_06_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: High Priority Ore To Mine\\n\\nWORK BRIEF: \\nHave a big one for you today. Got a tip that a very valuable deposit of <EM4>[RESOURCETYPE]</EM4> is just sitting there in <EM4>[LOCATION]</EM4> for any sharp-eyed pilot able to find it. Need you to get down there and mine <EM4>[AMOUNTTOSCAN]</EM4> of <EM4>[RESOURCETYPE]</EM4> <EM4>[MINEABLETYPE]</EM4>s before any other scavengers get their hands on it. [RARITY]\\n\\nAlso, if you're stuck or new to mining, the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_06_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Priority Ore Scan\\n\\nWORK BRIEF: \\nI'm looking for people to go out and find deposits of <EM4>[RESOURCES]</EM4> to contribute to a system-wide experiment that will help plan future mining operations. [RARITY]\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nHope I can rely on you.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "EckhartSecurity_RecoverCargo_Hard_Description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Recover Cargo\\nApproval code: = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nGot a transport in need of backup over at <EM4>[LOCATION]</EM4>. Signal was patchy, but their comms made it sound like a group of outlaws had gotten wind of what they were hauling and attempted to take it from them.\\n\\nConsidering the state of things before we lost contact, I'm considering this a recovery mission. Multiple hostiles are expected at the site, so a skilled crew is crucial for the success of this operation. There will be a high volume of cargo to deal with, so a ship that can carry <EM4>[MAX_SCU] cargo containers</EM4> and a <EM4>heavy-duty tractor beam</EM4> will be needed. \\n\\nUpon successful extraction of cargo, deliver to the freight elevator at <EM4>[DESTINATION]</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "EckhartSecurity_EliminateBoss_DC_Desc_001": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Bounty\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nWe’ve received actionable intelligence on a dangerous bounty, who’s turned out to be extremely elusive. <EM4>[TARGET]</EM4> was spotted with a dedicated contingent of known associates at <EM4>[LOCATION]</EM4>. We’re looking for a contractor ready and willing to execute this bounty before they disappear again.\\n\\nBased on previous attempts to apprehend this criminal, there’s a good chance that <EM4>[TARGET]</EM4> will try to avoid a direct confrontation, and instead send their allies to confront you. We believe that neutralizing these protective forces, and shredding the safety net they provide, is the best way to draw out <EM4>[TARGET]</EM4> to face you directly. \\n\\nExpect to confront a significant and skilled force. We advise that you plan accordingly. Payment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "eckhart_defendship_multi_HRT_desc_001": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Ship\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nRecently, we recommended that a client use a specific route to cross Nyx safely. Turns out it wasn’t as secure as we assumed, because a group ambushed our client’s ship. We need to get this cleaned up ASAP. Are you available to help? \\n\\nIntel from the client indicates a well-organized attack, so you better be equipped to deal with experienced hostiles on this one. Hurry to <EM4>[LOCATION]</EM4>, help them survive this, and we’ll pay you well for your trouble.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -1167,7 +1171,7 @@
     "headhunters_EliminateSpecific_Generic_E_desc_001": "Looking for any hitters available for a quick gig. Over at [LOCATION], they're getting hit by some geniuses led by [TARGET]. We've tussled against [TARGET] in the past so it's no surprise they haven't wised up. \\n\\nWe want you to head there and take them down. Kill whoever you like, but [TARGET] should be your focus.\\n\\nStows out.",
     "headhunters_sabotage_generators_multi_M_desc_001": "Got a few scavs that have rooted themselves into [LOCATION]. We have our own plans there and need the place cleared out. \\n\\nThat's why I want you to ho and turn off their power. Let's see if that doesn't cause these rats to abandon the place for good.\\n\\n-Stows",
     "Covalex_RecoverCargo_Hard_Description": "Hi, it's El.\\n\\nNeed a hauler for a job ASAP. One of our contractors had a \"personal emergency\" and had to ditch their ship and it seems like they're not coming back. Not ideal, really.\\n\\nGood news is the cargo is still intact, at least according to the tracker. It'd be a huge win for me if you could finish the job by grabbing the cargo at <EM4>[LOCATION]</EM4> and bringing it to the freight elevator at <EM4>[DESTINATION]</EM4>.\\n\\nSeems like this was a pretty big one, you'll need a ship that can transport <EM4>[MAX_SCU] cargo containers</EM4> and a <EM4>heavy-duty tractor beam</EM4> to move it all. Really appreciate your help.\\n\\nThanks in advance for ensuring prompt service,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.' \\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
-    "Battaglia_RPT_Scan_05_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Large Deposit Of Ore To Confirm\\n\\nWORK BRIEF: \\nNeed your help with a prospecting job. Got a tip that somewhere in the <EM4>[LOCATION]</EM4> area is a deposit of <EM4>[RESOURCETYPE]</EM4>. \\nMight be hard to find knowing the general area, but just need confirmation that it’s there. You can at least leave the mining to me.\\n\\nThanks in advance.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_05_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Large Deposit Of Ore To Confirm\\n\\nWORK BRIEF: \\nNeed your help with a prospecting job. Need someone to track down a deposit of <EM4>[RESOURCES]</EM4>. \\nThis data will be helpful for some studies we're doing about mineral levels. [RARITY]\\n\\nAlso, if you're stuck on where to look or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nThanks in advance.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "headhunters_maintenance_local_M_desc_001": "Sending a call out to anyone nearby. Got a pretty heavy work order for one of our outposts at <EM4>[LOCATION]</EM4>. Sounds like we need <EM4>six fuses</EM4> fixed. You'll also need a <EM4>salvaging tool</EM4> with <EM4>enough RMC to patch up about five pipes</EM4> to stop the place from falling apart.\\n\\nIf you bring all the shit needed to patch them up, we'll pay you out.\\n\\nHopefully you know what you're doing, but just in case, the <EM4>“Guide to Maintenance”</EM4> in your mobiGlas Journal might be worth a look.\\n\\nStows out.",
     "headhunters_maintenance_local_H_desc_001": "Down at <EM4>[LOCATION]</EM4>, the place got utterly smashed in a storm and needs some serious patchwork.\\n\\nIf anyone out there has a <EM4>bunch of fuses</EM4> (I hear <EM4>six</EM4> should be plenty), a <EM4>salvaging tool</EM4>, and <EM4>enough RMC cans to deal with eight or so messed up pipes</EM4>, we'll hook you up with some creds to do the fix.\\n\\nHopefully you know what you're doing, but just in case, the <EM4>“Guide to Maintenance”</EM4> in your mobiGlas Journal might be worth a look.\\n\\nStows out.",
     "Eckhart_ShipAmbush_M_desc": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Ship Ambush\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nNeed someone to take out a <EM4>[TARGET]</EM4> and deal with the escort ships protecting it. They’ve already interfered with several of our ongoing operations and have become a real problem across several of Eckhart Security cases. Not sure what their endgame is, but it won’t matter once you deal with them.\\n\\nWe’ve let slip that we will be working a job over at <EM4>[LOCATION]</EM4> which should serve as bait to draw them out. The spot is ideal for an ambush because of the <EM4>emission cloud</EM4> that’s a perfect place to power down and hide until you’re ready to strike. If you’re available, the <EM4>[TARGET]</EM4> and its escorts should be passing through soon.   \\n\\nPayment will be issued upon successful completion of contract. The main contractor will also receive a bonus payment of <EM4>5 MG Scrip</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -1228,7 +1232,9 @@
     "Shubin_Industrial_ShipMining_Stanton_M_Solar_Desc_001": "POSTING: Purchase Order\\nLOCATION: <EM4>[SYSTEM] </EM4>\\n\\nTERMS*: \\nShubin Interstellar is currently looking to fulfil another purchase order for a variety of refined materials. We appreciate your help in this matter.\\n\\n[LOCATION] For a comprehensive list of where to find these minerals, consult <EM4>Mining Fundamentals #2: Where to Mine</EM4> in your mobiGlas Journal.\\n\\nSince this is a purchase order and not a mining contract, you are expected to provide your own equipment, such as a <EM4>[MULTITOOL]</EM4>.\\n\\nPlease note that in an effort to expedite future use of these materials, <EM4>they must be refined before delivery</EM4>. This can be done at any refinery, the locations of which can be found in your Starmap.\\n\\nOnce you’re ready to sell us the required refined materials, deposit them in the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\n*By accepting this contract you are assuming any and all risks associated with the work outlined herein and in no way can Shubin Interstellar be held accountable for any damages accrued during the duration of the contract.",
     "Shubin_Industrial_GroundVehicle_Pyro_M_PlanetarySystem_Desc_001": "POSTING: Purchase Order\\nLOCATION: <EM4>[SYSTEM] </EM4>\\n\\nTERMS*: \\nShubin Interstellar is currently looking to fulfil another purchase order for a variety of materials. We appreciate your help in this matter.\\n\\n[LOCATION] For a comprehensive list of where to find these minerals, consult <EM4>Mining Fundamentals #2: Where to Mine</EM4> in your mobiGlas Journal.\\n\\nSince this is a purchase order and not a mining contract, you are expected to provide your own equipment, such as a <EM4>[MULTITOOL]</EM4>.\\n\\nOnce you’re ready to sell us the required materials, deposit them in the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\n*By accepting this contract you are assuming any and all risks associated with the work outlined herein and in no way can Shubin Interstellar be held accountable for any damages accrued during the duration of the contract.",
     "Shubin_Industrial_GroundVehicle_Stanton_H_Solar_Desc_001": "POSTING: Purchase Order\\nLOCATION: <EM4>[SYSTEM] </EM4>\\n\\nTERMS*: \\nShubin Interstellar is currently looking to fulfil another purchase order for a variety of materials. We appreciate your help in this matter.\\n\\n[LOCATION] For a comprehensive list of where to find these minerals, consult <EM4>Mining Fundamentals #2: Where to Mine</EM4> in your mobiGlas Journal.\\n\\nSince this is a purchase order and not a mining contract, you are expected to provide your own equipment, such as a <EM4>[MULTITOOL]</EM4>.\\n\\nOnce you’re ready to sell us the required materials, deposit them in the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\n*By accepting this contract you are assuming any and all risks associated with the work outlined herein and in no way can Shubin Interstellar be held accountable for any damages accrued during the duration of the contract.",
-    "Battaglia_RPT_ScanMine_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Minor Mining Job\\n\\nWORK BRIEF: \\nIf you’ve got time, I’ve got a pretty basic mining job for you. Got a hit near <EM4>[LOCATION]</EM4> for <EM4>[RESOURCETYPE]</EM4> to mine. Need someone to go down there, locate the minerals, and mine <EM4>[AMOUNTTOSCAN]</EM4> <EM4>[RESOURCETYPE]</EM4> <EM4>[MINEABLETYPE]</EM4>s. [RARITY]\\n\\nAlso, if you're stuck or new to mining, the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_06_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Mining and Data Collection\\n\\nWORK BRIEF: \\nHave a big one for you today. Need you to get down there and mine [RESOURCES] [MINEABLETYPE]</EM4>s and relay your stats back to us. I'm looking to pull together some findings from various miners around the system. [RARITY]\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_Mole_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Mining and MOLE\\n\\nWORK BRIEF: \\nAnother special job for you with an extra special payout. Like the previous jobs, I need you to find and extract <EM4> [RESOURCES] [MINEABLETYPE]</EM4>s and relay your stats back to us. [RARITY] \\n\\nI can't even tell you how helpful your work has been in the past so I've arranged an extra special payout for this one. [RARITY]\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nYou'll receive a custom ARGO MOLE as payment for all your help.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Minor Mining Job\\n\\nWORK BRIEF: \\nIf you’ve got time, I’ve got a pretty basic mining job for you. I'm building a database of mineral types and their locations but I need some raw data, so I need someone to locate <EM4>[RESOURCES]</EM4> <EM4>[MINEABLETYPE]</EM4>s. You can keep what you find, I'll pull the data I need. [RARITY]\\n\\nAlso, if you're stuck on where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "cfp_maintenance_E_desc_001": "Hi,\\n\\nOne of our outposts at <EM4>[LOCATION]</EM4> is in need of some light repairs. The folks onsite have estimated that you’ll need <EM4>three fuses</EM4>, a <EM4>salvaging tool</EM4>, and <EM4>enough RMC canisters to fix up to three or so pipes.</EM4>\\n\\nIf you need more information on maintenance work, see <EM4>“Cornerstone Developments' Guide to Maintenance”</EM4> entry in your mobiGlas Journal.\\n\\nThanks again for your help,\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "cfp_maintenance_local_E_desc_001": "A nearby outpost of ours at <EM4>[LOCATION]</EM4> is suffering from some mechanical failures and could use repairing. Our usual technician is off on another job so we're looking to hire an outside contractor.\\n\\nWe will need <EM4>three fuses replaced</EM4> and if you could bring a <EM4>salvaging tool</EM4> with <EM4>enough canisters of RMC to fix around three pipes</EM4> that should take care of the rest.\\n\\nIf you need more information on maintenance work, see <EM4>“Cornerstone Developments' Guide to Maintenance”</EM4> entry in your mobiGlas Journal.\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "Battaglia_RPT_MissCrew_02_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Missing Mining Team\\n\\nWORK BRIEF: \\nThe crew of the <EM4>[SHIPNAME]</EM4> set off for a dig and haven’t checked back in. With everything going on out there, people are starting to get a little worried, so we’d like someone to try and get eyes on them.\\n\\nThey were last tracked near <EM4>[LOCATION]</EM4> so you can start there. I hate to say this, but if something happened to them, could you please identify everyone you find so we can let next of kin know?\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
@@ -1249,7 +1255,7 @@
     "headhunters_eliminateall_base_Generic_E_desc_001": "So here's the deal, we got some small time dirtbags who think they're hotshots running out of a base near [LOCATION]. I don't know what toxic shit they're drinking but they thought it'd be a good idea to step to some Headhunter Clips. Killed one, injured three more. So I'm looking to send someone there to blast their ambition right out of their skulls.\\n\\nHead over and get it done. You'll get a nice bump of creds for it.\\n\\n- Stows",
     "cfp_ChainElimAll_3C_ElimSpec_GenAttack_M_desc_001": "The outlaw presence here has become much bolder of late and a lot of people are getting hurt. We've recently lost several clusters around [LOCATION]. While we don't like to have to resort to violence, the board has acknowledged that these locations are crucial to establishing stability in the system and authorized the use of a security detail to retake them.\\n\\nWe're also aware that the embedded hostiles are being led by [TARGET] who's had a history of attacking CFP interests. The board would like [TARGET] dealt with to prevent future attacks.\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "RAIN_collectresources_single_OLP_desc_01": "To all available contractors,\\n\\nOur research team at at <EM4>[DESTINATION]</EM4> is working tirelessly on solving the current ‘Regen Crisis’ and addressing the issue of unstable imprints. Their work has produced promising results, but a lack of a key resource is impeding their ability to run further experiments. \\n\\nWe’ve received word from our supplier that increased demand combined with lower mining yields means that we won’t receive our scheduled shipment for another few months. Our research team can’t wait that long, and we’re hoping you can help.      \\n\\nThe resource is hard to come by, but we have it on good authority that the old Hathor mining facilities were built in areas with a high concentration of the ore. Since Hathor went defunct not long after establishing their operations in- system, there’s a good chance that activating one of these mining lasers could provide you with what we need.\\n\\nTogether we can make the universe better for all.\\n\\nNarina Lerrem\\nSenior Manager\\nClinical Research Outsourcing",
-    "Battaglia_RPT_ScanMine_02_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Need Some Ore Mined\\n\\nWORK BRIEF: \\nGot a moment? Need your help with a job. Need someone to fly over to <EM4>[LOCATION]</EM4>, locate any <EM4>[RESOURCETYPE]</EM4> in the area and mine at least <EM4>[AMOUNTTOSCAN]</EM4> of the <EM4>[RESOURCETYPE]</EM4> <EM4>[MINEABLETYPE]</EM4>s. [RARITY]\\n\\nAlso, if new to mining, the United Resource Workers wrote a helpful journal that you should check out in your mobi.\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_02_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Need Some Ore Mined\\n\\nWORK BRIEF: \\nGot a moment? Need someone to fly over to locate <EM4>[RESOURCES]</EM4> and mine at least <EM4>[RESOURCES]</EM4> <EM4>[MINEABLETYPE]</EM4>s. We're updating our database for future mining expeditions. You can keep what you find, we just need the data. [RARITY]\\n\\nAlso, if new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out in your mobi.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "headhunters_EliminateSpecific_Generic_M_desc_001": "Got a crew that's been hitting Headhunter ships lately. Their leader's a real piece of work named [TARGET]. We've tracked them to  [LOCATION], so we're looking for someone to put them down for good.\\n\\nThis group likes to fight, but shouldn't be a problem for someone like you. \\n\\nGet over there and get it done.\\n\\nStows out.",
     "CFP_ShipWaveAttack_ClearHostiles_Desc_H_001": "A criminal fleet has taken up root in a sector that Citizens For Prosperity is trying to develop and all forward progress has stopped thanks to their violent actions. It is imperative to a long term goals that we find a way to neutralize this fleet before that cause any further damage.\\n\\nYou and your most trusted support ships will head to [LOCATION] and neutralize any hostiles you find laying in wait there. They have been known to operate in smaller packs, so it's vital that you wait until all of the hostiles have been dealt with.\\n\\nYour assistance is much appreciated,\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "Intersec_KillShip_Desc_Medium_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Outlaws\\nEquipment Specs: Combat-rated Ships\\nBriefing: Seemingly unsatisfied with their takings in Nyx, an outlaw group lead by <EM4>[TARGET]</EM4> has been planning a major strike against the UEE. This cannot be allowed to come to pass.\\n\\nThanks to the work of our Intelligence team, we've been able to track them down to <EM4>[LOCATION]</EM4>.\\n\\nHead there as soon as you can and engage before they have a chance to leave the system. Based on our strategic analysis, we recommend a <EM4>well-armed and skilled fleet</EM4> will be necessary for the successful completion of this mission.\\n\\nRespectfully, \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of a non-binding offer that upon acceptance may be immediately terminated by either party without any given notice. All operations are conducted at the contractor’s own personal risk and must adhere to system law where applicable.",
@@ -1283,10 +1289,10 @@
     "Foxwell_DefendEntitesAndEscort_M_Desc": "We need a contractor to provide convoy and protection services at <EM4>[LOCATION]</EM4>. One of our elite clients' are under attack from a band of outlaws targeting their <EM4>[OBJECTS] and ships</EM4>. You'll need to keep the crew safe as they traverse the area, as well as make sure the assets stay as intact. These thugs look like they can do some real damage, so be sure you engage them with caution or the client might not be the only one to take heavy losses.\\n\\nIf you manage to nail this to the Foxwell standards, we’re offering <EM4>3 MG Scrip</EM4> as compensation to the main contractor. \\n\\nGood luck,\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_DefendDestructibleEntites_H_Desc_001": "One of our high priority clients is under attack from a criminal gang targeting their <EM4>[OBJECTS]</EM4> in <EM4>[LOCATION]</EM4>. The client’s assets are valuable, so we need to keep those safe at all costs, but I won’t kid – it’ll be a challenge and a half with these thugs determined to do some real damage. \\n\\nIf it were me, I wouldn’t hesitate to <EM>bring backup</EM4> to deal with them. They’re no joke, so we’re offering a well-earned <EM4>6 MG Scrip</EM4> to the main contractor who deals with these guys successfully. \\n\\nBest of luck,\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_DefendEntitesAndEscort_H_Desc": "Crew managing one of our client's operations at <EM4>[LOCATION]</EM4> have reported that they're under attack from a criminal gang targeting the <EM4>[OBJECTS] and ships</EM4> in the area. It will be your job to keep both safe at all costs. I don't have all the facts yet, but I reckon this will be a tough mission – these outlaws seem determined to do some real carnage. \\n\\nIf it were me, I would <EM>bring backup</EM4> to deal with them. And if you manage to protect everyone, we’re offering a well-earned <EM4>4 MG Scrip</EM4> to the main contractor who deals with these lowlife's successfully. \\n\\nBest of luck,\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
-    "Battaglia_RPT_Scan_03_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Deposit Needs Scanning\\n\\nWORK BRIEF: \\nGot a job that might have your name on it. Need you to head to somewhere around <EM4>[LOCATION]</EM4> and see if there’s any <EM4>[RESOURCETYPE]</EM4> in the area. Just need confirmation that it’s there and worth sending someone to collect.\\n\\nLet me know if you’ve got the time.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-    "Battaglia_RPT_ScanMine_04_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Needs Gathering\\n\\nWORK BRIEF: \\nGot a big mining job with your name on it. There’s a good amount of <EM4>[RESOURCETYPE]</EM4> around <EM4>[LOCATION]</EM4>, need about <EM4>[AMOUNTTOSCAN]</EM4> of <EM4>[RESOURCETYPE]</EM4> <EM4>[MINEABLETYPE]</EM4>s mined if possible. [RARITY]\\n\\nAlso, if you're stuck or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nLet me know.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-    "Battaglia_RPT_Scan_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Scan Needed\\n\\nWORK BRIEF: \\nGot a simple one for you today. Apparently, there’s some <EM4>[RESOURCETYPE]</EM4> that might be worth mining near <EM4>[LOCATION]</EM4>. I can send someone to mine it later, just a scan of the ore density would be great.\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-    "Battaglia_RPT_Scan_02_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore To Be Scanned\\n\\nWORK BRIEF: \\nGot a job for you. Got word that <EM4>[LOCATION]</EM4> has a deposit of <EM4>[RESOURCETYPE]</EM4> in the area. If you could go there and scope it out, I’d really appreciate it.\\n\\nKeep me posted.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_03_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Deposit Needs Scanning\\n\\nWORK BRIEF: \\nI'm looking for an available miner to go out and scan for <EM4>[RESOURCES]</EM4>. Just need confirmation that it’s there and worth sending someone to collect. [RARITY]\\n\\nAlso, if you're stuck or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nLet me know if you’ve got the time.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_04_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Needs Gathering\\n\\nWORK BRIEF: \\nGot a big mining job with your name on it. We're looking to update our records about mineral yields so we need someone to scan and extract about <EM4>[RESOURCES]</EM4> <EM4>[MINEABLETYPE]</EM4>s mined if possible. [RARITY]\\n\\nAlso, if you're stuck or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nLet me know.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Scan Needed\\n\\nWORK BRIEF: \\nGot a simple one for you today. I'm looking for some mining data so I need someone to scan some <EM4>[RESOURCES]</EM4>. The data will be helpful to plan future expeditions. [RARITY]\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_02_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore To Be Scanned\\n\\nWORK BRIEF: \\nGot a job for you. Need someone to scan a deposit of <EM4>[RESOURCES]</EM4>. I'm looking into building a more extensive database on mineral locations, so your data will be helpful.[RARITY]\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nKeep me posted.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "northrock_SOO_intro_desc_001": "Greetings,\\n\\nCrusader Security Forces have contacted us seeking our expertise in dealing with an urgent situation. Several platforms near Orison have been overtaken by members of the Nine Tails gang and Northrock is eager to staff an operation to remove them and return the platforms to Crusader.\\n\\nThe Nine Tails have put measures in place to block all air traffic in the area, so we've been granted access to a secure shuttle that will take you, and any other members of your assault team, to the first platform.\\n\\nFor full disclosure, I must warn that this is not a contract for the faint of heart. I am confident though that your combat skills, you and your selected team will be fully up to the challenge. \\n\\nOnce you've arrived at the shuttle I'll be in touch directly with more information.\\n\\nSpeak more soon,\\nAdrienne Du-Buisson\\nLogistics Officer - Stanton Branch\\nNorthrock Service Group",
     "ORS_Construct_Large_Desc": "Alright,\\n\\nThe damage reports are still rolling in from the Nine Tails' attack on Orison and the folks at Crusader are saying they might have to repair a significant proportion of the propulsors on those platforms. That's why this one's a massive order.\\n\\nLarger quantity, but same as before otherwise. Either manufacturer them yourself using an Item Fabricator or source them some other way.\\n\\nWhen you're done, drop the propulsors off at <EM4>[DESTINATION]</EM4>. Be a big payout with this one.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
     "ORS_ConstructionAid_ResourceGatherLarge_Desc": "Alright,\\n\\nGot a large scale order from the Crusader folks to help them fix up their platforms. Big order means a big payout.\\n\\nWhen you're done collecting all the materials, take them to <EM4>[DESTINATION]</EM4> and job's a good'un.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
@@ -1427,6 +1433,8 @@
     "Adagio_Industrial_Salvage_Universal_E_Desc_002": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent small-scale order, we are seeking contractors to help source Recycled Material Composite (RMC) and Construction Materials by stripping and fracturing abandoned ships. We recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
     "Adagio_Industrial_Salvage_Universal_E_Desc_001": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent small-scale order, we are seeking contractors to help source Recycled Material Composite (RMC) by  stripping abandoned ships. We recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
     "eckhart_defendship_VLRT_desc_001": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Ship\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nA client is reporting trouble near <EM4>[LOCATION]</EM4>. Based on their comms, it doesn’t sound like an organized, professional attack. Still, we’re paid to provide protection and it’s been requested. \\n\\nNeed a contractor to fly there and secure the situation.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
+    "Battaglia_RPT_ScanMine_03_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Scan And Mining Needed\\n\\nWORK BRIEF: \\nI have a job here that might interest you. I need people to go out and do some basic mining in order to pull some geological data for future prospecting. Need someone to scope out and mine <EM4>[RESOURCES]</EM4> <EM4>[MINEABLETYPE]</EM4>s. You'll be helping us out massively. [RARITY]\\n\\nAlso, if you're stuck or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nKeep me posted.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_Prosp_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Scan, Mine, and Prospector Payout\\n\\nWORK BRIEF: \\nStill pulling together data on mining and mineral extraction but got a special payout for this one. Once you scan [RESOURCES] [MINEABLETYPE]</EM4>s and relay your stats back to us, I'll get you something real nice for all your help. [RARITY]\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nGot a special MISC Prospector as payment for all your help.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Headhunters_SecurityPatrol_E_Desc_001": "Headhunters have been expanding, but still need help getting a lay of our new territory. I’ve got a run to check spots we want scanned ready to go. \\n\\nThis one kicks off at the <EM4>location marker</EM4> on your HUD and will look at a few more locations after that, but I’ll update you as we clear them out. Not expecting you to run into any trouble but no guarantees. Trouble seems to follow us.\\n\\nGet this done and I'll toss the main contractor <EM4>4 Council Scrip</EM4> as a thanks.\\n\\nStows out.",
     "HeadHunters_DefendEntitesAndEscort_M_Desc": "A new gang who is proving to be a real pain in the ass for the Headhunters just upped the stakes by attacking the <EM4>[OBJECTS]</EM4> at <EM4>[LOCATION]</EM4>. Never a good thing since we got interest in the welfare of the folks there, but doubly so because if they do too much damage it might royally screw an upcoming operation.\\n\\nHead over there as soon as you're able and stop the attack before they can do any lasting damage. And if any <EM4>friendly ships</EM4> need a hand, I want you to look out for them too. Don't expect this gang to be pushovers but you should still be able to deal with them if you keep your head on.\\n \\nIf you need any extra motivation, I’m adding <EM4>3 Council Scrip</EM4> for the main contractor.\\n\\n- Stows",
     "Headhunters_DefendDestructibleEntites_M_Desc_001": "Our friends at <EM4>[LOCATION]</EM4> have been compromised. A new gang in the area  are threatening them by targeting their <EM4>[OBJECTS]</EM4>.  \\n\\nIf those get destroyed its going to be seriously bad for business, so I want you over there pronto on protection duty.  \\n \\nIf you need any extra motivation, I’m adding <EM4>4 Council Scrip</EM4> for the main contractor.\\n\\n- Stows",
@@ -2513,15 +2521,21 @@
     "HeadHunters_Sabotage_Relays_obj_hud_01": "Disable All ~mission(ObjectiveSetupItem)s %ls",
     "HeadHunters_Sabotage_Relays_obj_marker_01": "~mission(ObjectiveSetupItem)",
     "HeadHunters_Sabotage_Relays_item": "Comm Tower",
-    "mineabletype_primary_gold": "Gold",
+    "mineabletype_primary_lindinium": "Lindinium",
     "mineabletype_type_shipasteroid": "Asteroid",
+    "mineabletype_primary_bexalite": "Bexalite",
+    "scanentities_mulit2": "~mission(AmountToScan) of ~mission(ResourceType) and ~mission(AmountToScan2) of ~mission(ResourceType2)",
+    "Battaglia_RPT_Rarity_Rare_desc": "These are pretty rare resources, so they might be tricky to find.",
     "hurston_danger_009": "Extreme-Risk Target (Sub-Capital Class Vessel, Heavy Support)",
     "PyroStar": "Pyro",
     "FTL_SignOff_001": "Good luck and good speed, courier!",
     "HaulCargo_4_SingleToMultiToken": "- Freight elevator at <EM4>~mission(Destination|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination2|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination3|Address)</EM4>",
+    "mineabletype_primary_savrillium": "Savrillium",
     "mineabletype_primary_torite": "Torite",
+    "mineabletype_primary_ice": "Ice",
+    "scanentities_multi3": "~mission(AmountToScan) of ~mission(ResourceType), ~mission(AmountToScan2) of~mission(ResourceType2) and ~mission(AmountToScan3) of ~mission(ResourceType3)",
+    "Battaglia_RPT_Rarity_Uncommon_desc": "These are not very common resources, so they might take awhile to find.",
     "HaulCargo_3_MultiToSingleToken": "- Freight elevator at <EM4>~mission(Location|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location2|Address)</EM4>",
-    "mineabletype_primary_lindinium": "Lindinium",
     "hurston_danger_006": "Moderate-Risk Target (Small Multicrew Craft, Average Support)",
     "RepairOxygenKiosk_Route1": "Route 1",
     "RepairOxygenKiosk_Depth1": "Depth 1",
@@ -2542,6 +2556,7 @@
     "HaulCargo_CargoScale_Bulk": "Bulk",
     "FreightElevator_24SCU": "24 SCU",
     "Industrial_Hint_Discover_Planetary": "These ores can be mined on the surface of the planet or moon that we require the ore to be delivered to.",
+    "mineabletype_primary_aluminium": "Aluminium",
     "mineabletype_primary_iron": "Iron",
     "area_name_entrance": "Entrance",
     "DataDownload_obj_marker_01a": "Server",
@@ -2915,11 +2930,11 @@
     "Hockrow_BlackBox_space_S_Title_001": "Blackbox Recovery Request: Special Investigator Level",
     "Hockrow_BlackBox_space_S_Desc_001": "Hockrow Agency \\nCase File #BR547384\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nThis request comes down from Head Office. \\n\\nWe’ve just learned that a recent ship attack near <EM4>~mission(Location|Address)</EM4> might have been the work of a notorious and equally elusive outlaw ringleader. The last time they popped their head above water was years ago, so this is a rare opportunity to catch them. This is an opportunity that our client does not want to pass up. We need a <EM4>top-tier operative</EM4> with elite combat experience to retrieve the blackbox of this downed ship in order to prove the ringleader’s involvement.\\n\\n<EM4>There will be highly-trained hostiles present on the scene</EM4> who will put up significant resistance to your presence. Eliminate them and complete the mission.\\n\\n\\nContract Investigator Actions:\\nImmediately scramble to <EM4>~mission(Location|Address)</EM4> and clear the surrounding airspace in order to secure the blackbox. Once obtained, deliver it to <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\nAdditional Notes:\\nHead Office stresses that this will be an incredibly difficult mission to pull off. Make sure you bring your A-game.",
     "Battaglia_RPT_RecoverItem_VE_01_title": "Blackbox Retrieval",
-    "Battaglia_RPT_RecoverItem_VE_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval\\n\\nWORK BRIEF: \\nReceived a tip about <EM4>a ship that had been attacked at ~mission(Location)</EM4>.  Apparently it's been there for a little while, but the Governing Committee would like to know how it got there. \\n\\nWe're looking for someone to go out, <EM4>retrieve the blackbox and bring it to ~mission(Destination)</EM4> so we can figure out what happened.\\n\\nPAYMENT:\\nStandard listed rate upon resource delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_RecoverItem_VE_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval\\n\\nWORK BRIEF: \\nReceived a tip about <EM4>a ship that had been attacked at ~mission(Location)</EM4>.  Apparently it's been there for a little while, but the Governing Committee would like to know how it got there. \\n\\nWe're looking for someone to go out, <EM4>retrieve the blackbox and bring it to ~mission(Destination)</EM4> so we can figure out what happened. \\n\\nJust a reminder, the blackbox isn't small, so <EM4>you'll need a ship with some storage</EM4>.\\n\\nPAYMENT:\\nStandard listed rate upon delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Battaglia_RPT_RecoverItem_VH_01_title": "Blackbox Retrieval Very Dangerous",
-    "Battaglia_RPT_RecoverItem_VH_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval Very Dangerous\\n\\nWORK BRIEF: \\nThere's been another attack out at ~mission(Location). Whoever did it killed the entire crew in the ambush. The Governing Committee wants answers so we're looking for someone to head out there, <EM4>retrieve the blackbox and deliver it ~mission(Destination)</EM4>.\\n\\nBe incredibly careful. They said it was a large group that attacked them, and I'd be <EM4>they're still in the area</EM4>.\\n\\nPAYMENT:\\nStandard listed rate upon resource delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_RecoverItem_VH_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval Very Dangerous\\n\\nWORK BRIEF: \\nThere's been another attack out at ~mission(Location). Whoever did it killed the entire crew in the ambush. The Governing Committee wants answers so we're looking for someone to head out there, <EM4>retrieve the blackbox and deliver it ~mission(Destination)</EM4>. Make sure you <EM4>bring a ship with some storage to hold the blackbox</EM4>.\\n\\nBe incredibly careful. They said it was a large group that attacked them, and I'd be <EM4>they're still in the area</EM4>.\\n\\nPAYMENT:\\nStandard listed rate upon delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Battaglia_RPT_RecoverItem_M_01_title": "Blackbox Retrieval w/Danger",
-    "Battaglia_RPT_RecoverItem_M_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval w/Danger\\n\\nWORK BRIEF: \\nWe had another ship attacked out near ~mission(Location) and received conflicting reports about who did the ambush, so we're looking to hire someone to fly out and <EM4>retrieve the blackbox</EM4>. Last thing we want to do is blame the wrong people.\\n\\nJust be careful, there's a real good chance <EM4>the ambushers are still there waiting</EM4> for someone to claim it.\\n\\nIf you're able to get it, <EM4>deliver the blackbox to ~mission(Destination)</EM4> and we'll get you paid.\\n\\nPAYMENT:\\nStandard listed rate upon resource delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_RecoverItem_M_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval w/Danger\\n\\nWORK BRIEF: \\nWe had another ship attacked out near ~mission(Location) and received conflicting reports about who did the ambush, so we're looking to hire someone to fly out and <EM4>retrieve the blackbox</EM4>. Last thing we want to do is blame the wrong people. You should be able to carry it, but <EM4>you'll need a ship with some storage.</EM4>\\n\\nJust be careful, there's a real good chance <EM4>the ambushers are still there waiting</EM4> for someone to claim it.\\n\\nIf you're able to get it, <EM4>deliver the blackbox to ~mission(Destination)</EM4> and we'll get you paid.\\n\\nPAYMENT:\\nStandard listed rate upon delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "recovery_title": "~mission(Contractor|RecoverItemTitle)",
     "BitZeros_RecoverItem_Generic_Title_001": "Bleeding Edge Tech",
     "recovery_desc": "~mission(Contractor|RecoverItemDescription)",
@@ -3135,7 +3150,7 @@
     "bitzeros_shipheist_E_title_001": "Easy Pickings",
     "bitzeros_shipheist_E_desc_001": "Get this, we were sifting through some comms and picked up some excitement about a big score. It was easy work to figure out where they're hiding a ship loaded with cargo and we figured, hey, why keep this profitable knowledge to ourselves? \\n\\nSend us a few creds in finder fees and we'll send you the coordinates of the asteroid base where the ship is stashed. It’s locked inside a hangar, so you’ll need to get to it via the station’s elevators. But once inside, you’ll be able to override the lockdown at a console. Do that and it should be easy pickings.\\n\\n57 65 65 76 69 6c",
     "Battaglia_RPT_ScanMine_05_title": "Efficient Miners Wanted",
-    "Battaglia_RPT_ScanMine_05_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Efficient Miners Wanted\\n\\nWORK BRIEF: \\nNeed your help with something. Just got word that <EM4>~mission(Location)</EM4> has a big deposit of <EM4>~mission(ResourceType)</EM4>. If you could go there and harvest <EM4>~mission(AmountToScan)</EM4> of <EM4>~mission(ResourceType)</EM4> <EM4>~mission(MineableType)</EM4>s, that’d really help me out. ~mission(Rarity)\\n\\nAlso, if you're stuck or new to mining, the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.\\n\\nThanks in advance.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_05_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Efficient Miners Wanted\\n\\nWORK BRIEF: \\nNeed your help with something. If you could harvest ~mission(Resources) ~mission(MineableType)</EM4>s, that would really help out our understanding of the current mineral levels in the system. ~mission(Rarity)\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks in advance.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Headhunters_DefendLocation_VE_Title_001": "Eliminate Annoyance",
     "Headhunters_DefendLocation_VE_Desc_001": "Headhunters flying in and out of <EM4>~mission(DefendLocationWrapperLocation|Address)</EM4> are being harassed by some aggressive upstarts. Need them dealt with before they become a real pain in the ass.   \\n\\nGet there and I’ll update you on what these pests are doing so you can hunt ‘em down. \\n\\nClear ‘em all out I’ll throw <EM4>~mission(ScripAmount) Council Scrip</EM4> to whoever accepted this gig as a bonus.\\n\\n- Stows",
     "cfp_bombingrun_E_title_001": "Eliminate Fuel Stores",
@@ -3177,6 +3192,8 @@
     "cfp_maintenance_H_desc_001": "We need some help. The CFP facility at <EM4>~mission(Location|Address)</EM4> suffered severe damage during a recent electrical storm and we're looking for anyone who can help with repairs.\\n\\nSurveying the site, you'll have to bring <EM4>six fuses</EM4>, a <EM4>salvaging tool</EM4>, and <EM4>enough RMC canisters to take care of eight or so pipes</EM4>. That should be enough to repair the damage and get the outpost back in operation.\\n\\nIf you need more information on maintenance work, see <EM4>“Cornerstone Developments' Guide to Maintenance”</EM4> entry in your mobiGlas Journal.\\n\\nDo you think you can help?\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "Covalex_RecoverCargo_VeryEasy_Title": "Extra Small Covalex Shipment Needs Recovering",
     "Covalex_RecoverCargo_VeryEasy_Description": "Hi,\\n\\nSo I had a contractor who was supposed to deliver some stuff for us but has completely gone off the radar. I've pinged their ship and I've got no idea what's happened but they're floating around somewhere over at <EM4>~mission(Location|Address)</EM4>. If you could head over there recover the cargo and take it to the freight elevator at <EM4>~mission(Destination|Address)</EM4> you'd be doing me a huge favor.\\n\\nDon't forget to bring a <EM4>heavy-duty tractor beam</EM4> to move all the cargo. Oh and a ship that can transport <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4>.\\n\\n~mission(Contractor|SignOff)\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.' \\n\\n\\n\\n\\n\\n\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
+    "Battaglia_RPT_ScanMine_Golem_title": "Extra Special Job",
+    "Battaglia_RPT_ScanMine_Golem_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Extra Special Job\\n\\nWORK BRIEF: \\nYou've been doing some excellent work for us lately and wanted to offer a special job with a special reward. I'm looking for some more data, so I need someone to scan ~mission(Resources) ~mission(MineableType)</EM4>s and send me what you find. ~mission(Rarity)\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nPolished up a special Drake Golem from Teach's for this one.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "TheCollector_Recipes_Title_L22Wolf": "Extra Special Wolf",
     "TheCollector_Recipes_Desc_L22Wolf": "Wikelo very excited. Have idea for new material. But making it is most tricky. Very complicated. Need help fabricating a test sample. I give you blueprint, you make, bring to me, and I will trade. Give you extra special L-22 Wolf. Very powerful, very wolf.",
     "EckhartSecurity_RecoverCargo_Super_Title": "Extreme Risk Cargo Retrieval",
@@ -3203,7 +3220,7 @@
     "vaughn_assassination_PA_M_title": "Fracturing the Alliance",
     "vaughn_assassination_PA_M_desc": "It seems the People’s Alliance have been ruffling some feathers recently. A client of ours would be most thrilled if you can prevent ~mission(TargetName) from meddling in their affairs ever again.\\n\\nYou’ll find them around <EM4>~mission(Location|Address)</EM4>, and from what our client has told us, it’s unlikely that they’re alone. These aren’t your run-of-the-mill pilots, they might even pose a slight threat to your safety.\\n\\nDo try your best to keep it as clean as possible.\\n\\nSincerely,\\nVaughn",
     "Battaglia_RPT_Scan_04_title": "Full Area Scan for Ore",
-    "Battaglia_RPT_Scan_04_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Full Area Scan For Ore\\n\\nWORK BRIEF: \\nI need you to check something out for me if you’re not busy. Got word that there might be a big deposit of <EM4>~mission(ResourceType)</EM4> somewhere in the <EM4>~mission(Location)</EM4> area. I can handle the mining, just need someone to scope out of this tip is legit.\\n\\nLet me know.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_04_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Full Area Scan For Ore\\n\\nWORK BRIEF: \\nI need you to check something out for me if you’re not busy. I'm looking to build on our mineral database and need some scans of <EM4>~mission(Resources)</EM4>. I can handle the mining if you want to leave it. ~mission(Rarity)\\n\\nAlso, if you're stuck on where to look or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nLet me know.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "TheCollector_Recipes_Title_KopSkull": "Fun Kopion Skull Gun",
     "TheCollector_Recipes_Desc_KopSkull": "Hello. Can make fun change to gun if you want. Use kopion skin for pattern and little skull dangle. Very effective. Shoot much better.\\n\\nAll you need is bring me parts to <EM4>~mission(destination|ListAll)</EM4> and will make. \\n\\nBye.",
     "TheCollector_Recipes_Title_MiltSkull": "Fun Military Skull Gun",
@@ -3279,9 +3296,7 @@
     "TheCollector_Recipes_Title_Hush": "Hide Snow Suit",
     "TheCollector_Recipes_Desc_Hush": "You want be hidden. Wikelo understand. Not ask questions why. But what do when you in snow? Wikelo have suit for that.\\n\\nWelcome.",
     "Battaglia_RPT_Scan_06_title": "High Priority Ore Scan",
-    "Battaglia_RPT_Scan_06_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Priority Ore Scan\\n\\nWORK BRIEF: \\nGot a high priority job for you if you’re interested. According to one of my guys, <EM4>~mission(Location)</EM4> has a deposit of <EM4>~mission(ResourceType)</EM4> that’s worth a lot. Knowing the area, it’s not gonna be easy to find, but if this is legit, I can send someone to handle that.\\n\\nHope I can rely on you.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-    "Battaglia_RPT_ScanMine_06_title": "High Priority Ore To Mine",
-    "Battaglia_RPT_ScanMine_06_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: High Priority Ore To Mine\\n\\nWORK BRIEF: \\nHave a big one for you today. Got a tip that a very valuable deposit of <EM4>~mission(ResourceType)</EM4> is just sitting there in <EM4>~mission(Location)</EM4> for any sharp-eyed pilot able to find it. Need you to get down there and mine <EM4>~mission(AmountToScan)</EM4> of <EM4>~mission(ResourceType)</EM4> <EM4>~mission(MineableType)</EM4>s before any other scavengers get their hands on it. ~mission(Rarity)\\n\\nAlso, if you're stuck or new to mining, the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_06_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Priority Ore Scan\\n\\nWORK BRIEF: \\nI'm looking for people to go out and find deposits of <EM4>~mission(Resources)</EM4> to contribute to a system-wide experiment that will help plan future mining operations. ~mission(Rarity)\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nHope I can rely on you.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "EckhartSecurity_RecoverCargo_Hard_Title": "High Risk Shipment Recovery",
     "EckhartSecurity_RecoverCargo_Hard_Description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Recover Cargo\\nApproval code: = ~mission(ApprovalCode)\\n\\nFOR IMMEDIATE PROCESSING\\n\\nGot a transport in need of backup over at <EM4>~mission(Location|Address)</EM4>. Signal was patchy, but their comms made it sound like a group of outlaws had gotten wind of what they were hauling and attempted to take it from them.\\n\\nConsidering the state of things before we lost contact, I'm considering this a recovery mission. Multiple hostiles are expected at the site, so a skilled crew is crucial for the success of this operation. There will be a high volume of cargo to deal with, so a ship that can carry <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4> and a <EM4>heavy-duty tractor beam</EM4> will be needed. \\n\\nUpon successful extraction of cargo, deliver to the freight elevator at <EM4>~mission(Destination|Address)</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "EckhartSecurity_EliminateBoss_DC_Title_001": "High-Risk Bounty: ~mission(TargetName)",
@@ -3370,7 +3385,7 @@
     "Covalex_RecoverCargo_Hard_Title": "Large Covalex Shipment Needs Recovering",
     "Covalex_RecoverCargo_Hard_Description": "Hi, it's El.\\n\\nNeed a hauler for a job ASAP. One of our contractors had a \"personal emergency\" and had to ditch their ship and it seems like they're not coming back. Not ideal, really.\\n\\nGood news is the cargo is still intact, at least according to the tracker. It'd be a huge win for me if you could finish the job by grabbing the cargo at <EM4>~mission(Location|Address)</EM4> and bringing it to the freight elevator at <EM4>~mission(Destination|Address)</EM4>.\\n\\nSeems like this was a pretty big one, you'll need a ship that can transport <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4> and a <EM4>heavy-duty tractor beam</EM4> to move it all. Really appreciate your help.\\n\\n~mission(Contractor|SignOff)\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.' \\n\\n\\n\\n\\n\\n\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "Battaglia_RPT_Scan_05_title": "Large Deposit Of Ore To Confirm",
-    "Battaglia_RPT_Scan_05_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Large Deposit Of Ore To Confirm\\n\\nWORK BRIEF: \\nNeed your help with a prospecting job. Got a tip that somewhere in the <EM4>~mission(Location)</EM4> area is a deposit of <EM4>~mission(ResourceType)</EM4>. \\nMight be hard to find knowing the general area, but just need confirmation that it’s there. You can at least leave the mining to me.\\n\\nThanks in advance.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_05_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Large Deposit Of Ore To Confirm\\n\\nWORK BRIEF: \\nNeed your help with a prospecting job. Need someone to track down a deposit of <EM4>~mission(Resources)</EM4>. \\nThis data will be helpful for some studies we're doing about mineral levels. ~mission(Rarity)\\n\\nAlso, if you're stuck on where to look or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nThanks in advance.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "headhunters_maintenance_local_M_title_001": "~mission(Location) needs a bunch of repairs",
     "headhunters_maintenance_local_M_desc_001": "Sending a call out to anyone nearby. Got a pretty heavy work order for one of our outposts at <EM4>~mission(Location|Address)</EM4>. Sounds like we need <EM4>six fuses</EM4> fixed. You'll also need a <EM4>salvaging tool</EM4> with <EM4>enough RMC to patch up about five pipes</EM4> to stop the place from falling apart.\\n\\nIf you bring all the shit needed to patch them up, we'll pay you out.\\n\\nHopefully you know what you're doing, but just in case, the <EM4>“Guide to Maintenance”</EM4> in your mobiGlas Journal might be worth a look.\\n\\nStows out.",
     "headhunters_maintenance_local_H_title_001": "~mission(Location) needs massive repairs",
@@ -3489,8 +3504,12 @@
     "Shubin_Industrial_GroundVehicle_Pyro_M_PlanetarySystem_Desc_001": "POSTING: Purchase Order\\nLOCATION: <EM4>~mission(System) </EM4>\\n\\nTERMS*: \\nShubin Interstellar is currently looking to fulfil another purchase order for a variety of materials. We appreciate your help in this matter.\\n\\n~~mission(Hint_Location) For a comprehensive list of where to find these minerals, consult <EM4>Mining Fundamentals #2: Where to Mine</EM4> in your mobiGlas Journal.\\n\\nSince this is a purchase order and not a mining contract, you are expected to provide your own equipment, such as a <EM4>~mission(Hint_Tool)</EM4>.\\n\\nOnce you’re ready to sell us the required materials, deposit them in the freight elevator located at <EM4>~mission(Destination|Address)</EM4>.\\n\\n*By accepting this contract you are assuming any and all risks associated with the work outlined herein and in no way can Shubin Interstellar be held accountable for any damages accrued during the duration of the contract.",
     "Shubin_Industrial_GroundVehicle_Stanton_H_Solar_Title_001": "Med. Purchase Order: Vehicle Mined Ore",
     "Shubin_Industrial_GroundVehicle_Stanton_H_Solar_Desc_001": "POSTING: Purchase Order\\nLOCATION: <EM4>~mission(System) </EM4>\\n\\nTERMS*: \\nShubin Interstellar is currently looking to fulfil another purchase order for a variety of materials. We appreciate your help in this matter.\\n\\n~~mission(Hint_Location) For a comprehensive list of where to find these minerals, consult <EM4>Mining Fundamentals #2: Where to Mine</EM4> in your mobiGlas Journal.\\n\\nSince this is a purchase order and not a mining contract, you are expected to provide your own equipment, such as a <EM4>~mission(Hint_Tool)</EM4>.\\n\\nOnce you’re ready to sell us the required materials, deposit them in the freight elevator located at <EM4>~mission(Destination|Address)</EM4>.\\n\\n*By accepting this contract you are assuming any and all risks associated with the work outlined herein and in no way can Shubin Interstellar be held accountable for any damages accrued during the duration of the contract.",
+    "Battaglia_RPT_ScanMine_06_title": "Mining and Data Collection",
+    "Battaglia_RPT_ScanMine_06_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Mining and Data Collection\\n\\nWORK BRIEF: \\nHave a big one for you today. Need you to get down there and mine ~mission(Resources) ~mission(MineableType)</EM4>s and relay your stats back to us. I'm looking to pull together some findings from various miners around the system. ~mission(Rarity)\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_Mole_title": "Mining and MOLE",
+    "Battaglia_RPT_ScanMine_Mole_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Mining and MOLE\\n\\nWORK BRIEF: \\nAnother special job for you with an extra special payout. Like the previous jobs, I need you to find and extract <EM4> ~mission(Resources) ~mission(MineableType)</EM4>s and relay your stats back to us. ~mission(Rarity) \\n\\nI can't even tell you how helpful your work has been in the past so I've arranged an extra special payout for this one. ~mission(Rarity)\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nYou'll receive a custom ARGO MOLE as payment for all your help.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Battaglia_RPT_ScanMine_01_title": "Minor Mining Job",
-    "Battaglia_RPT_ScanMine_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Minor Mining Job\\n\\nWORK BRIEF: \\nIf you’ve got time, I’ve got a pretty basic mining job for you. Got a hit near <EM4>~mission(Location)</EM4> for <EM4>~mission(ResourceType)</EM4> to mine. Need someone to go down there, locate the minerals, and mine <EM4>~mission(AmountToScan)</EM4> <EM4>~mission(ResourceType)</EM4> <EM4>~mission(MineableType)</EM4>s. ~mission(Rarity)\\n\\nAlso, if you're stuck or new to mining, the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Minor Mining Job\\n\\nWORK BRIEF: \\nIf you’ve got time, I’ve got a pretty basic mining job for you. I'm building a database of mineral types and their locations but I need some raw data, so I need someone to locate <EM4>~mission(Resources)</EM4> <EM4>~mission(MineableType)</EM4>s. You can keep what you find, I'll pull the data I need. ~mission(Rarity)\\n\\nAlso, if you're stuck on where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "cfp_maintenance_E_title_001": "Minor Repairs Needed: ~mission(Location)",
     "cfp_maintenance_E_desc_001": "Hi,\\n\\nOne of our outposts at <EM4>~mission(Location|Address)</EM4> is in need of some light repairs. The folks onsite have estimated that you’ll need <EM4>three fuses</EM4>, a <EM4>salvaging tool</EM4>, and <EM4>enough RMC canisters to fix up to three or so pipes.</EM4>\\n\\nIf you need more information on maintenance work, see <EM4>“Cornerstone Developments' Guide to Maintenance”</EM4> entry in your mobiGlas Journal.\\n\\nThanks again for your help,\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "cfp_maintenance_local_E_title_001": "Minor Repairs Needed: ~mission(Location)",
@@ -3532,7 +3551,7 @@
     "RAIN_collectresources_single_OLP_name_01": "Need Resource for Research",
     "RAIN_collectresources_single_OLP_desc_01": "To all available contractors,\\n\\nOur research team at at <EM4>~mission(Destination|Address)</EM4> is working tirelessly on solving the current ‘Regen Crisis’ and addressing the issue of unstable imprints. Their work has produced promising results, but a lack of a key resource is impeding their ability to run further experiments. \\n\\nWe’ve received word from our supplier that increased demand combined with lower mining yields means that we won’t receive our scheduled shipment for another few months. Our research team can’t wait that long, and we’re hoping you can help.      \\n\\nThe resource is hard to come by, but we have it on good authority that the old Hathor mining facilities were built in areas with a high concentration of the ore. Since Hathor went defunct not long after establishing their operations in- system, there’s a good chance that activating one of these mining lasers could provide you with what we need.\\n\\nTogether we can make the universe better for all.\\n\\nNarina Lerrem\\nSenior Manager\\nClinical Research Outsourcing",
     "Battaglia_RPT_ScanMine_02_title": "Need Some Ore Mined",
-    "Battaglia_RPT_ScanMine_02_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Need Some Ore Mined\\n\\nWORK BRIEF: \\nGot a moment? Need your help with a job. Need someone to fly over to <EM4>~mission(Location)</EM4>, locate any <EM4>~mission(ResourceType)</EM4> in the area and mine at least <EM4>~mission(AmountToScan)</EM4> of the <EM4>~mission(ResourceType)</EM4> <EM4>~mission(MineableType)</EM4>s. ~mission(Rarity)\\n\\nAlso, if new to mining, the United Resource Workers wrote a helpful journal that you should check out in your mobi.\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_02_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Need Some Ore Mined\\n\\nWORK BRIEF: \\nGot a moment? Need someone to fly over to locate <EM4>~mission(Resources)</EM4> and mine at least <EM4>~mission(Resources)</EM4> <EM4>~mission(MineableType)</EM4>s. We're updating our database for future mining expeditions. You can keep what you find, we just need the data. ~mission(Rarity)\\n\\nAlso, if new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out in your mobi.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "headhunters_EliminateSpecific_Generic_M_title_001": "Need someone taken out",
     "headhunters_EliminateSpecific_Generic_M_desc_001": "Got a crew that's been hitting Headhunter ships lately. Their leader's a real piece of work named ~mission(TargetName). We've tracked them to  ~mission(Location|Address), so we're looking for someone to put them down for good.\\n\\nThis group likes to fight, but shouldn't be a problem for someone like you. \\n\\nGet over there and get it done.\\n\\nStows out.",
     "CFP_ShipWaveAttack_ClearHostiles_Title_H_001": "Neutralize Dangerous Criminal Fleet",
@@ -3602,13 +3621,13 @@
     "Foxwell_DefendEntitesAndEscort_H_Title": "Orange Lvl. Contract: Protect ~mission(Objects) and Escort Employees",
     "Foxwell_DefendEntitesAndEscort_H_Desc": "Crew managing one of our client's operations at <EM4>~mission(Location|Address)</EM4> have reported that they're under attack from a criminal gang targeting the <EM4>~mission(Objects) and ships</EM4> in the area. It will be your job to keep both safe at all costs. I don't have all the facts yet, but I reckon this will be a tough mission – these outlaws seem determined to do some real carnage. \\n\\nIf it were me, I would <EM>bring backup</EM4> to deal with them. And if you manage to protect everyone, we’re offering a well-earned <EM4>~mission(ScripAmount) MG Scrip</EM4> to the main contractor who deals with these lowlife's successfully. \\n\\nBest of luck,\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Battaglia_RPT_Scan_03_title": "Ore Deposit Needs Scanning",
-    "Battaglia_RPT_Scan_03_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Deposit Needs Scanning\\n\\nWORK BRIEF: \\nGot a job that might have your name on it. Need you to head to somewhere around <EM4>~mission(Location)</EM4> and see if there’s any <EM4>~mission(ResourceType)</EM4> in the area. Just need confirmation that it’s there and worth sending someone to collect.\\n\\nLet me know if you’ve got the time.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_03_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Deposit Needs Scanning\\n\\nWORK BRIEF: \\nI'm looking for an available miner to go out and scan for <EM4>~mission(Resources)</EM4>. Just need confirmation that it’s there and worth sending someone to collect. ~mission(Rarity)\\n\\nAlso, if you're stuck or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nLet me know if you’ve got the time.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Battaglia_RPT_ScanMine_04_title": "Ore Needs Gathering",
-    "Battaglia_RPT_ScanMine_04_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Needs Gathering\\n\\nWORK BRIEF: \\nGot a big mining job with your name on it. There’s a good amount of <EM4>~mission(ResourceType)</EM4> around <EM4>~mission(Location)</EM4>, need about <EM4>~mission(AmountToScan)</EM4> of <EM4>~mission(ResourceType)</EM4> <EM4>~mission(MineableType)</EM4>s mined if possible. ~mission(Rarity)\\n\\nAlso, if you're stuck or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nLet me know.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_04_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Needs Gathering\\n\\nWORK BRIEF: \\nGot a big mining job with your name on it. We're looking to update our records about mineral yields so we need someone to scan and extract about <EM4>~mission(Resources)</EM4> <EM4>~mission(MineableType)</EM4>s mined if possible. ~mission(Rarity)\\n\\nAlso, if you're stuck or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nLet me know.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Battaglia_RPT_Scan_01_title": "Ore Scan Needed",
-    "Battaglia_RPT_Scan_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Scan Needed\\n\\nWORK BRIEF: \\nGot a simple one for you today. Apparently, there’s some <EM4>~mission(ResourceType)</EM4> that might be worth mining near <EM4>~mission(Location)</EM4>. I can send someone to mine it later, just a scan of the ore density would be great.\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore Scan Needed\\n\\nWORK BRIEF: \\nGot a simple one for you today. I'm looking for some mining data so I need someone to scan some <EM4>~mission(Resources)</EM4>. The data will be helpful to plan future expeditions. ~mission(Rarity)\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Battaglia_RPT_Scan_02_title": "Ore To Be Scanned",
-    "Battaglia_RPT_Scan_02_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore To Be Scanned\\n\\nWORK BRIEF: \\nGot a job for you. Got word that <EM4>~mission(Location)</EM4> has a deposit of <EM4>~mission(ResourceType)</EM4> in the area. If you could go there and scope it out, I’d really appreciate it.\\n\\nKeep me posted.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_02_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Ore To Be Scanned\\n\\nWORK BRIEF: \\nGot a job for you. Need someone to scan a deposit of <EM4>~mission(Resources)</EM4>. I'm looking into building a more extensive database on mineral locations, so your data will be helpful.~mission(Rarity)\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nKeep me posted.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "northrock_SOO_intro_title_001": "Orison Platforms Under Attack",
     "northrock_SOO_intro_desc_001": "Greetings,\\n\\nCrusader Security Forces have contacted us seeking our expertise in dealing with an urgent situation. Several platforms near Orison have been overtaken by members of the Nine Tails gang and Northrock is eager to staff an operation to remove them and return the platforms to Crusader.\\n\\nThe Nine Tails have put measures in place to block all air traffic in the area, so we've been granted access to a secure shuttle that will take you, and any other members of your assault team, to the first platform.\\n\\nFor full disclosure, I must warn that this is not a contract for the faint of heart. I am confident though that your combat skills, you and your selected team will be fully up to the challenge. \\n\\nOnce you've arrived at the shuttle I'll be in touch directly with more information.\\n\\nSpeak more soon,\\nAdrienne Du-Buisson\\nLogistics Officer - Stanton Branch\\nNorthrock Service Group",
     "ORS_Construct_Large_Title": "Orison Relief: Large Fabrication Order",
@@ -3931,6 +3950,10 @@
     "Adagio_Industrial_Salvage_Universal_E_Desc_001": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent small-scale order, we are seeking contractors to help source Recycled Material Composite (RMC) by  stripping abandoned ships. We recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>~mission(Destination|Address)</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
     "eckhart_defendship_VLRT_title_001": "Save Ship",
     "eckhart_defendship_VLRT_desc_001": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Ship\\nAPPROVAL CODE = ~mission(ApprovalCode)\\n\\nFOR IMMEDIATE PROCESSING\\n\\nA client is reporting trouble near <EM4>~mission(Location|Address)</EM4>. Based on their comms, it doesn’t sound like an organized, professional attack. Still, we’re paid to provide protection and it’s been requested. \\n\\nNeed a contractor to fly there and secure the situation.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
+    "Battaglia_RPT_ScanMine_03_title": "Scan And Mining Needed",
+    "Battaglia_RPT_ScanMine_03_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Scan And Mining Needed\\n\\nWORK BRIEF: \\nI have a job here that might interest you. I need people to go out and do some basic mining in order to pull some geological data for future prospecting. Need someone to scope out and mine <EM4>~mission(Resources)</EM4> <EM4>~mission(MineableType)</EM4>s. You'll be helping us out massively. ~mission(Rarity)\\n\\nAlso, if you're stuck or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nKeep me posted.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_Prosp_title": "Scan, Mine, and Prospector Payout",
+    "Battaglia_RPT_ScanMine_Prosp_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Scan, Mine, and Prospector Payout\\n\\nWORK BRIEF: \\nStill pulling together data on mining and mineral extraction but got a special payout for this one. Once you scan ~mission(Resources) ~mission(MineableType)</EM4>s and relay your stats back to us, I'll get you something real nice for all your help. ~mission(Rarity)\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nGot a special MISC Prospector as payment for all your help.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Headhunters_SecurityPatrol_E_Title_001": "Scout and Scan",
     "Headhunters_SecurityPatrol_E_Desc_001": "Headhunters have been expanding, but still need help getting a lay of our new territory. I’ve got a run to check spots we want scanned ready to go. \\n\\nThis one kicks off at the <EM4>location marker</EM4> on your HUD and will look at a few more locations after that, but I’ll update you as we clear them out. Not expecting you to run into any trouble but no guarantees. Trouble seems to follow us.\\n\\nGet this done and I'll toss the main contractor <EM4>~mission(ScripAmount) Council Scrip</EM4> as a thanks.\\n\\nStows out.",
     "HeadHunters_DefendEntitesAndEscort_M_Title": "Secure ~mission(Location) from Upstarts",
@@ -5893,14 +5916,22 @@
       "Contractor|RecoverSpaceDescriptionIntro": "@deadsaints_recoveritem_Intro_Desc_001"
     },
     "Battaglia_RPT_ScanMine_05_title": {
-      "ResourceType": "@mineabletype_primary_gold",
+      "ResourceType": "@mineabletype_primary_lindinium",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ResourceType2": "@mineabletype_primary_bexalite",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@RepScope_Maintenance_Rank2"
     },
     "Battaglia_RPT_ScanMine_05_desc": {
-      "ResourceType": "@mineabletype_primary_gold",
+      "ResourceType": "@mineabletype_primary_lindinium",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ResourceType2": "@mineabletype_primary_bexalite",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@RepScope_Maintenance_Rank2"
     },
     "Headhunters_DefendLocation_VE_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
@@ -6058,6 +6089,22 @@
       "ReputationRank": "@RepStanding_TransportGuild_Rank0",
       "Contractor|SignOff": "@Covalex_SignOff_001"
     },
+    "Battaglia_RPT_ScanMine_Golem_title": {
+      "ResourceType": "@mineabletype_primary_savrillium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_lindinium",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2",
+      "ReputationRank": "@RepScope_Technician_Rank3"
+    },
+    "Battaglia_RPT_ScanMine_Golem_desc": {
+      "ResourceType": "@mineabletype_primary_savrillium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_lindinium",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2",
+      "ReputationRank": "@RepScope_Technician_Rank3"
+    },
     "EckhartSecurity_RecoverCargo_Super_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank5"
     },
@@ -6122,12 +6169,24 @@
     "Battaglia_RPT_Scan_04_title": {
       "ResourceType": "@mineabletype_primary_torite",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ResourceType2": "@mineabletype_primary_bexalite",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_ice",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
+      "ReputationRank": "@RepScope_Maintenance_Rank0"
     },
     "Battaglia_RPT_Scan_04_desc": {
       "ResourceType": "@mineabletype_primary_torite",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ResourceType2": "@mineabletype_primary_bexalite",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_ice",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
+      "ReputationRank": "@RepScope_Maintenance_Rank0"
     },
     "RAIN_CollectResources_storm_title_003": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -6350,24 +6409,22 @@
       "ReputationRank": "@RepStanding_Security_Rank1"
     },
     "Battaglia_RPT_Scan_06_title": {
-      "ResourceType": "@mineabletype_primary_lindinium",
+      "ResourceType": "@mineabletype_primary_savrillium",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ReputationRank": "@mg_battaglia_RepScope_Rank5"
+      "ResourceType2": "@mineabletype_primary_lindinium",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@RepScope_Maintenance_Rank2"
     },
     "Battaglia_RPT_Scan_06_desc": {
-      "ResourceType": "@mineabletype_primary_lindinium",
+      "ResourceType": "@mineabletype_primary_savrillium",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ReputationRank": "@mg_battaglia_RepScope_Rank5"
-    },
-    "Battaglia_RPT_ScanMine_06_title": {
-      "ResourceType": "@mineabletype_primary_lindinium",
-      "MineableType": "@mineabletype_type_shipasteroid",
-      "ReputationRank": "@mg_battaglia_RepScope_Rank5"
-    },
-    "Battaglia_RPT_ScanMine_06_desc": {
-      "ResourceType": "@mineabletype_primary_lindinium",
-      "MineableType": "@mineabletype_type_shipasteroid",
-      "ReputationRank": "@mg_battaglia_RepScope_Rank5"
+      "ResourceType2": "@mineabletype_primary_lindinium",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@RepScope_Maintenance_Rank2"
     },
     "EckhartSecurity_RecoverCargo_Hard_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
@@ -6628,14 +6685,26 @@
       "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Battaglia_RPT_Scan_05_title": {
-      "ResourceType": "@mineabletype_primary_gold",
+      "ResourceType": "@mineabletype_primary_lindinium",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ResourceType2": "@mineabletype_primary_bexalite",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_bexalite",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@RepScope_Maintenance_Rank2"
     },
     "Battaglia_RPT_Scan_05_desc": {
-      "ResourceType": "@mineabletype_primary_gold",
+      "ResourceType": "@mineabletype_primary_lindinium",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ResourceType2": "@mineabletype_primary_bexalite",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_bexalite",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@RepScope_Maintenance_Rank2"
     },
     "headhunters_maintenance_local_M_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
@@ -7130,13 +7199,59 @@
       "System": "@StantonSystem",
       "ReputationRank": "@RepScope_Contractor_Rank3"
     },
+    "Battaglia_RPT_ScanMine_06_title": {
+      "ResourceType": "@mineabletype_primary_savrillium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_lindinium",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank5"
+    },
+    "Battaglia_RPT_ScanMine_06_desc": {
+      "ResourceType": "@mineabletype_primary_savrillium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_lindinium",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank5"
+    },
+    "Battaglia_RPT_ScanMine_Mole_title": {
+      "ResourceType": "@mineabletype_primary_torite",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_ice",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_aluminium",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank5"
+    },
+    "Battaglia_RPT_ScanMine_Mole_desc": {
+      "ResourceType": "@mineabletype_primary_torite",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_ice",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_aluminium",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank5"
+    },
     "Battaglia_RPT_ScanMine_01_title": {
-      "ResourceType": "@mineabletype_primary_iron",
-      "MineableType": "@mineabletype_type_shipasteroid"
+      "ResourceType": "@mineabletype_primary_aluminium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_iron",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2"
     },
     "Battaglia_RPT_ScanMine_01_desc": {
-      "ResourceType": "@mineabletype_primary_iron",
-      "MineableType": "@mineabletype_type_shipasteroid"
+      "ResourceType": "@mineabletype_primary_aluminium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_iron",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2"
     },
     "cfp_maintenance_E_title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -7160,11 +7275,11 @@
     },
     "Battaglia_RPT_MissCrew_03_title": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ReputationRank": "@RepScope_Maintenance_Rank2"
     },
     "Battaglia_RPT_MissCrew_03_desc": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ReputationRank": "@RepScope_Maintenance_Rank2"
     },
     "Shubin_Industrial_ShipMining_Stanton_S_Secondary_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank5"
@@ -7269,13 +7384,23 @@
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Battaglia_RPT_ScanMine_02_title": {
-      "ResourceType": "@mineabletype_primary_torite",
+      "ResourceType": "@mineabletype_primary_aluminium",
       "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_iron",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_ice",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Battaglia_RPT_ScanMine_02_desc": {
-      "ResourceType": "@mineabletype_primary_torite",
+      "ResourceType": "@mineabletype_primary_aluminium",
       "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_iron",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_ice",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "headhunters_EliminateSpecific_Generic_M_title_001": {
@@ -7555,41 +7680,81 @@
       "ScripAmount": "4"
     },
     "Battaglia_RPT_Scan_03_title": {
-      "ResourceType": "@mineabletype_primary_gold",
+      "ResourceType": "@mineabletype_primary_torite",
       "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_ice",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_aluminium",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
       "ReputationRank": "@RepScope_Maintenance_Rank0"
     },
     "Battaglia_RPT_Scan_03_desc": {
-      "ResourceType": "@mineabletype_primary_gold",
+      "ResourceType": "@mineabletype_primary_torite",
       "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_ice",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_aluminium",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
       "ReputationRank": "@RepScope_Maintenance_Rank0"
     },
     "Battaglia_RPT_ScanMine_04_title": {
       "ResourceType": "@mineabletype_primary_torite",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ResourceType2": "@mineabletype_primary_bexalite",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_ice",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
+      "ReputationRank": "@RepScope_Maintenance_Rank0"
     },
     "Battaglia_RPT_ScanMine_04_desc": {
       "ResourceType": "@mineabletype_primary_torite",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ResourceType2": "@mineabletype_primary_bexalite",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_ice",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
+      "ReputationRank": "@RepScope_Maintenance_Rank0"
     },
     "Battaglia_RPT_Scan_01_title": {
-      "ResourceType": "@mineabletype_primary_iron",
-      "MineableType": "@mineabletype_type_shipasteroid"
+      "ResourceType": "@mineabletype_primary_aluminium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_iron",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2"
     },
     "Battaglia_RPT_Scan_01_desc": {
-      "ResourceType": "@mineabletype_primary_iron",
-      "MineableType": "@mineabletype_type_shipasteroid"
+      "ResourceType": "@mineabletype_primary_aluminium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_iron",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2"
     },
     "Battaglia_RPT_Scan_02_title": {
-      "ResourceType": "@mineabletype_primary_torite",
+      "ResourceType": "@mineabletype_primary_aluminium",
       "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_iron",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_ice",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Battaglia_RPT_Scan_02_desc": {
-      "ResourceType": "@mineabletype_primary_torite",
+      "ResourceType": "@mineabletype_primary_aluminium",
       "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_iron",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_ice",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "ORS_MedicalAid_HaulingLarge_title": {
@@ -8503,6 +8668,48 @@
     },
     "eckhart_defendship_VLRT_desc_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+    },
+    "Battaglia_RPT_ScanMine_03_title": {
+      "ResourceType": "@mineabletype_primary_torite",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_ice",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_aluminium",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
+      "ReputationRank": "@RepScope_Maintenance_Rank0"
+    },
+    "Battaglia_RPT_ScanMine_03_desc": {
+      "ResourceType": "@mineabletype_primary_torite",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_ice",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_aluminium",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
+      "ReputationRank": "@RepScope_Maintenance_Rank0"
+    },
+    "Battaglia_RPT_ScanMine_Prosp_title": {
+      "ResourceType": "@mineabletype_primary_aluminium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_iron",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_ice",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "ReputationRank": "@RepScope_Maintenance_Rank4"
+    },
+    "Battaglia_RPT_ScanMine_Prosp_desc": {
+      "ResourceType": "@mineabletype_primary_aluminium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_iron",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_ice",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "ReputationRank": "@RepScope_Maintenance_Rank4"
     },
     "Headhunters_SecurityPatrol_E_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
