@@ -1,6 +1,6 @@
 {
-  "version": "4.9.0-ptu.12142716",
-  "keyCount": 2718,
+  "version": "4.9.0-ptu.12148226",
+  "keyCount": 2720,
   "keys": {
     "Headhunters_Delivery_Outpost_title_001": "[DESTINATION] Errand",
     "roughready_delivery_station_title_001": "[DESTINATION] Stroll",
@@ -745,7 +745,7 @@
     "Tutorial01_MissionTitle": "Tutorial - Your First Steps",
     "TheCollector_Ships_Intrepid_TItle": "Upgrade Intrepid",
     "Foxwell_X2_ShipDefend_Title": "Urgent - Ship Under XenoThreat Attack",
-    "UWC_Refueling_multiple_med_title_001": "URGENT FLEET REFUEL",
+    "UWC_Refueling_multiple_med_title_001": "URGENT CONVOY REFUEL",
     "UWC_Refueling_moderate_title_001": "URGENT REFUEL REQUEST: [SHIP]",
     "northrock_boarders_890J_title_001": "URGENT: Boarding Action In Progress",
     "UWC_Refueling_intro_title_001": "UWC'S HIRING REFUELERS",
@@ -1010,7 +1010,7 @@
     "headhunters_multikillship_base_Generic_M_desc_001": "A lotta wannabe gangs have stepped to the Headhunters over the years thinking that they could force their way into the system. We're still here. They aren't. But it seems the survivors of these groups have decided to band together and try again. Guess some people never learn.\\n\\nLatest group hit a couple of our convoys while on supply runs. Shouldn't be a surprise that the Judge wants to stomp them out quick. We've learned they're out near [LOCATION] and likely rearming for another attack. \\n\\nWe want you to go there and make them wish they died with their old gang.\\n\\nStows out",
     "Battaglia_RPT_MissCrew_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Crew Hasn’t Checked In\\n\\nWORK BRIEF: \\nJust got word that one of the mining teams is unaccounted for. They were supposed to be back hours ago, but no one’s heard from them. Family have tried to reach out but haven’t gotten a response from anyone on the crew.\\n\\nThey were last reported around <EM4>[LOCATION]</EM4>, so we’re looking for someone to go check in and see if they’re okay. If the worst happened, please identify anyone you find. I’m sure the families would appreciate some closure on what happened.\\n\\nThanks\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "EckhartSecurity_RecoverCargo_VeryHard_Description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Recover Cargo\\nApproval code: = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nCalling for a skilled contractor to recover a displaced shipment located at <EM4>[LOCATION]</EM4>. Client's hauler was transporting some high value cargo when they decided to respond to a distress beacon and got ambushed by a group of outlaws. The client believes their pilot is gone but their cargo could still be recovered.\\n\\nThe information we have so far is that you'll need a ship that can carry <EM4>[MAX_SCU] cargo containers</EM4>, a <EM4>heavy-duty tractor beam</EM4> for shifting the goods, as well as your support ships to help deal with the outlaws at the location. \\n\\nClient will be expecting the completed delivery to be made to the freight elevator at <EM4>[DESTINATION]</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
-    "UWC_Refueling_high_desc_001": "Hi,\\n\\nAnother day another beacon. There's a <EM4>[SHIP]</EM4> with an empty <EM4>[FUELTYPE]</EM4> tank at <EM4>[LOCATION]</EM4>.  The client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nI can't lie: it's a nasty place to get stuck and a worse place to get caught by surprise. We've lost good people out there - even the ones who got lucky made it home with pieces missing.\\n\\nIf you decide to take the job, do me a favor and keep everything peeled. If you've got a buddy with time to spare, maybe reach out for a little back-up.\\n\\nMaybe I'm being paranoid, but that doesn't mean they're not out to get you, as Momma Deloit used to say. \\n\\nActually she never said that - but I'm pretty sure she would if she did this for a living.\\n\\nJust do the job and get home safe, okay?\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
+    "UWC_Refueling_high_desc_001": "Hi,\\n\\nAnother day another beacon. There's a <EM4>[SHIP]</EM4> looking to be topped up with [FUELTYPE] at <EM4>[LOCATION]</EM4>.  The client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nI can't lie: it's a nasty place to get stuck and a worse place to get caught by surprise. We've lost good people out there - even the ones who got lucky made it home with pieces missing.\\n\\nIf you decide to take the job, do me a favor and keep everything peeled. If you've got a buddy with time to spare, maybe reach out for a little back-up.\\n\\nMaybe I'm being paranoid, but that doesn't mean they're not out to get you, as Momma Deloit used to say. \\n\\nActually she never said that - but I'm pretty sure she would if she did this for a living.\\n\\nJust do the job and get home safe, okay?\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "CFP_RecoverCargo_Hard_Description": "We were in the process of delivering an urgent shipment to the folks over at <EM4>[DESTINATION]</EM4> when our pilot ran into a group of outlaws. They tried to run, but it was already too late.\\n\\nThere is silver lining though. The trackers are showing the cargo is still intact, located at <EM4>[LOCATION]</EM4>. There's a good chance the outlaws are guarding it while they locate a ship big enough to transport everything. While I don't want to risk losing another pilot, the need of the cargo aboard is desperate enough that it justifies the decision to send someone to recover it.\\n\\nThis won't be easy, these outlaws showed our pilot no mercy. You'll need to take them out first before getting the cargo back. Bring a ship that can store <EM4>[MAX_SCU] cargo containers</EM4> and a <EM4>heavy-duty tractor beam</EM4> for the moving. Deliver it to the freight elevator at <EM4>[DESTINATION]</EM4>  and let's make this right.\\n\\nFly safe,\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "Highpoint_KillAnimals_MultiType_M_desc": "Highpoint Wilderness Specialists are dedicated to keeping the delicate ecosystems of the empire in balance. A client recently hired us to evaluate the environmental impact of a number of invasive creatures near <EM4>[LOCATION]</EM4>. We’ve determined that to preserve the natural order of the region a conscientious culling of these species is necessary.  \\n\\nLooking for someone able and willing to help in this effort. Please refer to <EM4>\"The Guide to Stanton Wildlife\"</EM4> in your Journal for further information on the creatures being targeted.     \\n\\nBest,\\n\\nWanda Werkheiser\\nContract Manager\\nHighpoint Wilderness Specialists",
     "Highpoint_KillAnimals_storm_H_desc_001": "As a consequence of the ongoing radiation storm on Pyro I, some of the invasive kopions have become irradiated. This poses a threat to the health of the indigenous wildlife and to those who live and work in <EM4>[LOCATION]</EM4>. \\n\\nWe are seeking out a skilled contractor who can cull any irradiated kopions in and around <EM4>[LOCATION]</EM4>. Do not accept this contract unless you have the proper weapons and equipment that can reliably function in a radioactive environment. \\n\\nYour compensation will be adjusted to match the risks associated with this contract.\\n\\nBest,\\n\\nWanda Werkheiser\\nContract Manager\\nHighpoint Wilderness Specialists",
@@ -1234,7 +1234,7 @@
     "Shubin_Industrial_GroundVehicle_Stanton_H_Solar_Desc_001": "POSTING: Purchase Order\\nLOCATION: <EM4>[SYSTEM] </EM4>\\n\\nTERMS*: \\nShubin Interstellar is currently looking to fulfil another purchase order for a variety of materials. We appreciate your help in this matter.\\n\\n[LOCATION] For a comprehensive list of where to find these minerals, consult <EM4>Mining Fundamentals #2: Where to Mine</EM4> in your mobiGlas Journal.\\n\\nSince this is a purchase order and not a mining contract, you are expected to provide your own equipment, such as a <EM4>[MULTITOOL]</EM4>.\\n\\nOnce you’re ready to sell us the required materials, deposit them in the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\n*By accepting this contract you are assuming any and all risks associated with the work outlined herein and in no way can Shubin Interstellar be held accountable for any damages accrued during the duration of the contract.",
     "Battaglia_RPT_ScanMine_06_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Mining and Data Collection\\n\\nWORK BRIEF: \\nHave a big one for you today. Need you to get down there and mine [RESOURCES] [MINEABLETYPE]</EM4>s and relay your stats back to us. I'm looking to pull together some findings from various miners around the system. [RARITY]\\n\\nAlso, if you're stuck of where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Battaglia_RPT_ScanMine_Mole_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Mining and MOLE\\n\\nWORK BRIEF: \\nAnother special job for you with an extra special payout. Like the previous jobs, I need you to find and extract <EM4> [RESOURCES] [MINEABLETYPE]</EM4>s and relay your stats back to us. [RARITY] \\n\\nI can't even tell you how helpful your work has been in the past so I've arranged an extra special payout for this one. [RARITY]\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nYou'll receive a custom ARGO MOLE as payment for all your help.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
-    "Battaglia_RPT_ScanMine_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Minor Mining Job\\n\\nWORK BRIEF: \\nIf you’ve got time, I’ve got a pretty basic mining job for you. I'm building a database of mineral types and their locations but I need some raw data, so I need someone to locate <EM4>[RESOURCES]</EM4> <EM4>[MINEABLETYPE]</EM4>s. You can keep what you find, I'll pull the data I need. [RARITY]\\n\\nAlso, if you're stuck on where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Minor Mining Job\\n\\nWORK BRIEF: \\nIf you’ve got time, I’ve got a pretty basic mining job for you. I'm building a database of mineral types and their locations but I need some raw data, so I need someone to locate <EM4>[RESOURCES] [MINEABLETYPE]</EM4>s. You can keep what you find, I'll pull the data I need. [RARITY]\\n\\nAlso, if you're stuck on where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "cfp_maintenance_E_desc_001": "Hi,\\n\\nOne of our outposts at <EM4>[LOCATION]</EM4> is in need of some light repairs. The folks onsite have estimated that you’ll need <EM4>three fuses</EM4>, a <EM4>salvaging tool</EM4>, and <EM4>enough RMC canisters to fix up to three or so pipes.</EM4>\\n\\nIf you need more information on maintenance work, see <EM4>“Cornerstone Developments' Guide to Maintenance”</EM4> entry in your mobiGlas Journal.\\n\\nThanks again for your help,\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "cfp_maintenance_local_E_desc_001": "A nearby outpost of ours at <EM4>[LOCATION]</EM4> is suffering from some mechanical failures and could use repairing. Our usual technician is off on another job so we're looking to hire an outside contractor.\\n\\nWe will need <EM4>three fuses replaced</EM4> and if you could bring a <EM4>salvaging tool</EM4> with <EM4>enough canisters of RMC to fix around three pipes</EM4> that should take care of the rest.\\n\\nIf you need more information on maintenance work, see <EM4>“Cornerstone Developments' Guide to Maintenance”</EM4> entry in your mobiGlas Journal.\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "Battaglia_RPT_MissCrew_02_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Missing Mining Team\\n\\nWORK BRIEF: \\nThe crew of the <EM4>[SHIPNAME]</EM4> set off for a dig and haven’t checked back in. With everything going on out there, people are starting to get a little worried, so we’d like someone to try and get eyes on them.\\n\\nThey were last tracked near <EM4>[LOCATION]</EM4> so you can start there. I hate to say this, but if something happened to them, could you please identify everyone you find so we can let next of kin know?\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
@@ -1391,7 +1391,7 @@
     "cfp_bombingrun_sabotage_generators_desc_001": "There is a group of outlaws at [LOCATION] that have become increasingly brazen in their attacks on Citizens for Prosperity assets in the system. \\n\\nTo minimize loss of life, we want to first try convincing them to move on to somewhere else by disabling their generators and destroying their fuel reserves. \\n\\nHopefully, that should be enough to convince them to move on to greener pastures.\\n\\nThanks,\\n \\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "Highpoint_KillAnimal_OneType_desc": "We’ve been monitoring a situation at <EM4>[LOCATION]</EM4> regarding an uptick in the <EM4>[CREATURE]</EM4> population over the past few months. Our models indicate that if this continues many of the native plants and animals will be adversely affected. It’s imperative that the <EM4>[CREATURE]</EM4> population is reduced before that happens.     \\n\\nIf you can help, please refer to <EM4>\"The Guide to Stanton Wildlife\"</EM4> in your Journal for more specifics on the targeted creature.\\n\\nBest,\\n\\nWanda Werkheiser\\nContract Manager\\nHighpoint Wilderness Specialists",
     "Highpoint_KillAnimals_rockcracker_desc_E_001": "If you have any work that's going to be bringing you to one of those old QV Breaker Stations in the Keeger Belt, we have something else that we could use your help on while you're there.\\n \\nWe've recently been contacted by the People's Alliance to assist with an initiative to help prepare these abandoned stations for repairs. Unfortunately, a Valakkar infestation is creating serious problems for not only the stations' infrastructure, but also for the chances of them being brought back online one day. Due to Valakkar's status as an invasive species, we have decided that culling them is the only viable option.\\n \\nReduce the Valakkar numbers at any of the old QV Breaker Stations and we will offer you payment.\\n \\nBest,\\n \\nWanda Werkheiser\\n\\nContract Manager\\n\\nHighpoint Wilderness Specialists",
-    "UWC_Refueling_easy_desc_001": "Hey there,\\n\\nIf you're fitted for refueling, you might like this one. \\n\\nA beacon has just gone live at <EM4>[LOCATION]</EM4>, from a client whose <EM4>[SHIP]</EM4> has run out of <EM4>[FUELTYPE]</EM4>, so make sure your pods are topped off.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nLooks like a zero-drama one and done, but it never hurts to keep your scanners live.\\nLet me know if you're interested and let's get these good people on their way.\\n\\nWaiting to hear from you,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
+    "UWC_Refueling_easy_desc_001": "Hey there,\\n\\nIf you're fitted for refueling, you might like this one. \\n\\nA beacon has just gone live at <EM4>[LOCATION]</EM4>, from a client whose <EM4>[SHIP]</EM4> is in need of [FUELTYPE], so make sure your pods are topped off.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nLooks like a zero-drama one and done, but it never hurts to keep your scanners live.\\nLet me know if you're interested and let's get these good people on their way.\\n\\nWaiting to hear from you,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "CFP_ShipWaveAttack_ClearHostiles_Desc_M_001": "It feels that whenever we start to make real progress in the system, the outlaws are there to push one step back. We had recently cleared out [LOCATION] only to learn that a new outlaw gang has taken root there, using it as a launching point for various criminal enterprises. \\n\\nSince we can't afford to let this rot spread, you and a few support ships are being charged with heading there to clear out all the gang's packs. After you deal with one pack, be sure to wait until all of the hostile packs have been dealt with.\\n\\nKnow that you are helping to make a real difference,\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "EckhartSecurity_Defend_H_Desc_001": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Location\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nThere’s a serious problem brewing for one of our clients at <EM4>[LOCATION]</EM4>. They’ve been warned that a highly skilled outlaw crew has their sights set on overrunning and occupying that location. We’ve been hired to make sure that doesn’t happen. \\n\\nNeed a contractor to deploy to the location immediately. Based on the intel provided by the client, this won’t be a walk in the park. We strongly advise you to bring allies and plenty of supplies to help ward of the impending attack.   \\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "eckhart_defendship_MRT_SB_desc_001": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Ship\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nLooking for a contractor who’s available immediately. \\n\\nA client conducting business in Nyx ran into some trouble with the Shattered Blade and is requesting back-up at <EM4>[LOCATION]</EM4>. Are you free to handle this for us?\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -1546,10 +1546,10 @@
     "Tutorial01_MissionDesc": "Congratulations on taking your first steps into the universe!\\n\\nOver the course of this tutorial, you’ll learn how to get around both on foot and in space. \\n\\nFirst up is helping you familiarize yourself with some basic movement controls and the use of your mobiGlas while still inside your “Hab” (or habitation). Follow the objectives and hints on your HUD (heads-up display) to proceed through this mission.",
     "TheCollector_Ships_Intrepid_Desc": "If you are looking for Intrepid ship that more intrepid. Wikelo can help. Bring things and you will get special touches on ship by Wikelo and pretty new coat to it. Bye.",
     "Foxwell_X2_ShipDefend_Desc": "A distress beacon came in from <EM4>[LOCATION]</EM4> about a ship under attack from XenoThreat. The pilot reports that their shields are failing and they can't outrun the attackers.\\n\\nThe ship's a <EM4>[SHIP]</EM4>, but the pilot's Human, which  according to XenoThreat's twisted way of thinking, makes them a traitor to Humanity and a target for their hate.\\n\\nWe're looking for operators to head out there and do some good.\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
-    "UWC_Refueling_multiple_med_desc_001": "Hey again,\\n\\nI've got a beacon at <EM4>[LOCATION]</EM4> and this one's a big one. An entire little fleet of ships all burned out of <EM4>[FUELTYPE]</EM4> at the same time. Impressive coordination and lack of planning at the same time. \\n\\nThe client will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nHopefully since the area they're in is pretty safe, there shouldn't be too much trouble lurking, but these days you never know. Wouldn't hurt to get them back flying again as quick as you're able.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
-    "UWC_Refueling_moderate_desc_001": "Hey, you!\\n\\nI've got a beacon at <EM4>[LOCATION]</EM4>. They say their </EM4>[FUELTYPE]</EM4> tanks are dry and they're calling for a full refill. If you're interested, I get the feeling they'll be really pleased to see you.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nThey're stuck out in an area with a bad reputation, though things have been a bit more quiet recently. Still worth staying alert I'd say, just in case there's still trouble lurking out there. \\n\\nEither way, the sooner everyone's able to get flying again - and that includes you - the better.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
+    "UWC_Refueling_multiple_med_desc_001": "Hey again,\\n\\nI've got a beacon at <EM4>[LOCATION]</EM4> and this one's a bit more complicated than usual. Got small convoy of ships requesting [FUELTYPE]. Impressive coordination and lack of planning to all need refueling at the same time. \\n\\nThe client will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nHopefully since the area they're in is pretty safe, there shouldn't be too much trouble lurking, but these days you never know. Wouldn't hurt to get them back flying again as quick as you're able.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
+    "UWC_Refueling_moderate_desc_001": "Hey, you!\\n\\nI've got a beacon at <EM4>[LOCATION]</EM4>. They say their tanks are running dry and they could use [FUELTYPE]. If you're interested, I get the feeling they'll be really pleased to see you.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nThey're stuck out in an area with a bad reputation, though things have been a bit more quiet recently. Still worth staying alert I'd say, just in case there's still trouble lurking out there. \\n\\nEither way, the sooner everyone's able to get flying again - and that includes you - the better.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "northrock_boarders_890J_desc_001": "An executive client just informed us that their 890 Jump had been intercepted at [LOCATION] and boarded by outlaws. They would prefer to have this handled privately owing to the sensitive nature of proprietary data that's being stored aboard. \\n\\nYour first priority will be to clear all outlaws as quickly as possible so that a recovery team can be dispatched to return the ship to the owner. The longer the outlaws have control of the vessel, the higher the chance it will be lost. I recommend you acquire a team for this outing to expedite matters. \\n\\nNote that thanks to a small contingent of Security Personnel who stayed aboard, all surviving members of the crew were able to flee in an escape craft. The current status of the remaining security is unknown, but just in case, keep an eye out for friendlies when you engage the hostiles.\\n\\nSecondly, if at all possible, the client is *very* interested in preventing the theft of the aforementioned data. If you are able to stop the theft of their confidential data stores before they are transmitted, a generous bonus will be issued.\\n\\nNeedless to say, this is a client I would very much like to keep happy. \\n\\nBraden Corchado\\nLogistics Officer - Stanton Branch\\nNorthrock Service Group",
-    "UWC_Refueling_intro_desc_001": "Hey!\\n\\nDD from the United Wayfarers Club here.\\n\\nThe UWC offers repair, rearming and refuelling services across the UEE. It just so happens that we're on the look-out for new affiliates whose ships are fitted for refuelling. If you've got the fuel pods and like it when people are pleased to see you, the UWC might be the club for you.\\n\\nAnd if you think it might be, I've got a live beacon you might like.\\n\\nIf you do happen to like it, a word to the wise: <EM4>make sure your fuel pods are full before you head out</EM4>.\\n\\nA Club member has run out of ~misssion(FuelType) at <EM4>[LOCATION]</EM4>. I'm not sure on the details, like how they ended up out there with no Go Juice, but the UWC doesn't like to leave folk hanging.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST]. As a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nIt's a straightforward run. Perfect if you want to get a feel for this kind of job. Get out there, fill up the tanks of their <EM4>[SHIP]</EM4> and get them on their way. Do enough runs like this, and the process becomes muscle memory. Until then, there's a <EM4>journal entry</EM4> on your mobiGlas called \"Refueling Protocols\" that covers the basics.\\n\\nThere have been no reports of outlaw activity in that sector, but stay alert. I always recommend you aim for a fast turnaround. The sooner you're done, the sooner I can fix you up with another contract. UWC's always looking for new affiliates. \\n\\nLooking forward to working with you.\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
+    "UWC_Refueling_intro_desc_001": "Hey!\\n\\nDD from the United Wayfarers Club here.\\n\\nThe UWC offers repair, rearming and refueling services across the UEE. It just so happens that we're on the look-out for new affiliates whose ships are fitted for refueling. If you've got the fuel pods and like it when people are pleased to see you, the UWC might be the club for you.\\n\\nAnd if you think it might be, I've got a live beacon you might like.\\n\\nIf you do happen to like it, a word to the wise: <EM4>make sure your fuel pods are full before you head out</EM4>.\\n\\nA Club member has run out of ~misssion(FuelType) at <EM4>[LOCATION]</EM4>. I'm not sure on the details, like how they ended up out there with no Go Juice, but the UWC doesn't like to leave folk hanging.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST]. As a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nIt's a straightforward run. Perfect if you want to get a feel for this kind of job. Get out there, fill up the tanks of their <EM4>[SHIP]</EM4> and get them on their way. Do enough runs like this, and the process becomes muscle memory. Until then, there's a <EM4>journal entry</EM4> on your mobiGlas called \"Refueling Protocols\" that covers the basics.\\n\\nThere have been no reports of outlaw activity in that sector, but stay alert. I always recommend you aim for a fast turnaround. The sooner you're done, the sooner I can fix you up with another contract. UWC's always looking for new affiliates. \\n\\nLooking forward to working with you.\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "Kaboos_Intro_Description": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Unknown\\nEquipment Specs: Combat-rated Ship, Personal Arms\\nBriefing: InterSec has been enlisted by the UEE to gather intel on a group of <EM4>black marketeers dealing in Vanduul parts</EM4>, that have been linked to the illegal Vanduul experiments happening at ASD’s Onyx Facility. The UEE is eager to understand and put an end to their operations.\\n\\nBased on evidence extracted from the ASD facilities, we’ve potentially managed to track down the location of one of their storage sites.\\n\\nOnce accepted, head over to the old <EM4>QV Planet Services Logistics station</EM4> and we’ll be in touch.\\n\\nRespectfully, \\n\\nDeacon Tobin\\nOperations Manager\\nInterSec Defense Solutions\\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "bhg_bounty_desc_ShatteredBlade_001": "--------------------------------------------------------\\n-------------- BOUNTY CONTRACT ---------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: Nyx\\nRISK ASSESSMENT: High\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: Shattered Blade\\nNOTES: The Shattered Blade are known for targeting Vanduul in order to acquire and sell black market tech, however they also have been reported to use violence against authority figures who interfere in their affairs.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
     "bhg_bounty_desc_ASD_Engineering_001": "--------------------------------------------------------\\n----------------- BOUNTY CONTRACT -----------------\\n--------------------------------------------------------\\n\\nBOUNTY HUNTERS GUILD\\nPROCESSING & DISTRIBUTION\\n\\nThe Bounty Hunters Guild has authorized an official bounty.\\n\\nNAME: [TARGET] \\nSYSTEM: Stanton\\nRISK ASSESSMENT: Medium\\nLAST KNOWN LOCATION:  [LOCATION]\\nKNOWN AFFILIATIONS: <None>\\nNOTES: We have tracked this bounty target to the <EM4>Engineering wing</EM4> of an abandoned Associated Science and Development research facility. While shuttered, various scavengers and other unsavory types are known to frequent the area.\\n\\nThe facility itself might also pose a risk as the nature of the research being conducted there is unknown. Be on the lookout for potential environmental hazards while in pursuit of the target.\\n\\nBOUNTY HUNTERS GUILD\\nIn Pursuit of Justice\\n\\nThe Bounty Hunters Guild is a security service sanctioned by the Mercenary Guild and authorized to operate in both the UEE and beyond in accordance with Xenotrade Authority Acts.",
@@ -2417,10 +2417,12 @@
     "RepStanding_Barter_Rank0_Name": "New Customer",
     "RepStanding_Barter_Rank1_Name": "Very Good Customer",
     "RepStanding_Barter_Rank2_Name": "Very Best Customer",
-    "RepScope_Maintenance_Rank0": "Apprentice",
-    "RepScope_Maintenance_Rank2": "Jr. Mechanic",
-    "RepScope_Technician_Rank3": "Technician",
-    "RepScope_Maintenance_Rank4": "Sr. Mechanic",
+    "mg_battaglia_RepScope_Rank0": "Prospective Associate",
+    "mg_battaglia_RepScope_Rank1": "Associate",
+    "mg_battaglia_RepScope_Rank2": "Trusted Associate",
+    "mg_battaglia_RepScope_Rank3": "Prestige 1",
+    "mg_battaglia_RepScope_Rank4": "Prestige 2",
+    "mg_battaglia_RepScope_Rank5": "Prestige 3",
     "Aciedo_RepUI_Name": "Aciedo Communications",
     "ArcCorp_RepUI_Name": "ArcCorp",
     "mg_battaglia_contractor": "Recco Battaglia",
@@ -2501,7 +2503,6 @@
     "FreightElevator_4SCU": "4 SCU",
     "FreightElevator_1SCU": "1 SCU",
     "destoryitems_item_05": "Power Generators",
-    "mg_battaglia_RepScope_Rank5": "Prestige 3",
     "destroyItems_BombingRunItem": "Fuel Tanks",
     "Covalex_SignOff_001": "Thanks in advance for ensuring prompt service,",
     "mg_miles_mission_app_0001": "ME-01",
@@ -2534,7 +2535,7 @@
     "mineabletype_primary_torite": "Torite",
     "mineabletype_primary_ice": "Ice",
     "scanentities_multi3": "~mission(AmountToScan) of ~mission(ResourceType), ~mission(AmountToScan2) of~mission(ResourceType2) and ~mission(AmountToScan3) of ~mission(ResourceType3)",
-    "Battaglia_RPT_Rarity_Uncommon_desc": "These are not very common resources, so they might take awhile to find.",
+    "Battaglia_RPT_Rarity_Uncommon_desc": "These might be a little tricky to find, just a head's up.",
     "HaulCargo_3_MultiToSingleToken": "- Freight elevator at <EM4>~mission(Location|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location2|Address)</EM4>",
     "hurston_danger_006": "Moderate-Risk Target (Small Multicrew Craft, Average Support)",
     "RepairOxygenKiosk_Route1": "Route 1",
@@ -2558,6 +2559,7 @@
     "Industrial_Hint_Discover_Planetary": "These ores can be mined on the surface of the planet or moon that we require the ore to be delivered to.",
     "mineabletype_primary_aluminium": "Aluminium",
     "mineabletype_primary_iron": "Iron",
+    "Battaglia_RPT_Rarity_common_desc": "These should be pretty easy to find.",
     "area_name_entrance": "Entrance",
     "DataDownload_obj_marker_01a": "Server",
     "HaulCargo_CargoScale_ExtraSmall": "Extra Small",
@@ -3067,7 +3069,7 @@
     "EckhartSecurity_RecoverCargo_VeryHard_Title": "Critical Cargo Extraction",
     "EckhartSecurity_RecoverCargo_VeryHard_Description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Recover Cargo\\nApproval code: = ~mission(ApprovalCode)\\n\\nFOR IMMEDIATE PROCESSING\\n\\nCalling for a skilled contractor to recover a displaced shipment located at <EM4>~mission(Location|Address)</EM4>. Client's hauler was transporting some high value cargo when they decided to respond to a distress beacon and got ambushed by a group of outlaws. The client believes their pilot is gone but their cargo could still be recovered.\\n\\nThe information we have so far is that you'll need a ship that can carry <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4>, a <EM4>heavy-duty tractor beam</EM4> for shifting the goods, as well as your support ships to help deal with the outlaws at the location. \\n\\nClient will be expecting the completed delivery to be made to the freight elevator at <EM4>~mission(Destination|Address)</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "UWC_Refueling_high_title_001": "CRITICAL REFUEL REQUEST: ~mission(Ship)",
-    "UWC_Refueling_high_desc_001": "Hi,\\n\\nAnother day another beacon. There's a <EM4>~mission(Ship)</EM4> with an empty <EM4>~mission(FuelType)</EM4> tank at <EM4>~mission(Location|Address)</EM4>.  The client vessel will pay you at the rate of ~mission(RefuelRequest), and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nI can't lie: it's a nasty place to get stuck and a worse place to get caught by surprise. We've lost good people out there - even the ones who got lucky made it home with pieces missing.\\n\\nIf you decide to take the job, do me a favor and keep everything peeled. If you've got a buddy with time to spare, maybe reach out for a little back-up.\\n\\nMaybe I'm being paranoid, but that doesn't mean they're not out to get you, as Momma Deloit used to say. \\n\\nActually she never said that - but I'm pretty sure she would if she did this for a living.\\n\\nJust do the job and get home safe, okay?\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
+    "UWC_Refueling_high_desc_001": "Hi,\\n\\nAnother day another beacon. There's a <EM4>~mission(Ship)</EM4> looking to be topped up with ~mission(FuelType) at <EM4>~mission(Location|Address)</EM4>.  The client vessel will pay you at the rate of ~mission(RefuelRequest), and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nI can't lie: it's a nasty place to get stuck and a worse place to get caught by surprise. We've lost good people out there - even the ones who got lucky made it home with pieces missing.\\n\\nIf you decide to take the job, do me a favor and keep everything peeled. If you've got a buddy with time to spare, maybe reach out for a little back-up.\\n\\nMaybe I'm being paranoid, but that doesn't mean they're not out to get you, as Momma Deloit used to say. \\n\\nActually she never said that - but I'm pretty sure she would if she did this for a living.\\n\\nJust do the job and get home safe, okay?\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "CFP_RecoverCargo_Hard_Title": "Crucial Supplies Need Retrieving",
     "CFP_RecoverCargo_Hard_Description": "We were in the process of delivering an urgent shipment to the folks over at <EM4>~mission(Destination|Address)</EM4> when our pilot ran into a group of outlaws. They tried to run, but it was already too late.\\n\\nThere is silver lining though. The trackers are showing the cargo is still intact, located at <EM4>~mission(Location|Address)</EM4>. There's a good chance the outlaws are guarding it while they locate a ship big enough to transport everything. While I don't want to risk losing another pilot, the need of the cargo aboard is desperate enough that it justifies the decision to send someone to recover it.\\n\\nThis won't be easy, these outlaws showed our pilot no mercy. You'll need to take them out first before getting the cargo back. Bring a ship that can store <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4> and a <EM4>heavy-duty tractor beam</EM4> for the moving. Deliver it to the freight elevator at <EM4>~mission(Destination)</EM4>  and let's make this right.\\n\\nFly safe,\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "Highpoint_KillAnimals_MultiType_M_title": "Cull Invasive Creatures",
@@ -3509,7 +3511,7 @@
     "Battaglia_RPT_ScanMine_Mole_title": "Mining and MOLE",
     "Battaglia_RPT_ScanMine_Mole_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Mining and MOLE\\n\\nWORK BRIEF: \\nAnother special job for you with an extra special payout. Like the previous jobs, I need you to find and extract <EM4> ~mission(Resources) ~mission(MineableType)</EM4>s and relay your stats back to us. ~mission(Rarity) \\n\\nI can't even tell you how helpful your work has been in the past so I've arranged an extra special payout for this one. ~mission(Rarity)\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nYou'll receive a custom ARGO MOLE as payment for all your help.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Battaglia_RPT_ScanMine_01_title": "Minor Mining Job",
-    "Battaglia_RPT_ScanMine_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Minor Mining Job\\n\\nWORK BRIEF: \\nIf you’ve got time, I’ve got a pretty basic mining job for you. I'm building a database of mineral types and their locations but I need some raw data, so I need someone to locate <EM4>~mission(Resources)</EM4> <EM4>~mission(MineableType)</EM4>s. You can keep what you find, I'll pull the data I need. ~mission(Rarity)\\n\\nAlso, if you're stuck on where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_ScanMine_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Minor Mining Job\\n\\nWORK BRIEF: \\nIf you’ve got time, I’ve got a pretty basic mining job for you. I'm building a database of mineral types and their locations but I need some raw data, so I need someone to locate <EM4>~mission(Resources) ~mission(MineableType)</EM4>s. You can keep what you find, I'll pull the data I need. ~mission(Rarity)\\n\\nAlso, if you're stuck on where to look or new to mining, <EM4>the United Resource Workers wrote a helpful journal that you should check out. It's in your mobi.</EM4>\\n\\nThanks.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "cfp_maintenance_E_title_001": "Minor Repairs Needed: ~mission(Location)",
     "cfp_maintenance_E_desc_001": "Hi,\\n\\nOne of our outposts at <EM4>~mission(Location|Address)</EM4> is in need of some light repairs. The folks onsite have estimated that you’ll need <EM4>three fuses</EM4>, a <EM4>salvaging tool</EM4>, and <EM4>enough RMC canisters to fix up to three or so pipes.</EM4>\\n\\nIf you need more information on maintenance work, see <EM4>“Cornerstone Developments' Guide to Maintenance”</EM4> entry in your mobiGlas Journal.\\n\\nThanks again for your help,\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "cfp_maintenance_local_E_title_001": "Minor Repairs Needed: ~mission(Location)",
@@ -3873,7 +3875,7 @@
     "Highpoint_KillAnimals_rockcracker_title_E_001": "Reduce Valakkar Breaker Station Population",
     "Highpoint_KillAnimals_rockcracker_desc_E_001": "If you have any work that's going to be bringing you to one of those old QV Breaker Stations in the Keeger Belt, we have something else that we could use your help on while you're there.\\n \\nWe've recently been contacted by the People's Alliance to assist with an initiative to help prepare these abandoned stations for repairs. Unfortunately, a Valakkar infestation is creating serious problems for not only the stations' infrastructure, but also for the chances of them being brought back online one day. Due to Valakkar's status as an invasive species, we have decided that culling them is the only viable option.\\n \\nReduce the Valakkar numbers at any of the old QV Breaker Stations and we will offer you payment.\\n \\nBest,\\n \\nWanda Werkheiser\\n\\nContract Manager\\n\\nHighpoint Wilderness Specialists",
     "UWC_Refueling_easy_title_001": "REFUEL REQUEST: ~mission(Ship)",
-    "UWC_Refueling_easy_desc_001": "Hey there,\\n\\nIf you're fitted for refueling, you might like this one. \\n\\nA beacon has just gone live at <EM4>~mission(Location|Address)</EM4>, from a client whose <EM4>~mission(Ship)</EM4> has run out of <EM4>~mission(FuelType)</EM4>, so make sure your pods are topped off.\\n\\nThe client vessel will pay you at the rate of ~mission(RefuelRequest), and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nLooks like a zero-drama one and done, but it never hurts to keep your scanners live.\\nLet me know if you're interested and let's get these good people on their way.\\n\\nWaiting to hear from you,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
+    "UWC_Refueling_easy_desc_001": "Hey there,\\n\\nIf you're fitted for refueling, you might like this one. \\n\\nA beacon has just gone live at <EM4>~mission(Location|Address)</EM4>, from a client whose <EM4>~mission(Ship)</EM4> is in need of ~mission(FuelType), so make sure your pods are topped off.\\n\\nThe client vessel will pay you at the rate of ~mission(RefuelRequest), and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nLooks like a zero-drama one and done, but it never hurts to keep your scanners live.\\nLet me know if you're interested and let's get these good people on their way.\\n\\nWaiting to hear from you,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "CFP_ShipWaveAttack_ClearHostiles_Title_M_001": "Remove Upstart Gang From Sector",
     "CFP_ShipWaveAttack_ClearHostiles_Desc_M_001": "It feels that whenever we start to make real progress in the system, the outlaws are there to push one step back. We had recently cleared out ~mission(Location|Address) only to learn that a new outlaw gang has taken root there, using it as a launching point for various criminal enterprises. \\n\\nSince we can't afford to let this rot spread, you and a few support ships are being charged with heading there to clear out all the gang's packs. After you deal with one pack, be sure to wait until all of the hostile packs have been dealt with.\\n\\nKnow that you are helping to make a real difference,\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "EckhartSecurity_Defend_H_Title_001": "Repel Raiders",
@@ -4178,14 +4180,14 @@
     "TheCollector_Ships_Intrepid_Desc": "If you are looking for Intrepid ship that more intrepid. Wikelo can help. Bring things and you will get special touches on ship by Wikelo and pretty new coat to it. Bye.",
     "Foxwell_X2_ShipDefend_Title": "Urgent - Ship Under XenoThreat Attack",
     "Foxwell_X2_ShipDefend_Desc": "A distress beacon came in from <EM4>~mission(Location|Address)</EM4> about a ship under attack from XenoThreat. The pilot reports that their shields are failing and they can't outrun the attackers.\\n\\nThe ship's a <EM4>~mission(Ship)</EM4>, but the pilot's Human, which  according to XenoThreat's twisted way of thinking, makes them a traitor to Humanity and a target for their hate.\\n\\nWe're looking for operators to head out there and do some good.\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
-    "UWC_Refueling_multiple_med_title_001": "URGENT FLEET REFUEL",
-    "UWC_Refueling_multiple_med_desc_001": "Hey again,\\n\\nI've got a beacon at <EM4>~mission(Location|Address)</EM4> and this one's a big one. An entire little fleet of ships all burned out of <EM4>~mission(FuelType)</EM4> at the same time. Impressive coordination and lack of planning at the same time. \\n\\n\\nThe client will pay you at the rate of ~mission(RefuelRequest), and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nHopefully since the area they're in is pretty safe, there shouldn't be too much trouble lurking, but these days you never know. Wouldn't hurt to get them back flying again as quick as you're able.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
+    "UWC_Refueling_multiple_med_title_001": "URGENT CONVOY REFUEL",
+    "UWC_Refueling_multiple_med_desc_001": "Hey again,\\n\\nI've got a beacon at <EM4>~mission(Location|Address)</EM4> and this one's a bit more complicated than usual. Got small convoy of ships requesting ~mission(FuelType). Impressive coordination and lack of planning to all need refueling at the same time. \\n\\nThe client will pay you at the rate of ~mission(RefuelRequest), and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nHopefully since the area they're in is pretty safe, there shouldn't be too much trouble lurking, but these days you never know. Wouldn't hurt to get them back flying again as quick as you're able.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "UWC_Refueling_moderate_title_001": "URGENT REFUEL REQUEST: ~mission(Ship)",
-    "UWC_Refueling_moderate_desc_001": "Hey, you!\\n\\nI've got a beacon at <EM4>~mission(Location|Address)</EM4>. They say their </EM4>~mission(FuelType)</EM4> tanks are dry and they're calling for a full refill. If you're interested, I get the feeling they'll be really pleased to see you.\\n\\nThe client vessel will pay you at the rate of ~mission(RefuelRequest), and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nThey're stuck out in an area with a bad reputation, though things have been a bit more quiet recently. Still worth staying alert I'd say, just in case there's still trouble lurking out there. \\n\\nEither way, the sooner everyone's able to get flying again - and that includes you - the better.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
+    "UWC_Refueling_moderate_desc_001": "Hey, you!\\n\\nI've got a beacon at <EM4>~mission(Location|Address)</EM4>. They say their tanks are running dry and they could use ~mission(FuelType). If you're interested, I get the feeling they'll be really pleased to see you.\\n\\nThe client vessel will pay you at the rate of ~mission(RefuelRequest), and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nThey're stuck out in an area with a bad reputation, though things have been a bit more quiet recently. Still worth staying alert I'd say, just in case there's still trouble lurking out there. \\n\\nEither way, the sooner everyone's able to get flying again - and that includes you - the better.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "northrock_boarders_890J_title_001": "URGENT: Boarding Action In Progress",
     "northrock_boarders_890J_desc_001": "An executive client just informed us that their 890 Jump had been intercepted at ~mission(Location) and boarded by outlaws. They would prefer to have this handled privately owing to the sensitive nature of proprietary data that's being stored aboard. \\n\\nYour first priority will be to clear all outlaws as quickly as possible so that a recovery team can be dispatched to return the ship to the owner. The longer the outlaws have control of the vessel, the higher the chance it will be lost. I recommend you acquire a team for this outing to expedite matters. \\n\\nNote that thanks to a small contingent of Security Personnel who stayed aboard, all surviving members of the crew were able to flee in an escape craft. The current status of the remaining security is unknown, but just in case, keep an eye out for friendlies when you engage the hostiles.\\n\\nSecondly, if at all possible, the client is *very* interested in preventing the theft of the aforementioned data. If you are able to stop the theft of their confidential data stores before they are transmitted, a generous bonus will be issued.\\n\\nNeedless to say, this is a client I would very much like to keep happy. \\n\\nBraden Corchado\\nLogistics Officer - Stanton Branch\\nNorthrock Service Group",
     "UWC_Refueling_intro_title_001": "UWC'S HIRING REFUELERS",
-    "UWC_Refueling_intro_desc_001": "Hey!\\n\\nDD from the United Wayfarers Club here.\\n\\nThe UWC offers repair, rearming and refuelling services across the UEE. It just so happens that we're on the look-out for new affiliates whose ships are fitted for refuelling. If you've got the fuel pods and like it when people are pleased to see you, the UWC might be the club for you.\\n\\nAnd if you think it might be, I've got a live beacon you might like.\\n\\nIf you do happen to like it, a word to the wise: <EM4>make sure your fuel pods are full before you head out</EM4>.\\n\\nA Club member has run out of ~misssion(FuelType) at <EM4>~mission(Location|Address)</EM4>. I'm not sure on the details, like how they ended up out there with no Go Juice, but the UWC doesn't like to leave folk hanging.\\n\\nThe client vessel will pay you at the rate of ~mission(RefuelRequest). As a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nIt's a straightforward run. Perfect if you want to get a feel for this kind of job. Get out there, fill up the tanks of their <EM4>~mission(Ship)</EM4> and get them on their way. Do enough runs like this, and the process becomes muscle memory. Until then, there's a <EM4>journal entry</EM4> on your mobiGlas called \"Refueling Protocols\" that covers the basics.\\n\\nThere have been no reports of outlaw activity in that sector, but stay alert. I always recommend you aim for a fast turnaround. The sooner you're done, the sooner I can fix you up with another contract. UWC's always looking for new affiliates. \\n\\nLooking forward to working with you.\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
+    "UWC_Refueling_intro_desc_001": "Hey!\\n\\nDD from the United Wayfarers Club here.\\n\\nThe UWC offers repair, rearming and refueling services across the UEE. It just so happens that we're on the look-out for new affiliates whose ships are fitted for refueling. If you've got the fuel pods and like it when people are pleased to see you, the UWC might be the club for you.\\n\\nAnd if you think it might be, I've got a live beacon you might like.\\n\\nIf you do happen to like it, a word to the wise: <EM4>make sure your fuel pods are full before you head out</EM4>.\\n\\nA Club member has run out of ~misssion(FuelType) at <EM4>~mission(Location|Address)</EM4>. I'm not sure on the details, like how they ended up out there with no Go Juice, but the UWC doesn't like to leave folk hanging.\\n\\nThe client vessel will pay you at the rate of ~mission(RefuelRequest). As a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nIt's a straightforward run. Perfect if you want to get a feel for this kind of job. Get out there, fill up the tanks of their <EM4>~mission(Ship)</EM4> and get them on their way. Do enough runs like this, and the process becomes muscle memory. Until then, there's a <EM4>journal entry</EM4> on your mobiGlas called \"Refueling Protocols\" that covers the basics.\\n\\nThere have been no reports of outlaw activity in that sector, but stay alert. I always recommend you aim for a fast turnaround. The sooner you're done, the sooner I can fix you up with another contract. UWC's always looking for new affiliates. \\n\\nLooking forward to working with you.\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "Kaboos_Intro_Title": "Vanduul-Tech Smugglers",
     "Kaboos_Intro_Description": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Unknown\\nEquipment Specs: Combat-rated Ship, Personal Arms\\nBriefing: InterSec has been enlisted by the UEE to gather intel on a group of <EM4>black marketeers dealing in Vanduul parts</EM4>, that have been linked to the illegal Vanduul experiments happening at ASD’s Onyx Facility. The UEE is eager to understand and put an end to their operations.\\n\\nBased on evidence extracted from the ASD facilities, we’ve potentially managed to track down the location of one of their storage sites.\\n\\nOnce accepted, head over to the old <EM4>QV Planet Services Logistics station</EM4> and we’ll be in touch.\\n\\n\\nRespectfully, \\n\\nDeacon Tobin\\nOperations Manager\\nInterSec Defense Solutions\\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "bhg_bounty_title_ShatteredBlade_001": "Verified Bounty: ~mission(TargetName)",
@@ -5045,11 +5047,11 @@
     },
     "Battaglia_RPT_RecoverItem_VE_01_title": {
       "ObjectiveSetup": "@mission_item_0055",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_RecoverItem_VE_01_desc": {
       "ObjectiveSetup": "@mission_item_0055",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_RecoverItem_VH_01_title": {
       "ObjectiveSetup": "@mission_item_0055",
@@ -5061,11 +5063,11 @@
     },
     "Battaglia_RPT_RecoverItem_M_01_title": {
       "ObjectiveSetup": "@mission_item_0055",
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank3"
     },
     "Battaglia_RPT_RecoverItem_M_01_desc": {
       "ObjectiveSetup": "@mission_item_0055",
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank3"
     },
     "recovery_title": {
       "ObjectiveSetup": "@mission_item_0055",
@@ -5272,27 +5274,27 @@
       "Contractor|SearchBodySpaceDescriptionEasy": "@vaughn_searchbody_space_E_Desc_001"
     },
     "SalvageContractor_Title": {
-      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
       "Contractor|SalvageContractorTitle": "@Adagio_BasicSalvage_Title_01",
       "Contractor|SalvageContractorDesc": "@Adagio_BasicSalvage_Desc_01"
     },
     "Adagio_BasicSalvage_Title_01": {
-      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
       "Contractor|SalvageContractorTitle": "@Adagio_BasicSalvage_Title_01",
       "Contractor|SalvageContractorDesc": "@Adagio_BasicSalvage_Desc_01"
     },
     "SalvageContractor_Description": {
-      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
       "Contractor|SalvageContractorTitle": "@Adagio_BasicSalvage_Title_01",
       "Contractor|SalvageContractorDesc": "@Adagio_BasicSalvage_Desc_01"
     },
     "Adagio_BasicSalvage_Desc_01": {
-      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
       "Contractor|SalvageContractorTitle": "@Adagio_BasicSalvage_Title_01",
       "Contractor|SalvageContractorDesc": "@Adagio_BasicSalvage_Desc_01"
     },
     "SalvageContractor_Difficulty_Hard": {
-      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
       "Contractor|SalvageContractorTitle": "@Adagio_BasicSalvage_Title_01"
     },
     "DeadSaints_RecoverCargo_Easy_Title": {
@@ -5585,11 +5587,11 @@
     },
     "Battaglia_RPT_MissCrew_01_title": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_MissCrew_01_desc": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "EckhartSecurity_RecoverCargo_VeryHard_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank4"
@@ -5922,7 +5924,7 @@
       "MineableType2": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_mulit2",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_ScanMine_05_desc": {
       "ResourceType": "@mineabletype_primary_lindinium",
@@ -5931,7 +5933,7 @@
       "MineableType2": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_mulit2",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Headhunters_DefendLocation_VE_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
@@ -6095,7 +6097,8 @@
       "ResourceType2": "@mineabletype_primary_lindinium",
       "MineableType2": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_mulit2",
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank3"
     },
     "Battaglia_RPT_ScanMine_Golem_desc": {
       "ResourceType": "@mineabletype_primary_savrillium",
@@ -6103,7 +6106,8 @@
       "ResourceType2": "@mineabletype_primary_lindinium",
       "MineableType2": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_mulit2",
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank3"
     },
     "EckhartSecurity_RecoverCargo_Super_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank5"
@@ -6175,7 +6179,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_Scan_04_desc": {
       "ResourceType": "@mineabletype_primary_torite",
@@ -6186,7 +6190,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "RAIN_CollectResources_storm_title_003": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -6415,7 +6419,7 @@
       "MineableType2": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_mulit2",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_Scan_06_desc": {
       "ResourceType": "@mineabletype_primary_savrillium",
@@ -6424,7 +6428,7 @@
       "MineableType2": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_mulit2",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "EckhartSecurity_RecoverCargo_Hard_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
@@ -6687,24 +6691,24 @@
     "Battaglia_RPT_Scan_05_title": {
       "ResourceType": "@mineabletype_primary_lindinium",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ResourceType2": "@mineabletype_primary_bexalite",
+      "ResourceType2": "@mineabletype_primary_torite",
       "MineableType2": "@mineabletype_type_shipasteroid",
       "ResourceType3": "@mineabletype_primary_bexalite",
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_Scan_05_desc": {
       "ResourceType": "@mineabletype_primary_lindinium",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ResourceType2": "@mineabletype_primary_bexalite",
+      "ResourceType2": "@mineabletype_primary_torite",
       "MineableType2": "@mineabletype_type_shipasteroid",
       "ResourceType3": "@mineabletype_primary_bexalite",
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "headhunters_maintenance_local_M_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
@@ -7218,25 +7222,25 @@
       "ReputationRank": "@mg_battaglia_RepScope_Rank5"
     },
     "Battaglia_RPT_ScanMine_Mole_title": {
-      "ResourceType": "@mineabletype_primary_torite",
+      "ResourceType": "@mineabletype_primary_savrillium",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ResourceType2": "@mineabletype_primary_ice",
+      "ResourceType2": "@mineabletype_primary_lindinium",
       "MineableType2": "@mineabletype_type_shipasteroid",
-      "ResourceType3": "@mineabletype_primary_aluminium",
+      "ResourceType3": "@mineabletype_primary_bexalite",
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
-      "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
       "ReputationRank": "@mg_battaglia_RepScope_Rank5"
     },
     "Battaglia_RPT_ScanMine_Mole_desc": {
-      "ResourceType": "@mineabletype_primary_torite",
+      "ResourceType": "@mineabletype_primary_savrillium",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ResourceType2": "@mineabletype_primary_ice",
+      "ResourceType2": "@mineabletype_primary_lindinium",
       "MineableType2": "@mineabletype_type_shipasteroid",
-      "ResourceType3": "@mineabletype_primary_aluminium",
+      "ResourceType3": "@mineabletype_primary_bexalite",
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
-      "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
       "ReputationRank": "@mg_battaglia_RepScope_Rank5"
     },
     "Battaglia_RPT_ScanMine_01_title": {
@@ -7244,14 +7248,16 @@
       "MineableType": "@mineabletype_type_shipasteroid",
       "ResourceType2": "@mineabletype_primary_iron",
       "MineableType2": "@mineabletype_type_shipasteroid",
-      "Resources": "@scanentities_mulit2"
+      "Resources": "@scanentities_mulit2",
+      "Rarity": "@Battaglia_RPT_Rarity_common_desc"
     },
     "Battaglia_RPT_ScanMine_01_desc": {
       "ResourceType": "@mineabletype_primary_aluminium",
       "MineableType": "@mineabletype_type_shipasteroid",
       "ResourceType2": "@mineabletype_primary_iron",
       "MineableType2": "@mineabletype_type_shipasteroid",
-      "Resources": "@scanentities_mulit2"
+      "Resources": "@scanentities_mulit2",
+      "Rarity": "@Battaglia_RPT_Rarity_common_desc"
     },
     "cfp_maintenance_E_title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -7267,19 +7273,19 @@
     },
     "Battaglia_RPT_MissCrew_02_title": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_MissCrew_02_desc": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_MissCrew_03_title": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_MissCrew_03_desc": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Shubin_Industrial_ShipMining_Stanton_S_Secondary_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank5"
@@ -7318,18 +7324,18 @@
     "Battaglia_RPT_DataDownload_01_title": {
       "GuideMarker": "@area_name_entrance",
       "HotColdObject": "@DataDownload_obj_marker_01a",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_DataDownload_01_desc": {
       "GuideMarker": "@area_name_entrance",
       "HotColdObject": "@DataDownload_obj_marker_01a",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_CreateUplink_01_title": {
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_CreateUplink_01_desc": {
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "vaughn_searchbody_space_M_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2",
@@ -7391,7 +7397,8 @@
       "ResourceType3": "@mineabletype_primary_ice",
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "Rarity": "@Battaglia_RPT_Rarity_common_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank0"
     },
     "Battaglia_RPT_ScanMine_02_desc": {
       "ResourceType": "@mineabletype_primary_aluminium",
@@ -7401,7 +7408,8 @@
       "ResourceType3": "@mineabletype_primary_ice",
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "Rarity": "@Battaglia_RPT_Rarity_common_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank0"
     },
     "headhunters_EliminateSpecific_Generic_M_title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -7688,7 +7696,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_Scan_03_desc": {
       "ResourceType": "@mineabletype_primary_torite",
@@ -7699,7 +7707,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_ScanMine_04_title": {
       "ResourceType": "@mineabletype_primary_torite",
@@ -7710,7 +7718,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_ScanMine_04_desc": {
       "ResourceType": "@mineabletype_primary_torite",
@@ -7721,21 +7729,23 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_Scan_01_title": {
       "ResourceType": "@mineabletype_primary_aluminium",
       "MineableType": "@mineabletype_type_shipasteroid",
       "ResourceType2": "@mineabletype_primary_iron",
       "MineableType2": "@mineabletype_type_shipasteroid",
-      "Resources": "@scanentities_mulit2"
+      "Resources": "@scanentities_mulit2",
+      "Rarity": "@Battaglia_RPT_Rarity_common_desc"
     },
     "Battaglia_RPT_Scan_01_desc": {
       "ResourceType": "@mineabletype_primary_aluminium",
       "MineableType": "@mineabletype_type_shipasteroid",
       "ResourceType2": "@mineabletype_primary_iron",
       "MineableType2": "@mineabletype_type_shipasteroid",
-      "Resources": "@scanentities_mulit2"
+      "Resources": "@scanentities_mulit2",
+      "Rarity": "@Battaglia_RPT_Rarity_common_desc"
     },
     "Battaglia_RPT_Scan_02_title": {
       "ResourceType": "@mineabletype_primary_aluminium",
@@ -7745,7 +7755,8 @@
       "ResourceType3": "@mineabletype_primary_ice",
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "Rarity": "@Battaglia_RPT_Rarity_common_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank0"
     },
     "Battaglia_RPT_Scan_02_desc": {
       "ResourceType": "@mineabletype_primary_aluminium",
@@ -7755,7 +7766,8 @@
       "ResourceType3": "@mineabletype_primary_ice",
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "Rarity": "@Battaglia_RPT_Rarity_common_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank0"
     },
     "ORS_MedicalAid_HaulingLarge_title": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
@@ -8562,16 +8574,16 @@
       "ReputationRank": "@mg_battaglia_RepScope_Rank5"
     },
     "Battaglia_RPT_Salvage_M_01_title": {
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank3"
     },
     "Battaglia_RPT_Salvage_M_01_desc": {
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank3"
     },
     "Battaglia_RPT_Salvage_E_01_title": {
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_Salvage_E_01_desc": {
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Adagio_Industrial_Component_Salvage_Levski_H_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -8678,7 +8690,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_ScanMine_03_desc": {
       "ResourceType": "@mineabletype_primary_torite",
@@ -8689,27 +8701,29 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_ScanMine_Prosp_title": {
-      "ResourceType": "@mineabletype_primary_aluminium",
+      "ResourceType": "@mineabletype_primary_savrillium",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ResourceType2": "@mineabletype_primary_iron",
+      "ResourceType2": "@mineabletype_primary_lindinium",
       "MineableType2": "@mineabletype_type_shipasteroid",
-      "ResourceType3": "@mineabletype_primary_ice",
+      "ResourceType3": "@mineabletype_primary_bexalite",
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
-      "ReputationRank": "@RepScope_Maintenance_Rank4"
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank4"
     },
     "Battaglia_RPT_ScanMine_Prosp_desc": {
-      "ResourceType": "@mineabletype_primary_aluminium",
+      "ResourceType": "@mineabletype_primary_savrillium",
       "MineableType": "@mineabletype_type_shipasteroid",
-      "ResourceType2": "@mineabletype_primary_iron",
+      "ResourceType2": "@mineabletype_primary_lindinium",
       "MineableType2": "@mineabletype_type_shipasteroid",
-      "ResourceType3": "@mineabletype_primary_ice",
+      "ResourceType3": "@mineabletype_primary_bexalite",
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
-      "ReputationRank": "@RepScope_Maintenance_Rank4"
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank4"
     },
     "Headhunters_SecurityPatrol_E_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
@@ -8810,10 +8824,10 @@
       "ReputationRank": "@RepScope_Contractor_Rank5"
     },
     "Battaglia_RPT_BoardShip_01_title": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank0"
     },
     "Battaglia_RPT_BoardShip_01_desc": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank0"
     },
     "cfp_defendship_MRT_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
