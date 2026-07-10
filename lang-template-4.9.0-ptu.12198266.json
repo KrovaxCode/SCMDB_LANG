@@ -1,9 +1,7 @@
 {
-  "version": "4.9.0-ptu.12180844",
-  "keyCount": 2722,
+  "version": "4.9.0-ptu.12198266",
+  "keyCount": 2724,
   "keys": {
-    "Battaglia_RPT_ScanMine_Golem_title": "@Battaglia_RPT_ScanMine_Golem_title",
-    "Battaglia_RPT_ScanMine_Prosp_title": "@Battaglia_RPT_ScanMine_Prosp_title",
     "Headhunters_Delivery_Outpost_title_001": "[DESTINATION] Errand",
     "roughready_delivery_station_title_001": "[DESTINATION] Stroll",
     "headhunters_eliminateall_cfp_M_title_001": "[LOCATION] has been greenlit",
@@ -263,6 +261,7 @@
     "Eckhart_EscortShips_M_title": "Experienced Protection Detail Needed",
     "cfp_maintenance_H_title_001": "Extensive Repairs Needed: Yang's Place",
     "Covalex_RecoverCargo_VeryEasy_Title": "Extra Small Covalex Shipment Needs Recovering",
+    "Battaglia_RPT_Scan_Golem_title": "Extra Special Job",
     "TheCollector_Recipes_Title_L22Wolf": "Extra Special Wolf",
     "EckhartSecurity_RecoverCargo_Super_Title": "Extreme Risk Cargo Retrieval",
     "eckhart_defendship_multi_SRT_title_001": "Extremely Dangerous Defense",
@@ -634,6 +633,7 @@
     "Adagio_Industrial_Salvage_Universal_E_Title_001": "Salvager Needed (Small Supply of RMC)",
     "eckhart_defendship_VLRT_title_001": "Save Ship",
     "Battaglia_RPT_ScanMine_03_title": "Scan And Mining Needed",
+    "Battaglia_RPT_Scan_Prosp_title": "Scan with a Prospector Payout",
     "Headhunters_SecurityPatrol_E_Title_001": "Scout and Scan",
     "HeadHunters_DefendEntitesAndEscort_M_Title": "Secure [LOCATION] from Upstarts",
     "Headhunters_DefendDestructibleEntites_M_Title_001": "Secure Fuel Tanks From Rivals",
@@ -814,8 +814,6 @@
     "TheCollector_Ships_ZeusES_TItle": "Zeus Special",
     "Covalex_HaulCargo_AToB_Rehire_title": "Covalex Cargo Hauling Re-evaluation",
     "Covalex_HaulCargo_MultiToSingle_title": "Senior Rank - Large Cargo Haul",
-    "Battaglia_RPT_ScanMine_Golem_desc": "@Battaglia_RPT_ScanMine_Golem_desc",
-    "Battaglia_RPT_ScanMine_Prosp_desc": "@Battaglia_RPT_ScanMine_Prosp_desc",
     "Headhunters_Delivery_Outpost_desc_001": "Got a box sitting at <EM4>[LOCATION]</EM4> that needs to make its way over to <EM4>[DESTINATION]</EM4>. Any chance you can knock this out real quick?\\n\\nMight be the easiest gig I’ve ever assigned out. Only real threat would be tripping over your own feet. A <EM4>handheld tractor beam</EM4> would also be smart to bring along. \\n\\nStows out.",
     "roughready_delivery_station_desc_001": "Any chance you’re at [DESTINATION]?\\n\\nNeed a box hustled from <EM4>[LOCATION]</EM4> to <EM4>[DESTINATION]</EM4>. Get it there on time and unbroken and it’ll be the easiest creds you’ll ever earn.   \\n\\n-Smokey",
     "headhunters_eliminateall_cfp_M_desc_001": "Word came down from the Judge that we're to hit [LOCATION]. It's owned by CFP and security there have been less than hospitable to some of the locals, so they gotta go.\\n\\nThey may talk a big game about bringing security, but they got guns and are more than happy to use 'em.\\n\\nStows out.",
@@ -1080,6 +1078,7 @@
     "Eckhart_EscortShips_M_desc": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Escort Ship\\nApproval code: = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nOne of my clients needs an immediate escort through dangerous space. Rendezvous at <EM4>[LOCATION]</EM4> and they’ll meet you after they launch. Reports indicate increased outlaw activity in the area, so don’t let your guard down.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "cfp_maintenance_H_desc_001": "We need some help. The CFP facility at <EM4>[LOCATION]</EM4> suffered severe damage during a recent electrical storm and we're looking for anyone who can help with repairs.\\n\\nSurveying the site, you'll have to bring <EM4>six fuses</EM4>, a <EM4>salvaging tool</EM4>, and <EM4>enough RMC canisters to take care of eight or so pipes</EM4>. That should be enough to repair the damage and get the outpost back in operation.\\n\\nIf you need more information on maintenance work, see <EM4>“Cornerstone Developments' Guide to Maintenance”</EM4> entry in your mobiGlas Journal.\\n\\nDo you think you can help?\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "Covalex_RecoverCargo_VeryEasy_Description": "Hi,\\n\\nSo I had a contractor who was supposed to deliver some stuff for us but has completely gone off the radar. I've pinged their ship and I've got no idea what's happened but they're floating around somewhere over at <EM4>[LOCATION]</EM4>. If you could head over there recover the cargo and take it to the freight elevator at <EM4>[DESTINATION]</EM4> you'd be doing me a huge favor.\\n\\nDon't forget to bring a <EM4>heavy-duty tractor beam</EM4> to move all the cargo. Oh and a ship that can transport <EM4>[MAX_SCU] cargo containers</EM4>.\\n\\nThanks in advance for ensuring prompt service,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.' \\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
+    "Battaglia_RPT_Scan_Golem_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Extra Special Job\\n\\nWORK BRIEF: \\nYou've been doing some excellent work for us lately and wanted to offer a special job with a special reward. I'm looking for some more data, so I need someone <EM4>to scan [RESOURCES]</EM4> and send me what you find. [RARITY]\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nPolished up a special Drake Golem from Teach's for this one.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "TheCollector_Recipes_Desc_L22Wolf": "Wikelo very excited. Have idea for new material. But making it is most tricky. Very complicated. Need help fabricating a test sample. I give you blueprint, you make, bring to me, and I will trade. Give you extra special L-22 Wolf. Very powerful, very wolf.",
     "EckhartSecurity_RecoverCargo_Super_Description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Recover Cargo\\nApproval code: = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nPutting out an immediate call for a highly skilled contractor to reclaim a client's cargo located at <EM4>[LOCATION]</EM4>.\\n\\nClient hired an expert hauler to transport something discreetly, but it seems some information regarding the shipment was either hacked or leaked. The pilot was attacked and now the shipment is stranded. We need you and any support ships you bring to make it to the site before the cargo is lost for good. \\n\\nYou will need a <EM4>heavy-duty tractor beam</EM4> and a ship capable of storing <EM4>[MAX_SCU] cargo containers</EM4>.\\n\\nAfter assessing the situation and the importance the client has placed on the recovery of the cargo, we have decided to reward a high payout for the successful delivery of the shipment to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "eckhart_defendship_multi_SRT_desc_001": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Ship\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nWe have a client currently under attack at <EM4>[LOCATION]</EM4>. We have a long history with this client and know that they’re a skilled dogfighter. If they’re struggling to survive, then this situation must be dire.\\n \\nWe’re looking for a top-tier dogfighter to head out there and provide support. If you’re available, then this client could really use your help. \\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -1435,6 +1434,7 @@
     "Adagio_Industrial_Salvage_Universal_E_Desc_001": "Adagio Holdings\\nA Proud Equal Opportunity Employer\\n\\n> About the job <\\nTo help satisfy a recent small-scale order, we are seeking contractors to help source Recycled Material Composite (RMC) by  stripping abandoned ships. We recommend searching for wreckage at Lagrange points or you could purchase a salvage claim from us in your Contract Manager.\\n\\nOnce acquired, deliver the materials to the freight elevator located at <EM4>[DESTINATION]</EM4>.\\n\\nFor advice on salvaging, consult <EM4>A Salvager's Guide to Material Collection</EM4> in your mobiGlas journal.\\n\\n> Requirements <\\n     - Any class/size of salvage ship\\n\\n> Disclaimer <\\nContractors are responsible for ensuring that they are collecting materials from vehicles that are considered fair salvage under the pursuant UEE laws. Adagio Holdings is in no way liable for any crimes or misdemeanors committed by contractors and will offer no compensation or reparation for any persons affected by these actions.",
     "eckhart_defendship_VLRT_desc_001": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Ship\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nA client is reporting trouble near <EM4>[LOCATION]</EM4>. Based on their comms, it doesn’t sound like an organized, professional attack. Still, we’re paid to provide protection and it’s been requested. \\n\\nNeed a contractor to fly there and secure the situation.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "Battaglia_RPT_ScanMine_03_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Scan And Mining Needed\\n\\nWORK BRIEF: \\nI have a job here that might interest you. I need people to go out and do some basic mining in order to pull some geological data for future prospecting. Need someone to scope out and mine <EM4>[RESOURCES]</EM4> <EM4>[MINEABLETYPE]</EM4>. You'll be helping us out massively. [RARITY]\\n\\nAlso, if you're stuck or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nKeep me posted.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_Prosp_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Scan, Mine, and Prospector Payout\\n\\nWORK BRIEF: \\nStill pulling together data on mining and mineral extraction but got a special payout for this one. Once <EM4>you scan [RESOURCES]</EM4> and relay your stats back to us, I'll get you something real nice for all your help. [RARITY]\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nGot a special MISC Prospector as payment for all your help.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Headhunters_SecurityPatrol_E_Desc_001": "Headhunters have been expanding, but still need help getting a lay of our new territory. I’ve got a run to check spots we want scanned ready to go. \\n\\nThis one kicks off at the <EM4>location marker</EM4> on your HUD and will look at a few more locations after that, but I’ll update you as we clear them out. Not expecting you to run into any trouble but no guarantees. Trouble seems to follow us.\\n\\nGet this done and I'll toss the main contractor <EM4>4 Council Scrip</EM4> as a thanks.\\n\\nStows out.",
     "HeadHunters_DefendEntitesAndEscort_M_Desc": "A new gang who is proving to be a real pain in the ass for the Headhunters just upped the stakes by attacking the <EM4>[OBJECTS]</EM4> at <EM4>[LOCATION]</EM4>. Never a good thing since we got interest in the welfare of the folks there, but doubly so because if they do too much damage it might royally screw an upcoming operation.\\n\\nHead over there as soon as you're able and stop the attack before they can do any lasting damage. And if any <EM4>friendly ships</EM4> need a hand, I want you to look out for them too. Don't expect this gang to be pushovers but you should still be able to deal with them if you keep your head on.\\n \\nIf you need any extra motivation, I’m adding <EM4>3 Council Scrip</EM4> for the main contractor.\\n\\n- Stows",
     "Headhunters_DefendDestructibleEntites_M_Desc_001": "Our friends at <EM4>[LOCATION]</EM4> have been compromised. A new gang in the area  are threatening them by targeting their <EM4>[OBJECTS]</EM4>.  \\n\\nIf those get destroyed its going to be seriously bad for business, so I want you over there pronto on protection duty.  \\n \\nIf you need any extra motivation, I’m adding <EM4>4 Council Scrip</EM4> for the main contractor.\\n\\n- Stows",
@@ -2046,7 +2046,7 @@
     "_noloc_location_Inhabited_Derelict_Outlaw_Stanton4_Drlct_Stmnt_009": "Inhabited_Derelict_Outlaw_Stanton4_Drlct_Stmnt_009",
     "mission_location_stanton_733": "Picker's Field",
     "_noloc_location_Inhabited_Derelict_Outlaw_Stanton4": "Inhabited_Derelict_Outlaw_Stanton4",
-    "Nyx_MoraineBase_Name": "Moraine base",
+    "Nyx_OutlawStation_Keeger": "Moraine Base",
     "xs_outpost_001": "Remote Outpost near [LOCATION]",
     "mission_location_pyro_0002": "Windfall",
     "Stanton2a_EMShelter_003": "Ashburn Channel Aid Shelter",
@@ -2361,13 +2361,13 @@
     "vehicle_NameRSI_Scorpius": "RSI Scorpius",
     "vehicle_NameRSI_Scorpius_Antares": "RSI Scorpius Antares",
     "vehicle_NameANVL_Hornet_F7A_Mk2": "Anvil F7A Hornet Mk II",
+    "vehicle_NameESPR_Stinger": "Esperia Stinger",
     "vehicle_NameDRAK_Cutlass_Red": "Drake Cutlass Red",
     "vehicle_Nameprobe_comms_1_a": "CHCO Auris PDC Monitor",
     "vehicle_NameMisc_Fury": "Mirai Fury",
-    "vehicle_NameESPR_Stinger": "Esperia Stinger",
     "vehicle_NameANVL_Hornet_F7A": "Anvil F7A Hornet Mk I",
-    "vehicle_NameKRIG_P52_Merlin": "Kruger P-52 Merlin",
     "vehicle_NameVNCL_Stinger": "Vanduul Stinger",
+    "vehicle_NameKRIG_P52_Merlin": "Kruger P-52 Merlin",
     "vehicle_NameVNCL_Mauler": "Vanduul Mauler Destroyer",
     "vehicle_NameXNAA_SantokYai": "Aopoa San'tok.yāi",
     "vehicle_NameDRAK_Cutlass_Blue": "Drake Cutlass Blue",
@@ -2419,10 +2419,12 @@
     "RepStanding_Barter_Rank0_Name": "New Customer",
     "RepStanding_Barter_Rank1_Name": "Very Good Customer",
     "RepStanding_Barter_Rank2_Name": "Very Best Customer",
-    "RepScope_Maintenance_Rank0": "Apprentice",
-    "RepScope_Maintenance_Rank2": "Jr. Mechanic",
-    "RepScope_Technician_Rank3": "Technician",
-    "RepScope_Maintenance_Rank4": "Sr. Mechanic",
+    "mg_battaglia_RepScope_Rank0": "Prospective Associate",
+    "mg_battaglia_RepScope_Rank1": "Associate",
+    "mg_battaglia_RepScope_Rank2": "Trusted Associate",
+    "mg_battaglia_RepScope_Rank3": "Prestige 1",
+    "mg_battaglia_RepScope_Rank4": "Prestige 2",
+    "mg_battaglia_RepScope_Rank5": "Prestige 3",
     "Aciedo_RepUI_Name": "Aciedo Communications",
     "ArcCorp_RepUI_Name": "ArcCorp",
     "mg_battaglia_contractor": "Recco Battaglia",
@@ -2461,7 +2463,6 @@
     "WallaceKlim_RepUI_Name": "Wallace Klim",
     "Wikelo_RepUI_Name": "Wikelo Emporium",
     "Xenothreat_RepUI_Name": "XenoThreat",
-    "mobiglas_ui_Priority": "Priority",
     "mobiGlas_ui_MissionType_Delivery": "Delivery",
     "mobiglas_ui_Mercenary": "Mercenary",
     "mobiglas_ui_Maintenance": "Maintenance",
@@ -2469,8 +2470,10 @@
     "mobiglas_ui_Investigation": "Investigation",
     "mobiglas_ui_Salvage": "Salvage",
     "mobiGlas_ui_MissionType_Collection": "Collection",
+    "mobiglas_ui_Priority": "Priority",
     "ContractManager_TempTab_Small_Items": "Wikelo - Other Items",
     "ContractManager_TempTab_Vehicles": "Wikelo - Vehicles",
+    "mobiGlas_ui_MissionType_Battaglia": "Battaglia",
     "mobiGlas_ui_MissionType_Hauling": "Hauling",
     "mobiGlas_ui_MissionType_Hauling_Solar": "Hauling - Stellar",
     "refueling_ui_Login_Refuel": "Refueling",
@@ -2483,13 +2486,6 @@
     "mobiglas_ui_ShipMining": "Ship Mining",
     "mobiglas_ui_GroundMining": "Ground Vehicle Mining",
     "mobiGlas_ui_MissionType_Hauling_Local": "Hauling - Local",
-    "mineabletype_primary_savrillium": "Savrillium",
-    "mineabletype_type_shipasteroid": "Asteroid",
-    "mineabletype_primary_lindinium": "Lindinium",
-    "scanentities_mulit2": "~mission(AmountToScan) of ~mission(ResourceType) and ~mission(AmountToScan2) of ~mission(ResourceType2)",
-    "Battaglia_RPT_Rarity_Rare_desc": "These are pretty rare resources, so they might be tricky to find.",
-    "mineabletype_primary_bexalite": "Bexalite",
-    "scanentities_multi3": "~mission(AmountToScan) of ~mission(ResourceType), ~mission(AmountToScan2) of ~mission(ResourceType2) and ~mission(AmountToScan3) of ~mission(ResourceType3)",
     "hurston_danger_004": "Very Low-Risk Target (Single Seater Craft, Minimal Support)",
     "assassin_danger_0006": "As for gearing up for this little job, you shouldn't need anything out of the ordinary. ~mission(TargetName|Last) prefers to fly alone. I mean, for a real special occasion they might travel with a friend or two, but I'd be surprised.",
     "assassin_danger_0005": "While you should be careful, cause you never know - my guess is that ~mission(TargetName|Last) is gonna drop easy. Poor sod chooses to fly solo and hardly ever bothers with anything more than a few escorts.",
@@ -2510,7 +2506,6 @@
     "FreightElevator_4SCU": "4 SCU",
     "FreightElevator_1SCU": "1 SCU",
     "destoryitems_item_05": "Power Generators",
-    "mg_battaglia_RepScope_Rank5": "Prestige 3",
     "destroyItems_BombingRunItem": "Fuel Tanks",
     "Covalex_SignOff_001": "Thanks in advance for ensuring prompt service,",
     "mg_miles_mission_app_0001": "ME-01",
@@ -2530,12 +2525,19 @@
     "HeadHunters_Sabotage_Relays_obj_hud_01": "Disable All ~mission(ObjectiveSetupItem)s %ls",
     "HeadHunters_Sabotage_Relays_obj_marker_01": "~mission(ObjectiveSetupItem)",
     "HeadHunters_Sabotage_Relays_item": "Comm Tower",
+    "mineabletype_primary_lindinium": "Lindinium",
+    "mineabletype_type_shipasteroid": "Asteroid",
+    "mineabletype_primary_bexalite": "Bexalite",
+    "scanentities_mulit2": "~mission(AmountToScan) of ~mission(ResourceType) and ~mission(AmountToScan2) of ~mission(ResourceType2)",
+    "Battaglia_RPT_Rarity_Rare_desc": "These are pretty rare resources, so they might be tricky to find.",
     "hurston_danger_009": "Extreme-Risk Target (Sub-Capital Class Vessel, Heavy Support)",
     "PyroStar": "Pyro",
     "FTL_SignOff_001": "Good luck and good speed, courier!",
     "HaulCargo_4_SingleToMultiToken": "- Freight elevator at <EM4>~mission(Destination|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination2|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination3|Address)</EM4>",
+    "mineabletype_primary_savrillium": "Savrillium",
     "mineabletype_primary_torite": "Torite",
     "mineabletype_primary_ice": "Ice",
+    "scanentities_multi3": "~mission(AmountToScan) of ~mission(ResourceType), ~mission(AmountToScan2) of ~mission(ResourceType2) and ~mission(AmountToScan3) of ~mission(ResourceType3)",
     "Battaglia_RPT_Rarity_Uncommon_desc": "These might be a little tricky to find, just a head's up.",
     "HaulCargo_3_MultiToSingleToken": "- Freight elevator at <EM4>~mission(Location|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location2|Address)</EM4>",
     "hurston_danger_006": "Moderate-Risk Target (Small Multicrew Craft, Average Support)",
@@ -3196,6 +3198,8 @@
     "cfp_maintenance_H_desc_001": "We need some help. The CFP facility at <EM4>~mission(Location|Address)</EM4> suffered severe damage during a recent electrical storm and we're looking for anyone who can help with repairs.\\n\\nSurveying the site, you'll have to bring <EM4>six fuses</EM4>, a <EM4>salvaging tool</EM4>, and <EM4>enough RMC canisters to take care of eight or so pipes</EM4>. That should be enough to repair the damage and get the outpost back in operation.\\n\\nIf you need more information on maintenance work, see <EM4>“Cornerstone Developments' Guide to Maintenance”</EM4> entry in your mobiGlas Journal.\\n\\nDo you think you can help?\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "Covalex_RecoverCargo_VeryEasy_Title": "Extra Small Covalex Shipment Needs Recovering",
     "Covalex_RecoverCargo_VeryEasy_Description": "Hi,\\n\\nSo I had a contractor who was supposed to deliver some stuff for us but has completely gone off the radar. I've pinged their ship and I've got no idea what's happened but they're floating around somewhere over at <EM4>~mission(Location|Address)</EM4>. If you could head over there recover the cargo and take it to the freight elevator at <EM4>~mission(Destination|Address)</EM4> you'd be doing me a huge favor.\\n\\nDon't forget to bring a <EM4>heavy-duty tractor beam</EM4> to move all the cargo. Oh and a ship that can transport <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4>.\\n\\n~mission(Contractor|SignOff)\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.' \\n\\n\\n\\n\\n\\n\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
+    "Battaglia_RPT_Scan_Golem_title": "Extra Special Job",
+    "Battaglia_RPT_Scan_Golem_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Extra Special Job\\n\\nWORK BRIEF: \\nYou've been doing some excellent work for us lately and wanted to offer a special job with a special reward. I'm looking for some more data, so I need someone <EM4>to scan ~mission(Resources)</EM4> and send me what you find. ~mission(Rarity)\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nPolished up a special Drake Golem from Teach's for this one.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "TheCollector_Recipes_Title_L22Wolf": "Extra Special Wolf",
     "TheCollector_Recipes_Desc_L22Wolf": "Wikelo very excited. Have idea for new material. But making it is most tricky. Very complicated. Need help fabricating a test sample. I give you blueprint, you make, bring to me, and I will trade. Give you extra special L-22 Wolf. Very powerful, very wolf.",
     "EckhartSecurity_RecoverCargo_Super_Title": "Extreme Risk Cargo Retrieval",
@@ -3954,6 +3958,8 @@
     "eckhart_defendship_VLRT_desc_001": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Ship\\nAPPROVAL CODE = ~mission(ApprovalCode)\\n\\nFOR IMMEDIATE PROCESSING\\n\\nA client is reporting trouble near <EM4>~mission(Location|Address)</EM4>. Based on their comms, it doesn’t sound like an organized, professional attack. Still, we’re paid to provide protection and it’s been requested. \\n\\nNeed a contractor to fly there and secure the situation.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "Battaglia_RPT_ScanMine_03_title": "Scan And Mining Needed",
     "Battaglia_RPT_ScanMine_03_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Scan And Mining Needed\\n\\nWORK BRIEF: \\nI have a job here that might interest you. I need people to go out and do some basic mining in order to pull some geological data for future prospecting. Need someone to scope out and mine <EM4>~mission(Resources)</EM4> <EM4>~mission(MineableType)</EM4>. You'll be helping us out massively. ~mission(Rarity)\\n\\nAlso, if you're stuck or new to mining, there's a <EM4>journal on mining by the United Resource Workers in your mobi</EM4> that you should check out.\\n\\nKeep me posted.\\n\\nPAYMENT:\\nStandard listed rate upon full area scan confirmation and extraction.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
+    "Battaglia_RPT_Scan_Prosp_title": "Scan with a Prospector Payout",
+    "Battaglia_RPT_Scan_Prosp_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Scan, Mine, and Prospector Payout\\n\\nWORK BRIEF: \\nStill pulling together data on mining and mineral extraction but got a special payout for this one. Once <EM4>you scan ~mission(Resources)</EM4> and relay your stats back to us, I'll get you something real nice for all your help. ~mission(Rarity)\\n\\nBy this point you know what you're doing but just going to remind you that <EM4>the United Resource Workers' mining journal on your mobi is great if you're stuck.</EM4>\\n\\nLet me know if you’re up for it.\\n\\nPAYMENT:\\nGot a special MISC Prospector as payment for all your help.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "Headhunters_SecurityPatrol_E_Title_001": "Scout and Scan",
     "Headhunters_SecurityPatrol_E_Desc_001": "Headhunters have been expanding, but still need help getting a lay of our new territory. I’ve got a run to check spots we want scanned ready to go. \\n\\nThis one kicks off at the <EM4>location marker</EM4> on your HUD and will look at a few more locations after that, but I’ll update you as we clear them out. Not expecting you to run into any trouble but no guarantees. Trouble seems to follow us.\\n\\nGet this done and I'll toss the main contractor <EM4>~mission(ScripAmount) Council Scrip</EM4> as a thanks.\\n\\nStows out.",
     "HeadHunters_DefendEntitesAndEscort_M_Title": "Secure ~mission(Location) from Upstarts",
@@ -4338,46 +4344,6 @@
     "Covalex_HaulCargo_AtoB_desc_ProcessedFood_Stanton2": "Hi, \\n\\nLooks like Orison needs another resupply of processed food and pressurized ice. They have this stuff on a standard delivery schedule but they just requested a shipment as soon as possible.  \\n\\nAre you available to make the run? The stuff (<EM4>~mission(MissionMaxSCUSize) containers</EM4> or smaller) is waiting to be picked up from a freight elevator at <EM4>~mission(Location|Address)</EM4>. Should be a quick and easy run for you to a freight elevator at <EM4>~mission(Destination|Address)</EM4>. \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\n~mission(Contractor|SignOff)\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\n\\n\\n\\n\\n\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered."
   },
   "tokenSubstitutions": {
-    "Battaglia_RPT_ScanMine_Golem_title": {
-      "ResourceType": "@mineabletype_primary_savrillium",
-      "MineableType": "@mineabletype_type_shipasteroid",
-      "ResourceType2": "@mineabletype_primary_lindinium",
-      "MineableType2": "@mineabletype_type_shipasteroid",
-      "Resources": "@scanentities_mulit2",
-      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Technician_Rank3"
-    },
-    "Battaglia_RPT_ScanMine_Golem_desc": {
-      "ResourceType": "@mineabletype_primary_savrillium",
-      "MineableType": "@mineabletype_type_shipasteroid",
-      "ResourceType2": "@mineabletype_primary_lindinium",
-      "MineableType2": "@mineabletype_type_shipasteroid",
-      "Resources": "@scanentities_mulit2",
-      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Technician_Rank3"
-    },
-    "Battaglia_RPT_ScanMine_Prosp_title": {
-      "ResourceType": "@mineabletype_primary_savrillium",
-      "MineableType": "@mineabletype_type_shipasteroid",
-      "ResourceType2": "@mineabletype_primary_lindinium",
-      "MineableType2": "@mineabletype_type_shipasteroid",
-      "ResourceType3": "@mineabletype_primary_bexalite",
-      "MineableType3": "@mineabletype_type_shipasteroid",
-      "Resources": "@scanentities_multi3",
-      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank4"
-    },
-    "Battaglia_RPT_ScanMine_Prosp_desc": {
-      "ResourceType": "@mineabletype_primary_savrillium",
-      "MineableType": "@mineabletype_type_shipasteroid",
-      "ResourceType2": "@mineabletype_primary_lindinium",
-      "MineableType2": "@mineabletype_type_shipasteroid",
-      "ResourceType3": "@mineabletype_primary_bexalite",
-      "MineableType3": "@mineabletype_type_shipasteroid",
-      "Resources": "@scanentities_multi3",
-      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank4"
-    },
     "Headhunters_Delivery_Outpost_title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
@@ -5091,19 +5057,19 @@
     },
     "Battaglia_RPT_RecoverItem_VH_01_title": {
       "ObjectiveSetup": "@mission_item_0055",
-      "ReputationRank": "@mg_battaglia_RepScope_Rank5"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_RecoverItem_VH_01_desc": {
       "ObjectiveSetup": "@mission_item_0055",
-      "ReputationRank": "@mg_battaglia_RepScope_Rank5"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_RecoverItem_M_01_title": {
       "ObjectiveSetup": "@mission_item_0055",
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_RecoverItem_M_01_desc": {
       "ObjectiveSetup": "@mission_item_0055",
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "recovery_title": {
       "ObjectiveSetup": "@mission_item_0055",
@@ -5623,11 +5589,11 @@
     },
     "Battaglia_RPT_MissCrew_01_title": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_MissCrew_01_desc": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "EckhartSecurity_RecoverCargo_VeryHard_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank4"
@@ -5960,7 +5926,7 @@
       "MineableType2": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_mulit2",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_ScanMine_05_desc": {
       "ResourceType": "@mineabletype_primary_lindinium",
@@ -5969,7 +5935,7 @@
       "MineableType2": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_mulit2",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Headhunters_DefendLocation_VE_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
@@ -6127,6 +6093,24 @@
       "ReputationRank": "@RepStanding_TransportGuild_Rank0",
       "Contractor|SignOff": "@Covalex_SignOff_001"
     },
+    "Battaglia_RPT_Scan_Golem_title": {
+      "ResourceType": "@mineabletype_primary_savrillium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_lindinium",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank3"
+    },
+    "Battaglia_RPT_Scan_Golem_desc": {
+      "ResourceType": "@mineabletype_primary_savrillium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_lindinium",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_mulit2",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank3"
+    },
     "EckhartSecurity_RecoverCargo_Super_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank5"
     },
@@ -6197,7 +6181,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_Scan_04_desc": {
       "ResourceType": "@mineabletype_primary_torite",
@@ -6208,7 +6192,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "RAIN_CollectResources_storm_title_003": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -6437,7 +6421,7 @@
       "MineableType2": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_mulit2",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_Scan_06_desc": {
       "ResourceType": "@mineabletype_primary_savrillium",
@@ -6446,7 +6430,7 @@
       "MineableType2": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_mulit2",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "EckhartSecurity_RecoverCargo_Hard_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
@@ -6715,7 +6699,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_Scan_05_desc": {
       "ResourceType": "@mineabletype_primary_lindinium",
@@ -6726,7 +6710,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "headhunters_maintenance_local_M_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
@@ -7228,7 +7212,7 @@
       "MineableType2": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_mulit2",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_ScanMine_06_desc": {
       "ResourceType": "@mineabletype_primary_savrillium",
@@ -7237,7 +7221,7 @@
       "MineableType2": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_mulit2",
       "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_ScanMine_Mole_title": {
       "ResourceType": "@mineabletype_primary_savrillium",
@@ -7291,19 +7275,19 @@
     },
     "Battaglia_RPT_MissCrew_02_title": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_MissCrew_02_desc": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_MissCrew_03_title": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_MissCrew_03_desc": {
       "HotColdObject": "@Search_Investigate",
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Shubin_Industrial_ShipMining_Stanton_S_Secondary_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank5"
@@ -7342,18 +7326,18 @@
     "Battaglia_RPT_DataDownload_01_title": {
       "GuideMarker": "@area_name_entrance",
       "HotColdObject": "@DataDownload_obj_marker_01a",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_DataDownload_01_desc": {
       "GuideMarker": "@area_name_entrance",
       "HotColdObject": "@DataDownload_obj_marker_01a",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_CreateUplink_01_title": {
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_CreateUplink_01_desc": {
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "vaughn_searchbody_space_M_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2",
@@ -7416,7 +7400,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_common_desc",
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank0"
     },
     "Battaglia_RPT_ScanMine_02_desc": {
       "ResourceType": "@mineabletype_primary_aluminium",
@@ -7427,7 +7411,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_common_desc",
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank0"
     },
     "headhunters_EliminateSpecific_Generic_M_title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -7714,7 +7698,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_Scan_03_desc": {
       "ResourceType": "@mineabletype_primary_torite",
@@ -7725,7 +7709,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_ScanMine_04_title": {
       "ResourceType": "@mineabletype_primary_torite",
@@ -7736,7 +7720,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_ScanMine_04_desc": {
       "ResourceType": "@mineabletype_primary_torite",
@@ -7747,7 +7731,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_Scan_01_title": {
       "ResourceType": "@mineabletype_primary_aluminium",
@@ -7774,7 +7758,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_common_desc",
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank0"
     },
     "Battaglia_RPT_Scan_02_desc": {
       "ResourceType": "@mineabletype_primary_aluminium",
@@ -7785,7 +7769,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_common_desc",
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank0"
     },
     "ORS_MedicalAid_HaulingLarge_title": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
@@ -8586,22 +8570,22 @@
       "MissionMaxSCUSize": "@FreightElevator_8SCU"
     },
     "Battaglia_RPT_Salvage_H_01_title": {
-      "ReputationRank": "@mg_battaglia_RepScope_Rank5"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_Salvage_H_01_desc": {
-      "ReputationRank": "@mg_battaglia_RepScope_Rank5"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_Salvage_M_01_title": {
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_Salvage_M_01_desc": {
-      "ReputationRank": "@RepScope_Technician_Rank3"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_Salvage_E_01_title": {
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Battaglia_RPT_Salvage_E_01_desc": {
-      "ReputationRank": "@RepScope_Maintenance_Rank2"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank2"
     },
     "Adagio_Industrial_Component_Salvage_Levski_H_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -8708,7 +8692,7 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
     },
     "Battaglia_RPT_ScanMine_03_desc": {
       "ResourceType": "@mineabletype_primary_torite",
@@ -8719,7 +8703,29 @@
       "MineableType3": "@mineabletype_type_shipasteroid",
       "Resources": "@scanentities_multi3",
       "Rarity": "@Battaglia_RPT_Rarity_Uncommon_desc",
-      "ReputationRank": "@RepScope_Maintenance_Rank0"
+      "ReputationRank": "@mg_battaglia_RepScope_Rank1"
+    },
+    "Battaglia_RPT_Scan_Prosp_title": {
+      "ResourceType": "@mineabletype_primary_savrillium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_lindinium",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_bexalite",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank4"
+    },
+    "Battaglia_RPT_Scan_Prosp_desc": {
+      "ResourceType": "@mineabletype_primary_savrillium",
+      "MineableType": "@mineabletype_type_shipasteroid",
+      "ResourceType2": "@mineabletype_primary_lindinium",
+      "MineableType2": "@mineabletype_type_shipasteroid",
+      "ResourceType3": "@mineabletype_primary_bexalite",
+      "MineableType3": "@mineabletype_type_shipasteroid",
+      "Resources": "@scanentities_multi3",
+      "Rarity": "@Battaglia_RPT_Rarity_Rare_desc",
+      "ReputationRank": "@mg_battaglia_RepScope_Rank4"
     },
     "Headhunters_SecurityPatrol_E_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
