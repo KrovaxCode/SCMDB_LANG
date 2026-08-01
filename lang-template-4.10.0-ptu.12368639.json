@@ -1,6 +1,6 @@
 {
-  "version": "4.10.0-ptu.12358556",
-  "keyCount": 2726,
+  "version": "4.10.0-ptu.12368639",
+  "keyCount": 2736,
   "keys": {
     "Headhunters_Delivery_Outpost_title_001": "[DESTINATION] Errand",
     "roughready_delivery_station_title_001": "[DESTINATION] Stroll",
@@ -194,6 +194,7 @@
     "headhunters_multikillship_base_Generic_M_title_001": "Crash some ships",
     "Battaglia_RPT_MissCrew_01_title": "Crew Hasn’t Checked In",
     "EckhartSecurity_RecoverCargo_VeryHard_Title": "Critical Cargo Extraction",
+    "UWC_Refueling_multiple_hard_title_001": "CRITICAL FLEET REFUEL",
     "UWC_Refueling_high_title_001": "CRITICAL REFUEL REQUEST: [SHIP]",
     "CFP_RecoverCargo_Hard_Title": "Crucial Supplies Need Retrieving",
     "Highpoint_KillAnimals_MultiType_M_title": "Cull Invasive Creatures",
@@ -246,6 +247,7 @@
     "InterSec_KillShip_Vanduul_Title_Super_001": "Eliminate Vanduul Ship",
     "Foxwell_X2_DrawOutBoss_Title": "Eliminate XenoThreat Enforcer",
     "HeadHunters_ShipAmbush_S_title_001": "Elite Op",
+    "Battaglia_Story02_title": "Emergency: Blinding Hope in Trouble",
     "FTL_Courier_Nyx_Easy_Title_001": "ENTRY LVL. COURIER NEEDED IN NYX",
     "FTL_Courier_Stanton_Easy_Title_001": "ENTRY LVL. COURIER NEEDED IN STANTON",
     "cfp_sabotage_server_elimiatespecific_HH_title_001": "Eradicate All Traces of Headhunter Data",
@@ -744,8 +746,8 @@
     "Tutorial01_MissionTitle": "Tutorial - Your First Steps",
     "TheCollector_Ships_Intrepid_TItle": "Upgrade Intrepid",
     "Foxwell_X2_ShipDefend_Title": "Urgent - Ship Under XenoThreat Attack",
+    "UWC_Refuelling_BespokeCapital_Title": "URGENT CAPITAL FLEET REFUEL",
     "UWC_Refueling_multiple_med_title_001": "URGENT CONVOY REFUEL",
-    "UWC_Refueling_moderate_title_001": "URGENT REFUEL REQUEST: [SHIP]",
     "northrock_boarders_890J_title_001": "URGENT: Boarding Action In Progress",
     "UWC_Refueling_intro_title_001": "UWC'S HIRING REFUELERS",
     "Kaboos_Intro_Title": "Vanduul-Tech Smugglers",
@@ -1011,6 +1013,7 @@
     "headhunters_multikillship_base_Generic_M_desc_001": "A lotta wannabe gangs have stepped to the Headhunters over the years thinking that they could force their way into the system. We're still here. They aren't. But it seems the survivors of these groups have decided to band together and try again. Guess some people never learn.\\n\\nLatest group hit a couple of our convoys while on supply runs. Shouldn't be a surprise that the Judge wants to stomp them out quick. We've learned they're out near [LOCATION] and likely rearming for another attack. \\n\\nWe want you to go there and make them wish they died with their old gang.\\n\\nStows out",
     "Battaglia_RPT_MissCrew_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Crew Hasn’t Checked In\\n\\nWORK BRIEF: \\nJust got word that one of the mining teams is unaccounted for. They were supposed to be back hours ago, but no one’s heard from them. Family have tried to reach out but haven’t gotten a response from anyone on the crew.\\n\\nI can send you their last known location, so we’re looking for someone to go check in and see if they’re okay. If the worst happened, <EM4>please identify anyone you find</EM4>. I’m sure the families would appreciate some closure on what happened.\\n\\nThanks\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "EckhartSecurity_RecoverCargo_VeryHard_Description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Recover Cargo\\nApproval code: = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nCalling for a skilled contractor to recover a displaced shipment located at <EM4>[LOCATION]</EM4>. Client's hauler was transporting some high value cargo when they decided to respond to a distress beacon and got ambushed by a group of outlaws. The client believes their pilot is gone but their cargo could still be recovered.\\n\\nThe information we have so far is that you'll need a ship that can carry <EM4>[MAX_SCU] cargo containers</EM4>, a <EM4>heavy-duty tractor beam</EM4> for shifting the goods, as well as your support ships to help deal with the outlaws at the location. \\n\\nClient will be expecting the completed delivery to be made to the freight elevator at <EM4>[DESTINATION]</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
+    "UWC_Refueling_multiple_hard_desc_001": "Heyo,\\n\\nOver at <EM4>[LOCATION]</EM4> we just got a refueling job for an entire small fleet of ships who all together need [FUELTYPE]. Talk about when it rains it pours!\\n\\nThe client will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nUnfortunately, where they're held up isn't the nicest of sectors so I'd be alert for any tomfoolery while you're doing the run. \\n\\nIt'll be best to try get them all back on their way as soon as you can.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "UWC_Refueling_high_desc_001": "Hi,\\n\\nAnother day another beacon. There's a <EM4>[SHIP]</EM4> looking to be topped up with [FUELTYPE] at <EM4>[LOCATION]</EM4>.  The client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nI can't lie: it's a nasty place to get stuck and a worse place to get caught by surprise. We've lost good people out there - even the ones who got lucky made it home with pieces missing.\\n\\nIf you decide to take the job, do me a favor and keep everything peeled. If you've got a buddy with time to spare, maybe reach out for a little back-up.\\n\\nMaybe I'm being paranoid, but that doesn't mean they're not out to get you, as Momma Deloit used to say. \\n\\nActually she never said that - but I'm pretty sure she would if she did this for a living.\\n\\nJust do the job and get home safe, okay?\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "CFP_RecoverCargo_Hard_Description": "We were in the process of delivering an urgent shipment to the folks over at <EM4>[DESTINATION]</EM4> when our pilot ran into a group of outlaws. They tried to run, but it was already too late.\\n\\nThere is silver lining though. The trackers are showing the cargo is still intact, located at <EM4>[LOCATION]</EM4>. There's a good chance the outlaws are guarding it while they locate a ship big enough to transport everything. While I don't want to risk losing another pilot, the need of the cargo aboard is desperate enough that it justifies the decision to send someone to recover it.\\n\\nThis won't be easy, these outlaws showed our pilot no mercy. You'll need to take them out first before getting the cargo back. Bring a ship that can store <EM4>[MAX_SCU] cargo containers</EM4> and a <EM4>heavy-duty tractor beam</EM4> for the moving. Deliver it to the freight elevator at <EM4>[DESTINATION]</EM4>  and let's make this right.\\n\\nFly safe,\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "Highpoint_KillAnimals_MultiType_M_desc": "Highpoint Wilderness Specialists are dedicated to keeping the delicate ecosystems of the empire in balance. A client recently hired us to evaluate the environmental impact of a number of invasive creatures near <EM4>[LOCATION]</EM4>. We’ve determined that to preserve the natural order of the region a conscientious culling of these species is necessary.  \\n\\nLooking for someone able and willing to help in this effort. Please refer to <EM4>\"The Guide to Stanton Wildlife\"</EM4> in your Journal for further information on the creatures being targeted.     \\n\\nBest,\\n\\nWanda Werkheiser\\nContract Manager\\nHighpoint Wilderness Specialists",
@@ -1063,6 +1066,7 @@
     "InterSec_KillShip_Vanduul_Desc_Super_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated Ship\\nBriefing: InterSec requires the services of a skilled pilot who’s prepared to assist in taking down a dangerous Vanduul target that has been involved in numerous attacks.\\n\\nVanduul incursions have been on the rise recently, posing not only a threat to the system of Nyx, but the UEE as a whole. It is imperative that these sightings are responded to in a swift and efficient manner. \\n\\nWe require you to fly to the last known sighting of the Vanduul ship at <EM4>[LOCATION]</EM4> and eliminate them immediately.  \\n\\nVanduul pilots are highly skilled and extremely dangerous. Engage the enemy immediately and do not hesitate – they will not show the same mercy.\\n\\nCompensation proportionate to the risk of the contract will be awarded.\\n\\nRespectfully,\\nDeacon Tobin\\nOperations Manager\\nInterSec Defense Solutions\\n\\nThis communication consists of a non-binding offer that upon acceptance may be immediately terminated by either party without any given notice. All operations are conducted at the contractor’s own personal risk and must adhere to system law where applicable.",
     "Foxwell_X2_DrawOutBoss_Desc": "We have intercepted a location beacon that puts <EM>[TARGET]</EM4> and their personal attack wing at <EM4>[LOCATION]</EM4>. They have been one of XenoThreat's most brutal enforcers since their founding. \\n\\n<EM>[TARGET]</EM4>'s not one to back down from a fight so hit their ships hard enough, do enough damage and they won't be able to resist joining in the action. Once they're out in the open, they'll be your main target.\\n\\nReady to go?\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "HeadHunters_ShipAmbush_S_desc_001": "Headhunters are looking for someone with the skills and crew to execute an elite op. A military frigate and escort ships are stalking one of our Clips around the system. Don’t know their intentions but it can’t be good. Figure while they’ve got their eyes focused on their prize, we get someone to gather a crew to hit ‘em.  \\n\\nAlready got a spot picked out. If you get to <EM4>[LOCATION]</EM4> there’s an emission cloud that’s exactly what we need. Head there with friends, power down your ships, and wait for the <EM4>[TARGET]</EM4> and its escorts to pass by. \\n\\nWith a bonus of <EM4>16 Council Scrip</EM4> for the main contractor, payment alone should make this worth your while, but you can also keep anything you scrounge from the wreckage.\\n\\n- Stows",
+    "Battaglia_Story02_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blinding Hope in trouble\\n\\nWORK BRIEF: \\nWe received a distress call from the Blinding Hope that said they were under attack from the Moraine again before they were cut off. I just want to know if they're okay. <EM4>Head to their last known location and report what you find</EM4>.\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "FTL_Courier_Nyx_Easy_Desc_001": "AVAILABLE FTL CONTRACT\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS**\\nFTL requires an entry-level courier to complete deliveries in Nyx.\\nCourier must provide own transportation.\\nPrior training in manual lifting is preferred, with the <EM4>ability to move boxes of up to .25 SCU</EM4> in weight.\\nBy accepting this contract you agree to take full responsibility for the safety of the assigned packages.\\n\\nGood luck and good speed, courier!",
     "FTL_Courier_Stanton_Easy_Desc_001": "AVAILABLE FTL CONTRACT\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nA reliable and hardworking entry-level courier is needed to ferry a delivery in Stanton.\\nYou will be responsible for providing your own transportation.\\nInterested contractors need the <EM4>ability to lift up to .25 SCU boxes</EM4>.\\nContractors are employed on an independent basis and therefore not covered by FTL's company insurance.\\n\\nGood luck and good speed, courier!",
     "cfp_sabotage_server_elimiatespecific_HH_desc_001": "We're just putting the full picture together now, but so far we've learned that a Headhunter by the name of [TARGET] recently stole some sensitive data that if exposed will be detrimental to Citizens for Prosperity's cause. \\n\\nWe need to ensure that all traces of the stolen data are eradicated. This means taking out all the Headhunter servers at [LOCATION] as well as tracking down [TARGET] to stop them from further disseminating the information.\\n\\nYour help is much appreciated,\\n \\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
@@ -1546,8 +1550,8 @@
     "Tutorial01_MissionDesc": "Congratulations on taking your first steps into the universe!\\n\\nOver the course of this tutorial, you’ll learn how to get around both on foot and in space. \\n\\nFirst up is helping you familiarize yourself with some basic movement controls and the use of your mobiGlas while still inside your “Hab” (or habitation). Follow the objectives and hints on your HUD (heads-up display) to proceed through this mission.",
     "TheCollector_Ships_Intrepid_Desc": "If you are looking for Intrepid ship that more intrepid. Wikelo can help. Bring things and you will get special touches on ship by Wikelo and pretty new coat to it. Bye.",
     "Foxwell_X2_ShipDefend_Desc": "A distress beacon came in from <EM4>[LOCATION]</EM4> about a ship under attack from XenoThreat. The pilot reports that their shields are failing and they can't outrun the attackers.\\n\\nThe ship's a <EM4>[SHIP]</EM4>, but the pilot's Human, which  according to XenoThreat's twisted way of thinking, makes them a traitor to Humanity and a target for their hate.\\n\\nWe're looking for operators to head out there and do some good.\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
+    "UWC_Refuelling_BespokeCapital_Desc": "DD here - I've got something special for you,\\n\\nI just received a ping from <EM4>[LOCATION]</EM4>. A strike force led by a [SHIP] just dropped into the system and are looking for a fast refuel before heading back out. \\n\\nThey  need [FUELTYPE] asap and will pay [REFUELREQUEST] for it. As a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nI won't lie - I'm more than a little jealous. Getting up close and personal to a ship that big? Should be one to tell the grandkids about.\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "UWC_Refueling_multiple_med_desc_001": "Hey again,\\n\\nI've got a beacon at <EM4>[LOCATION]</EM4> and this one's a bit more complicated than usual. Got small convoy of ships requesting [FUELTYPE]. Impressive coordination and lack of planning to all need refueling at the same time. \\n\\nThe client will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nHopefully since the area they're in is pretty safe, there shouldn't be too much trouble lurking, but these days you never know. Wouldn't hurt to get them back flying again as quick as you're able.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
-    "UWC_Refueling_moderate_desc_001": "Hey, you!\\n\\nI've got a beacon at <EM4>[LOCATION]</EM4>. They say their tanks are running dry and they could use [FUELTYPE]. If you're interested, I get the feeling they'll be really pleased to see you.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nThey're stuck out in an area with a bad reputation, though things have been a bit more quiet recently. Still worth staying alert I'd say, just in case there's still trouble lurking out there. \\n\\nEither way, the sooner everyone's able to get flying again - and that includes you - the better.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "northrock_boarders_890J_desc_001": "An executive client just informed us that their 890 Jump had been intercepted at [LOCATION] and boarded by outlaws. They would prefer to have this handled privately owing to the sensitive nature of proprietary data that's being stored aboard. \\n\\nYour first priority will be to clear all outlaws as quickly as possible so that a recovery team can be dispatched to return the ship to the owner. The longer the outlaws have control of the vessel, the higher the chance it will be lost. I recommend you acquire a team for this outing to expedite matters. \\n\\nNote that thanks to a small contingent of Security Personnel who stayed aboard, all surviving members of the crew were able to flee in an escape craft. The current status of the remaining security is unknown, but just in case, keep an eye out for friendlies when you engage the hostiles.\\n\\nSecondly, if at all possible, the client is *very* interested in preventing the theft of the aforementioned data. If you are able to stop the theft of their confidential data stores before they are transmitted, a generous bonus will be issued.\\n\\nNeedless to say, this is a client I would very much like to keep happy. \\n\\nBraden Corchado\\nLogistics Officer - Stanton Branch\\nNorthrock Service Group",
     "UWC_Refueling_intro_desc_001": "Hey!\\n\\nDD from the United Wayfarers Club here.\\n\\nThe UWC offers repair, rearming and refueling services across the UEE. It just so happens that we're on the look-out for new affiliates whose ships are fitted for refueling. If you've got the fuel pods and like it when people are pleased to see you, the UWC might be the club for you.\\n\\nAnd if you think it might be, I've got a live beacon you might like.\\n\\nIf you do happen to like it, a word to the wise: <EM4>make sure your fuel pods are full before you head out</EM4>.\\n\\nA Club member has run out of ~misssion(FuelType) at <EM4>[LOCATION]</EM4>. I'm not sure on the details, like how they ended up out there with no Go Juice, but the UWC doesn't like to leave folk hanging.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST]. As a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nIt's a straightforward run. Perfect if you want to get a feel for this kind of job. Get out there, fill up the tanks of their <EM4>[SHIP]</EM4> and get them on their way. Do enough runs like this, and the process becomes muscle memory. Until then, there's a <EM4>journal entry</EM4> on your mobiGlas called \"Refueling Protocols\" that covers the basics.\\n\\nThere have been no reports of outlaw activity in that sector, but stay alert. I always recommend you aim for a fast turnaround. The sooner you're done, the sooner I can fix you up with another contract. UWC's always looking for new affiliates. \\n\\nLooking forward to working with you.\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "Kaboos_Intro_Description": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Unknown\\nEquipment Specs: Combat-rated Ship, Personal Arms\\nBriefing: InterSec has been enlisted by the UEE to gather intel on a group of <EM4>black marketeers dealing in Vanduul parts</EM4>, that have been linked to the illegal Vanduul experiments happening at ASD’s Onyx Facility. The UEE is eager to understand and put an end to their operations.\\n\\nBased on evidence extracted from the ASD facilities, we’ve potentially managed to track down the location of one of their storage sites.\\n\\nOnce accepted, head over to the old <EM4>QV Planet Services Logistics station</EM4> and we’ll be in touch.\\n\\nRespectfully, \\n\\nDeacon Tobin\\nOperations Manager\\nInterSec Defense Solutions\\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
@@ -2515,6 +2519,10 @@
     "FreightElevator_32SCU": "32 SCU",
     "destoryitems_item_03": "Server Racks",
     "Search_Investigate": "Investigate",
+    "FuelType_Both": "<EM4>~mission(HydrogenFuel) SCU of Hydrogen and ~mission(QTFuel) SCU of Quantum Fuel</EM4>",
+    "RefuelRequest_Hydrogen": "<EM4>~mission(FuelRate) aUEC per SCU of Hydrogen</EM4>",
+    "RefuelRequest_Both": "<EM4>~mission(FuelRate) aUEC per SCU of Hydrogen</EM4> and  <EM4>~mission(QTFuelRate) aUEC per SCU of Quantum</EM4>",
+    "FuelType_Hydrogen": "<EM4>~mission(HydrogenFuel) SCU of Hydrogen Fuel</EM4>",
     "HaulCargo_2_SingleToMultiToken": "- Freight elevator at <EM4>~mission(Destination|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination1|Address)</EM4>",
     "HaulCargo_3_SingleToMultiToken": "- Freight elevator at <EM4>~mission(Destination|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination2|Address)</EM4>",
     "HaulCargo_CargoScale_Large": "Large",
@@ -2530,12 +2538,13 @@
     "Battaglia_RPT_Rarity_Rare_desc": "These are pretty rare resources, so they might be tricky to find.",
     "hurston_danger_009": "Extreme-Risk Target (Sub-Capital Class Vessel, Heavy Support)",
     "PyroStar": "Pyro",
+    "area_name_entrance": "Entrance",
+    "DataDownload_obj_marker_01a": "Server",
     "FTL_SignOff_001": "Good luck and good speed, courier!",
     "HaulCargo_4_SingleToMultiToken": "- Freight elevator at <EM4>~mission(Destination|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination2|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination3|Address)</EM4>",
     "mineabletype_primary_savrillium": "Savrillium",
     "HaulCargo_3_MultiToSingleToken": "- Freight elevator at <EM4>~mission(Location|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location2|Address)</EM4>",
     "hurston_danger_006": "Moderate-Risk Target (Small Multicrew Craft, Average Support)",
-    "area_name_entrance": "Entrance",
     "Battaglia_Story03_obj_long_02": "Head to Isaac Kepler's location and establish contact.",
     "Battaglia_Story03_obj_short_02": "Rendezvous With Isaac",
     "Battaglia_Story03_obj_marker_01": "Isaac Kepler",
@@ -2562,7 +2571,6 @@
     "mineabletype_primary_aluminium": "Aluminium",
     "mineabletype_primary_iron": "Iron",
     "Battaglia_RPT_Rarity_common_desc": "These should be pretty easy to find.",
-    "DataDownload_obj_marker_01a": "Server",
     "mineabletype_primary_ice": "Ice",
     "HaulCargo_CargoScale_ExtraSmall": "Extra Small",
     "items_commodities_medicalSupplies": "Medical Supplies",
@@ -2570,6 +2578,8 @@
     "mineabletype_primary_torite": "Torite",
     "Battaglia_RPT_Rarity_Uncommon_desc": "These might be a little tricky to find, just a head's up.",
     "hurston_danger_002": "Medium",
+    "FuelType_Quantum": "<EM4>~mission(QTFuel) SCU of Quantum Fuel</EM4>",
+    "RefuelRequest_Quantum": "<EM4>~mission(QTFuelRate) aUEC per SCU of Quantum </EM4>",
     "mission_location_nyx_020": "the Glaciem Ring",
     "hurston_danger_005": "Low-Risk Target (Single Seater Craft, Average Support)",
     "Industrial_Hint_Local_Planetary": "These ores can be mined from the caves on the surface of the planet that we require the ore to be delivered to.",
@@ -3074,6 +3084,8 @@
     "Battaglia_RPT_MissCrew_01_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Crew Hasn’t Checked In\\n\\nWORK BRIEF: \\nJust got word that one of the mining teams is unaccounted for. They were supposed to be back hours ago, but no one’s heard from them. Family have tried to reach out but haven’t gotten a response from anyone on the crew.\\n\\nI can send you their last known location, so we’re looking for someone to go check in and see if they’re okay. If the worst happened, <EM4>please identify anyone you find</EM4>. I’m sure the families would appreciate some closure on what happened.\\n\\nThanks\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "EckhartSecurity_RecoverCargo_VeryHard_Title": "Critical Cargo Extraction",
     "EckhartSecurity_RecoverCargo_VeryHard_Description": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Recover Cargo\\nApproval code: = ~mission(ApprovalCode)\\n\\nFOR IMMEDIATE PROCESSING\\n\\nCalling for a skilled contractor to recover a displaced shipment located at <EM4>~mission(Location|Address)</EM4>. Client's hauler was transporting some high value cargo when they decided to respond to a distress beacon and got ambushed by a group of outlaws. The client believes their pilot is gone but their cargo could still be recovered.\\n\\nThe information we have so far is that you'll need a ship that can carry <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4>, a <EM4>heavy-duty tractor beam</EM4> for shifting the goods, as well as your support ships to help deal with the outlaws at the location. \\n\\nClient will be expecting the completed delivery to be made to the freight elevator at <EM4>~mission(Destination|Address)</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
+    "UWC_Refueling_multiple_hard_title_001": "CRITICAL FLEET REFUEL",
+    "UWC_Refueling_multiple_hard_desc_001": "Heyo,\\n\\nOver at <EM4>~mission(Location|Address)</EM4> we just got a refueling job for an entire small fleet of ships who all together need ~mission(FuelType). Talk about when it rains it pours!\\n\\nThe client will pay you at the rate of ~mission(RefuelRequest), and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nUnfortunately, where they're held up isn't the nicest of sectors so I'd be alert for any tomfoolery while you're doing the run. \\n\\nIt'll be best to try get them all back on their way as soon as you can.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "UWC_Refueling_high_title_001": "CRITICAL REFUEL REQUEST: ~mission(Ship)",
     "UWC_Refueling_high_desc_001": "Hi,\\n\\nAnother day another beacon. There's a <EM4>~mission(Ship)</EM4> looking to be topped up with ~mission(FuelType) at <EM4>~mission(Location|Address)</EM4>.  The client vessel will pay you at the rate of ~mission(RefuelRequest), and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nI can't lie: it's a nasty place to get stuck and a worse place to get caught by surprise. We've lost good people out there - even the ones who got lucky made it home with pieces missing.\\n\\nIf you decide to take the job, do me a favor and keep everything peeled. If you've got a buddy with time to spare, maybe reach out for a little back-up.\\n\\nMaybe I'm being paranoid, but that doesn't mean they're not out to get you, as Momma Deloit used to say. \\n\\nActually she never said that - but I'm pretty sure she would if she did this for a living.\\n\\nJust do the job and get home safe, okay?\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "CFP_RecoverCargo_Hard_Title": "Crucial Supplies Need Retrieving",
@@ -3169,6 +3181,8 @@
     "Foxwell_X2_DrawOutBoss_Desc": "We have intercepted a location beacon that puts <EM>~mission(TargetName)</EM4> and their personal attack wing at <EM4>~mission(Location|Address)</EM4>. They have been one of XenoThreat's most brutal enforcers since their founding. \\n\\n<EM>~mission(TargetName|Last)</EM4>'s not one to back down from a fight so hit their ships hard enough, do enough damage and they won't be able to resist joining in the action. Once they're out in the open, they'll be your main target.\\n\\nReady to go?\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "HeadHunters_ShipAmbush_S_title_001": "Elite Op",
     "HeadHunters_ShipAmbush_S_desc_001": "Headhunters are looking for someone with the skills and crew to execute an elite op. A military frigate and escort ships are stalking one of our Clips around the system. Don’t know their intentions but it can’t be good. Figure while they’ve got their eyes focused on their prize, we get someone to gather a crew to hit ‘em.  \\n\\nAlready got a spot picked out. If you get to <EM4>~mission(Location|Address)</EM4> there’s an emission cloud that’s exactly what we need. Head there with friends, power down your ships, and wait for the <EM4>~mission(AmbushTarget)</EM4> and its escorts to pass by. \\n\\nWith a bonus of <EM4>~mission(ScripAmount) Council Scrip</EM4> for the main contractor, payment alone should make this worth your while, but you can also keep anything you scrounge from the wreckage.\\n\\n- Stows",
+    "Battaglia_Story02_title": "Emergency: Blinding Hope in Trouble",
+    "Battaglia_Story02_desc": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blinding Hope in trouble\\n\\nWORK BRIEF: \\nWe received a distress call from the Blinding Hope that said they were under attack from the Moraine again before they were cut off. I just want to know if they're okay. <EM4>Head to their last known location and report what you find</EM4>.\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
     "FTL_Courier_Nyx_Easy_Title_001": "ENTRY LVL. COURIER NEEDED IN NYX",
     "FTL_Courier_Nyx_Easy_Desc_001": "AVAILABLE FTL CONTRACT\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS**\\nFTL requires an entry-level courier to complete deliveries in Nyx.\\nCourier must provide own transportation.\\nPrior training in manual lifting is preferred, with the <EM4>ability to move boxes of up to .25 SCU</EM4> in weight.\\nBy accepting this contract you agree to take full responsibility for the safety of the assigned packages.\\n\\n~mission(Contractor|SignOff)",
     "FTL_Courier_Stanton_Easy_Title_001": "ENTRY LVL. COURIER NEEDED IN STANTON",
@@ -4184,10 +4198,10 @@
     "TheCollector_Ships_Intrepid_Desc": "If you are looking for Intrepid ship that more intrepid. Wikelo can help. Bring things and you will get special touches on ship by Wikelo and pretty new coat to it. Bye.",
     "Foxwell_X2_ShipDefend_Title": "Urgent - Ship Under XenoThreat Attack",
     "Foxwell_X2_ShipDefend_Desc": "A distress beacon came in from <EM4>~mission(Location|Address)</EM4> about a ship under attack from XenoThreat. The pilot reports that their shields are failing and they can't outrun the attackers.\\n\\nThe ship's a <EM4>~mission(Ship)</EM4>, but the pilot's Human, which  according to XenoThreat's twisted way of thinking, makes them a traitor to Humanity and a target for their hate.\\n\\nWe're looking for operators to head out there and do some good.\\n\\nKevin Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
+    "UWC_Refuelling_BespokeCapital_Title": "URGENT CAPITAL FLEET REFUEL",
+    "UWC_Refuelling_BespokeCapital_Desc": "DD here - I've got something special for you,\\n\\nI just received a ping from <EM4>~mission(Location|Address)</EM4>. A strike force led by a ~mission(Ship) just dropped into the system and are looking for a fast refuel before heading back out. \\n\\nThey  need ~mission(FuelType) asap and will pay ~mission(RefuelRequest) for it. As a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nI won't lie - I'm more than a little jealous. Getting up close and personal to a ship that big? Should be one to tell the grandkids about.\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "UWC_Refueling_multiple_med_title_001": "URGENT CONVOY REFUEL",
     "UWC_Refueling_multiple_med_desc_001": "Hey again,\\n\\nI've got a beacon at <EM4>~mission(Location|Address)</EM4> and this one's a bit more complicated than usual. Got small convoy of ships requesting ~mission(FuelType). Impressive coordination and lack of planning to all need refueling at the same time. \\n\\nThe client will pay you at the rate of ~mission(RefuelRequest), and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nHopefully since the area they're in is pretty safe, there shouldn't be too much trouble lurking, but these days you never know. Wouldn't hurt to get them back flying again as quick as you're able.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
-    "UWC_Refueling_moderate_title_001": "URGENT REFUEL REQUEST: ~mission(Ship)",
-    "UWC_Refueling_moderate_desc_001": "Hey, you!\\n\\nI've got a beacon at <EM4>~mission(Location|Address)</EM4>. They say their tanks are running dry and they could use ~mission(FuelType). If you're interested, I get the feeling they'll be really pleased to see you.\\n\\nThe client vessel will pay you at the rate of ~mission(RefuelRequest), and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nThey're stuck out in an area with a bad reputation, though things have been a bit more quiet recently. Still worth staying alert I'd say, just in case there's still trouble lurking out there. \\n\\nEither way, the sooner everyone's able to get flying again - and that includes you - the better.\\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
     "northrock_boarders_890J_title_001": "URGENT: Boarding Action In Progress",
     "northrock_boarders_890J_desc_001": "An executive client just informed us that their 890 Jump had been intercepted at ~mission(Location) and boarded by outlaws. They would prefer to have this handled privately owing to the sensitive nature of proprietary data that's being stored aboard. \\n\\nYour first priority will be to clear all outlaws as quickly as possible so that a recovery team can be dispatched to return the ship to the owner. The longer the outlaws have control of the vessel, the higher the chance it will be lost. I recommend you acquire a team for this outing to expedite matters. \\n\\nNote that thanks to a small contingent of Security Personnel who stayed aboard, all surviving members of the crew were able to flee in an escape craft. The current status of the remaining security is unknown, but just in case, keep an eye out for friendlies when you engage the hostiles.\\n\\nSecondly, if at all possible, the client is *very* interested in preventing the theft of the aforementioned data. If you are able to stop the theft of their confidential data stores before they are transmitted, a generous bonus will be issued.\\n\\nNeedless to say, this is a client I would very much like to keep happy. \\n\\nBraden Corchado\\nLogistics Officer - Stanton Branch\\nNorthrock Service Group",
     "UWC_Refueling_intro_title_001": "UWC'S HIRING REFUELERS",
@@ -5605,11 +5619,25 @@
     "EckhartSecurity_RecoverCargo_VeryHard_Description": {
       "ReputationRank": "@RepScope_Contractor_Rank4"
     },
+    "UWC_Refueling_multiple_hard_title_001": {
+      "FuelType": "@FuelType_Both",
+      "RefuelRequest": "@RefuelRequest_Hydrogen",
+      "ReputationRank": "@RepScope_Contractor_Rank5"
+    },
+    "UWC_Refueling_multiple_hard_desc_001": {
+      "FuelType": "@FuelType_Both",
+      "RefuelRequest": "@RefuelRequest_Hydrogen",
+      "ReputationRank": "@RepScope_Contractor_Rank5"
+    },
     "UWC_Refueling_high_title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "FuelType": "@FuelType_Both",
+      "RefuelRequest": "@RefuelRequest_Both",
+      "ReputationRank": "@RepScope_Contractor_Rank5"
     },
     "UWC_Refueling_high_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "FuelType": "@FuelType_Both",
+      "RefuelRequest": "@RefuelRequest_Both",
+      "ReputationRank": "@RepScope_Contractor_Rank5"
     },
     "CFP_RecoverCargo_Hard_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -5980,6 +6008,16 @@
     "HeadHunters_ShipAmbush_S_desc_001": {
       "ReputationRank": "@RepScope_Contractor_Rank5",
       "ScripAmount": "16"
+    },
+    "Battaglia_Story02_title": {
+      "HotColdObject1": "@Search_Investigate",
+      "GuideMarker": "@area_name_entrance",
+      "HotColdObject2": "@DataDownload_obj_marker_01a"
+    },
+    "Battaglia_Story02_desc": {
+      "HotColdObject1": "@Search_Investigate",
+      "GuideMarker": "@area_name_entrance",
+      "HotColdObject2": "@DataDownload_obj_marker_01a"
     },
     "FTL_Courier_Nyx_Easy_Title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
@@ -9376,17 +9414,25 @@
     "Foxwell_X2_ShipDefend_Desc": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
+    "UWC_Refuelling_BespokeCapital_Title": {
+      "FuelType": "@FuelType_Both",
+      "RefuelRequest": "@RefuelRequest_Both",
+      "ReputationRank": "@RepScope_Contractor_Rank6"
+    },
+    "UWC_Refuelling_BespokeCapital_Desc": {
+      "FuelType": "@FuelType_Both",
+      "RefuelRequest": "@RefuelRequest_Both",
+      "ReputationRank": "@RepScope_Contractor_Rank6"
+    },
     "UWC_Refueling_multiple_med_title_001": {
+      "FuelType": "@FuelType_Both",
+      "RefuelRequest": "@RefuelRequest_Both",
       "ReputationRank": "@RepScope_Contractor_Rank3"
     },
     "UWC_Refueling_multiple_med_desc_001": {
+      "FuelType": "@FuelType_Both",
+      "RefuelRequest": "@RefuelRequest_Both",
       "ReputationRank": "@RepScope_Contractor_Rank3"
-    },
-    "UWC_Refueling_moderate_title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
-    },
-    "UWC_Refueling_moderate_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "northrock_boarders_890J_title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
