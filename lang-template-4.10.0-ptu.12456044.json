@@ -1,6 +1,6 @@
 {
-  "version": "4.10.0-ptu.12448924",
-  "keyCount": 4415,
+  "version": "4.10.0-ptu.12456044",
+  "keyCount": 4418,
   "keys": {
     "Headhunters_Delivery_Outpost_title_001": "[DESTINATION] Errand",
     "roughready_delivery_station_title_001": "[DESTINATION] Stroll",
@@ -3872,6 +3872,7 @@
     "_noloc_item_Cinch Scraper Module": "Cinch Scraper Module",
     "_noloc_item_Cirrus": "Cirrus",
     "_noloc_item_Citadel": "Citadel",
+    "_noloc_item_Clearcut Module": "Clearcut Module",
     "_noloc_item_Cloak": "Cloak",
     "_noloc_item_Coda Pistol Magazine (6 cap)": "Coda Pistol Magazine (6 cap)",
     "_noloc_item_ColdSnap": "ColdSnap",
@@ -3890,6 +3891,7 @@
     "_noloc_item_Deadrig Shotgun Magazine (8 cap)": "Deadrig Shotgun Magazine (8 cap)",
     "_noloc_item_Defiant": "Defiant",
     "_noloc_item_DeltaMax": "DeltaMax",
+    "_noloc_item_Deluge Module": "Deluge Module",
     "_noloc_item_Demeco LMG Battery (100 cap)": "Demeco LMG Battery (100 cap)",
     "_noloc_item_Denning": "Denning",
     "_noloc_item_Devastator Shotgun Battery (12 cap)": "Devastator Shotgun Battery (12 cap)",
@@ -4045,6 +4047,7 @@
     "_noloc_item_Observer-Max": "Observer-Max",
     "_noloc_item_Odyssey": "Odyssey",
     "_noloc_item_OverDrive": "OverDrive",
+    "_noloc_item_Overrun Module": "Overrun Module",
     "_noloc_item_P4-AR Magazine (40 cap)": "P4-AR Magazine (40 cap)",
     "_noloc_item_P6-LR Magazine (8 cap)": "P6-LR Magazine (8 cap)",
     "_noloc_item_P8-AR Rifle Magazine (15 Cap)": "P8-AR Rifle Magazine (15 Cap)",
@@ -10071,9 +10074,13 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "UWC_Refueling_easy_title_001": {
+      "FuelType": "@FuelType_Hydrogen",
+      "RefuelRequest": "@RefuelRequest_Hydrogen",
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "UWC_Refueling_easy_desc_001": {
+      "FuelType": "@FuelType_Hydrogen",
+      "RefuelRequest": "@RefuelRequest_Hydrogen",
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "CFP_ShipWaveAttack_ClearHostiles_Title_M_001": {
@@ -11120,9 +11127,11 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "UWC_Refueling_intro_title_001": {
+      "FuelType": "@FuelType_Hydrogen",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "UWC_Refueling_intro_desc_001": {
+      "FuelType": "@FuelType_Hydrogen",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Kaboos_Intro_Title": {
