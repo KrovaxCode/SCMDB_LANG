@@ -34,8 +34,8 @@ This produces a `lang-your_global-4.7.0-ptu.11494258.json` file with a coverage 
   Translated:    3250
   Missing:       3
   Mismatch:      26 (token placeholders in foreign text)
-  Substituted:   165 (placeholders replaced with foreign values)
   No loc key:    80 (kept as-is)
+  UI sidecar:    12 (scmdb_ui_* from community sidecar)
 ```
 
 Missing keys automatically fall back to English text.
@@ -52,6 +52,117 @@ The output filename is derived from your `global.ini` filename. To control the l
 # Input: global_ru.ini -> Output: lang-global_ru-4.7.0-ptu.11494258.json
 # Input: german_global.ini -> Output: lang-german_global-4.7.0-ptu.11494258.json
 ```
+
+### Translating SCMDB's own UI strings
+
+Almost everything you translate comes from CIG's `global.ini`. One set of
+strings does not: SCMDB's own interface text — mission badges, Fabricator
+panel labels, tooltips. These live in the template under the `scmdb_ui_*`
+namespace, and no `global.ini` will ever contain them, because they are not
+game data.
+
+To translate them, place a **sidecar file** next to your `global.ini`:
+
+```
+translations/
+  global_zh-CN.ini
+  scmdb_ui_zh-CN.json     <- picked up automatically
+```
+
+No extra flag needed — the build finds it by name:
+
+```bash
+python build_lang_template.py --translate translations/global_zh-CN.ini
+```
+
+```
+  UI sidecar: scmdb_ui_zh-CN.json (12 entries)
+```
+
+**Naming.** `scmdb_ui_<lang>.<ext>`, where `<lang>` matches your INI. For
+`global_zh-CN.ini`, both `scmdb_ui_zh-CN.json` and `scmdb_ui_global_zh-CN.json`
+are recognised; for `chinese_global.ini` it is `scmdb_ui_chinese.json`. A
+sidecar whose name does not match is never picked up silently — the build
+prints a hint instead. To use a file with a different name or location, point
+at it explicitly:
+
+```bash
+python build_lang_template.py --translate global_zh-CN.ini --translate-ui my_ui_strings.json
+```
+
+#### Sidecar format
+
+JSON is preferred — it round-trips placeholder tokens and special characters
+without surprises. A flat key -> translation map is all it takes:
+
+```json
+{
+  "scmdb_ui_tag_legal": "合法",
+  "scmdb_ui_tag_new_tt": "新增于补丁 {patch}",
+  "scmdb_ui_tag_wip": "开发中"
+}
+```
+
+A `keys` wrapper is accepted as well, so you can keep metadata next to the
+strings, and values may use the `{"en": ..., "tr": ...}` shape of a generated
+`lang-*.json`:
+
+```json
+{
+  "lang": "zh-CN",
+  "keys": {
+    "scmdb_ui_tag_legal": "合法"
+  }
+}
+```
+
+An `.ini` sidecar (same `key=value` format as `global.ini`) works too:
+
+```ini
+scmdb_ui_tag_legal=合法
+scmdb_ui_tag_new_tt=新增于补丁 {patch}
+```
+
+Include only the keys you have translated. Anything you leave out — or leave
+empty — keeps its English text. The full list of available keys is in the
+template: every entry under `keys` whose name starts with `scmdb_ui_`.
+
+#### Placeholders
+
+Some of these strings carry placeholder tokens in curly braces: `{patch}`,
+`{n}`, `{count}`, `{chance}`, `{material}`, `{pool}`, `{systems}`. SCMDB
+substitutes them with the real value when the page renders.
+
+Keep the token spelled exactly as it is. You are free to move it anywhere in
+the sentence:
+
+| Key | English | zh-CN |
+|-----|---------|-------|
+| `scmdb_ui_tag_new_tt` | `Added in patch {patch}` | `新增于补丁 {patch}` |
+| `scmdb_ui_tag_waves_tt` | `{n} waves` | `{n} 波` |
+
+Renaming or dropping a token breaks the substitution — the string then renders
+with a literal `{patch}` in it.
+
+#### In the report
+
+Sidecar entries count as **Translated**, and get their own summary line:
+
+```
+  UI sidecar:    12 (scmdb_ui_* from community sidecar)
+```
+
+`scmdb_ui_*` keys you have not translated do **not** show up under *Missing* —
+they were never in `global.ini` to begin with. They are listed separately:
+
+```
+=== SCMDB UI strings without translation (47) ===
+  scmdb_ui_fab_preset_base
+  ...
+```
+
+If CIG ever ships a key with the same name, CIG's `global.ini` wins — the
+sidecar is only consulted where the INI has no answer.
 
 ### How to publish your translation
 
@@ -141,7 +252,9 @@ If your team has published a translation, open an issue to get listed.
 
 Translations cover **in-game data only** — mission titles, descriptions, location names, ship names, item names, faction names, and other strings sourced from Star Citizen's `global.ini`.
 
-Website UI elements (buttons, labels, column headers, tooltips, filters, etc.) always remain in English. This is intentional — UI localization would require layout adjustments, pluralization rules, and formatting changes that go far beyond simple string replacement.
+A defined subset of SCMDB's **own** interface text is translatable as well — mission badges, Fabricator panel labels and their tooltips — via the `scmdb_ui_*` sidecar described above. These are opt-in: without a sidecar they stay English, and nothing breaks.
+
+The remaining website chrome (navigation, buttons, column headers, filters, settings) stays English by design — localizing it would require layout adjustments, pluralization rules, and formatting changes that go far beyond simple string replacement.
 
 ## FAQ
 
@@ -156,6 +269,9 @@ A: CIG sometimes has different English text in foreign language `global.ini` fil
 
 **Q: What are "Substituted" entries?**
 A: Mission tokens like `[RANK]` or `[CARGO_GRADE]` are automatically replaced with the translated value from your `global.ini`. For example, `[RANK]` becomes "Мастер" in Russian.
+
+**Q: The report lists `scmdb_ui_*` keys as untranslated. Where do I get them from?**
+A: Not from `global.ini` — those are SCMDB's own interface strings. Put a `scmdb_ui_<lang>.json` sidecar next to your INI, see "Translating SCMDB's own UI strings" above.
 
 **Q: Can I manually edit the output JSON?**
 A: Yes. You can fix or improve any translation directly in the JSON file after generation.
