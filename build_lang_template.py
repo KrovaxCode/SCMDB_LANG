@@ -664,10 +664,11 @@ def _read_sidecar_ini(path: str) -> dict:
 
     Deliberately not load_localization(): that one reads with
     errors="ignore", which is right for CIG's UTF-8 global.ini but wrong for
-    a file a translator wrote by hand. Saved as ANSI/cp1252 -- the Windows
-    default in most editors -- every non-ASCII character would be dropped
-    without a word: "Rechtmaessig" spelled with ae-ligature arrives as
-    "Rechtmig". Better to refuse the file than to ship mangled strings.
+    a file a translator wrote by hand. Saved in a legacy codepage -- what
+    "ANSI" means in most Windows editors, cp1252 in Western Europe, GBK in
+    China, Shift-JIS in Japan -- the non-ASCII bytes would be dropped without
+    a word. Guessing the codepage is no better: decoding GBK as cp1252 yields
+    plausible-looking nonsense rather than an error, so refuse the file.
     """
     out = {}
     with open(path, encoding="utf-8") as f:
@@ -720,7 +721,9 @@ def load_ui_sidecar(path: str) -> dict:
     except UnicodeDecodeError as e:
         raise ValueError(
             f"file is not valid UTF-8 (byte {e.start}). Save it as UTF-8 -- "
-            f"an ANSI/cp1252 file would lose every accented character silently."
+            f"a legacy codepage (what Windows editors call ANSI: cp1252, GBK, "
+            f"Shift-JIS, ...) cannot be decoded reliably, and reading it anyway "
+            f"would corrupt the text without warning."
         ) from e
 
     out = {}

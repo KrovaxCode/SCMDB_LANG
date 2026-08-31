@@ -132,9 +132,13 @@ Two rules:
 - **`scmdb_ui_*` keys only.** Anything else in the file is ignored with a
   warning. Game data belongs in your `global.ini`, not here — a sidecar
   answering CIG keys would report flawless coverage while shipping English.
-- **UTF-8.** Both formats. A file saved as ANSI/cp1252 — the default in many
-  Windows editors — is rejected with an error rather than read, because every
-  accented character would be dropped without a trace.
+- **UTF-8.** Both formats — which covers every script, Chinese and Japanese
+  included. What is *not* accepted is a legacy codepage: what Windows editors
+  call "ANSI" is cp1252 in Western Europe, GBK in China, Shift-JIS in Japan.
+  Such a file is rejected with an error rather than read, because decoding it
+  as anything else corrupts the text silently. In VS Code the setting is
+  *Save with Encoding → UTF-8*; in Notepad it is the *Encoding* dropdown of
+  the Save-As dialog.
 
 Include only the keys you have translated. Anything you leave out — or leave
 empty — keeps its English text. The full list of available keys is in the
