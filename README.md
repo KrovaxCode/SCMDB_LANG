@@ -61,6 +61,10 @@ panel labels, tooltips. These live in the template under the `scmdb_ui_*`
 namespace, and no `global.ini` will ever contain them, because they are not
 game data.
 
+> **Availability:** the `scmdb_ui_*` keys ride in the LIVE template as of
+> `4.10.0-live.12545750`. The PTU template picks them up with its next rebuild.
+> Until then use `-p live`, otherwise the sidecar has nothing to match against.
+
 To translate them, place a **sidecar file** next to your `global.ini`:
 
 ```
@@ -235,7 +239,7 @@ Translation teams can be listed here once they publish their files:
 
 If your team has published a translation, open an issue to get listed.
 
-## Key Statistics (~3,300 keys per version)
+## Key Statistics (~4,500 keys per version)
 
 | Category | Count | Notes |
 |----------|-------|-------|
@@ -247,6 +251,7 @@ If your team has published a translation, open an issue to get listed.
 | Factions | ~35 | In-game organizations |
 | Reputation | ~55 | Rank and scope names |
 | Mining | ~38 | Mineable elements |
+| SCMDB UI strings | 59 | `scmdb_ui_*` — see the sidecar section above |
 
 ## What is translated?
 
