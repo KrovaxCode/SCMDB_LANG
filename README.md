@@ -108,8 +108,8 @@ without surprises. A flat key -> translation map is all it takes:
 ```
 
 A `keys` wrapper is accepted as well, so you can keep metadata next to the
-strings, and values may use the `{"en": ..., "tr": ...}` shape of a generated
-`lang-*.json`:
+strings, and a value may be given as `{"en": ..., "tr": ...}` — the `tr` side
+is used:
 
 ```json
 {
@@ -126,6 +126,15 @@ An `.ini` sidecar (same `key=value` format as `global.ini`) works too:
 scmdb_ui_tag_legal=合法
 scmdb_ui_tag_new_tt=新增于补丁 {patch}
 ```
+
+Two rules:
+
+- **`scmdb_ui_*` keys only.** Anything else in the file is ignored with a
+  warning. Game data belongs in your `global.ini`, not here — a sidecar
+  answering CIG keys would report flawless coverage while shipping English.
+- **UTF-8.** Both formats. A file saved as ANSI/cp1252 — the default in many
+  Windows editors — is rejected with an error rather than read, because every
+  accented character would be dropped without a trace.
 
 Include only the keys you have translated. Anything you leave out — or leave
 empty — keeps its English text. The full list of available keys is in the
@@ -165,8 +174,21 @@ they were never in `global.ini` to begin with. They are listed separately:
   ...
 ```
 
+Entries in your sidecar that had no effect are called out too, so a typo does
+not cost you an afternoon:
+
+```
+=== UI sidecar entries that did not apply (2) ===
+  Not present in this template (2):
+    scmdb_ui_tag_ilegal
+    scmdb_ui_tag_retired_key
+  -> typo in the key, a retired key, or a template that
+     predates the string. Nothing was written for these.
+```
+
 If CIG ever ships a key with the same name, CIG's `global.ini` wins — the
-sidecar is only consulted where the INI has no answer.
+sidecar is only consulted where the INI has no answer, and the shadowed
+sidecar entry is listed under *Answered by your global.ini instead*.
 
 ### How to publish your translation
 

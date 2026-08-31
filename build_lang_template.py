@@ -659,16 +659,46 @@ def find_ui_sidecar(foreign_ini_path: str):
     return None
 
 
+def _read_sidecar_ini(path: str) -> dict:
+    """Minimal key=value reader for .ini sidecars, strict UTF-8.
+
+    Deliberately not load_localization(): that one reads with
+    errors="ignore", which is right for CIG's UTF-8 global.ini but wrong for
+    a file a translator wrote by hand. Saved as ANSI/cp1252 -- the Windows
+    default in most editors -- every non-ASCII character would be dropped
+    without a word: "Rechtmaessig" spelled with ae-ligature arrives as
+    "Rechtmig". Better to refuse the file than to ship mangled strings.
+    """
+    out = {}
+    with open(path, encoding="utf-8") as f:
+        for raw_line in f:
+            line = raw_line.strip()
+            if not line or line.startswith((";", "#", "[")):
+                continue
+            if "=" not in line:
+                continue
+            key, val = line.split("=", 1)
+            out[key.strip()] = val.strip()
+    return out
+
+
 def load_ui_sidecar(path: str) -> dict:
-    """Load a community UI sidecar -> {key: translated_string}.
+    """Load a community UI sidecar -> {scmdb_ui_key: translated_string}.
 
     Accepted JSON shapes:
         {"scmdb_ui_tag_legal": "LEGAL_DE", ...}                     flat
         {"lang": "de-DE", "keys": {"scmdb_ui_tag_legal": "..."}}    wrapped
         {"keys": {"scmdb_ui_tag_legal": {"en": "LEGAL",
-                                         "tr": "LEGAL_DE"}}}        lang-file shape
+                                         "tr": "LEGAL_DE"}}}        {en,tr} values
 
-    A .ini sidecar uses the same key=value format as global.ini.
+    A .ini sidecar uses key=value lines; [sections] and ; # comments are
+    skipped. Both formats must be UTF-8.
+
+    Only keys inside the scmdb_ui_* namespace are accepted. Anything else is
+    dropped with a warning: without that limit, handing in a full generated
+    lang-*.json would answer every key CIG's INI happens to miss with its own
+    English fallback, and the coverage report would show a flawless 100%
+    while the output is entirely English.
 
     Values are taken verbatim -- no token normalization, no trimming of
     placeholders. {patch} and friends must reach the output unchanged, the
@@ -677,23 +707,42 @@ def load_ui_sidecar(path: str) -> dict:
     translation.
     """
     ext = os.path.splitext(path)[1].lower()
-    if ext == ".ini":
-        raw = load_localization(path)
-    else:
-        with open(path, encoding="utf-8-sig") as f:
-            data = json.load(f)
-        if not isinstance(data, dict):
-            raise ValueError("sidecar must contain a JSON object")
-        inner = data.get("keys")
-        raw = inner if isinstance(inner, dict) else data
+    try:
+        if ext == ".ini":
+            raw = _read_sidecar_ini(path)
+        else:
+            with open(path, encoding="utf-8-sig") as f:
+                data = json.load(f)
+            if not isinstance(data, dict):
+                raise ValueError("sidecar must contain a JSON object")
+            inner = data.get("keys")
+            raw = inner if isinstance(inner, dict) else data
+    except UnicodeDecodeError as e:
+        raise ValueError(
+            f"file is not valid UTF-8 (byte {e.start}). Save it as UTF-8 -- "
+            f"an ANSI/cp1252 file would lose every accented character silently."
+        ) from e
 
     out = {}
+    outside = []
     for key, val in raw.items():
         if isinstance(val, dict):
-            # lang-file shape: take the translated side
+            # {en, tr} value shape: take the translated side
             val = val.get("tr") or val.get("value")
-        if isinstance(val, str) and val.strip():
-            out[key] = val
+        if not isinstance(val, str) or not val.strip():
+            continue
+        if not key.startswith(_UI_PREFIX):
+            outside.append(key)
+            continue
+        out[key] = val
+
+    if outside:
+        sample = ", ".join(sorted(outside)[:3])
+        more = f", +{len(outside) - 3} more" if len(outside) > 3 else ""
+        print(f"[WARN] UI sidecar: ignored {len(outside)} entries outside the "
+              f"{_UI_PREFIX}* namespace ({sample}{more}).")
+        print(f"       A sidecar supplies SCMDB's own UI strings only -- game data "
+              f"comes from your global.ini.")
     return out
 
 
@@ -728,20 +777,17 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
     noloc = []
     mismatched = []
     community_hits = []
+    community_overridden = []
     ui_untranslated = []
     placeholder_fallback = 0
     length_fallback = 0
 
     for key, english_text in template.get("keys", {}).items():
         if key.startswith("_noloc_"):
-            # No global.ini key -> sidecar is the only possible source, else en=tr
-            community_val = community_ui.get(key)
-            if community_val:
-                translated[key] = {"en": english_text, "tr": community_val}
-                community_hits.append(key)
-            else:
-                translated[key] = {"en": english_text, "tr": english_text}
-                noloc.append(key)
+            # No global.ini key -> en=tr, no lookup possible. Not sidecar
+            # territory either: a sidecar only carries scmdb_ui_* keys.
+            translated[key] = {"en": english_text, "tr": english_text}
+            noloc.append(key)
             continue
 
         # scmdb_ui_* deliberately falls through into the normal lookup below:
@@ -779,6 +825,11 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
                 placeholder_fallback += 1
                 continue
 
+            if key in community_ui:
+                # CIG answered a key the sidecar also carries -- the sidecar
+                # entry is inert, say so rather than let it look applied.
+                community_overridden.append(key)
+
             translated[key] = {"en": english_text, "tr": foreign_normalized}
 
             # Mismatch detection: foreign text still contains token placeholders
@@ -813,6 +864,12 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
                 translated[key] = {"en": english_text, "tr": english_text}
                 missing.append(key)
 
+    # Sidecar entries that never reached a template key at all -- typo, retired
+    # key, or a template that predates the string. Silent misses are how a
+    # translator loses an afternoon.
+    template_keys = template.get("keys", {})
+    community_unknown = sorted(k for k in community_ui if k not in template_keys)
+
     stats = {
         "total": len(template.get("keys", {})),
         "translated": len(translated) - len(missing) - len(noloc) - placeholder_fallback - length_fallback,
@@ -822,10 +879,14 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
         "lengthFallback": length_fallback,
         "mismatch": len(mismatched),
         "communityUiHits": len(community_hits),
+        "communityUiUnknown": len(community_unknown),
+        "communityUiOverridden": len(community_overridden),
         "uiUntranslated": len(ui_untranslated),
         "missingKeys": sorted(missing),
         "mismatchKeys": sorted(mismatched),
         "communityUiKeys": sorted(community_hits),
+        "communityUiUnknownKeys": community_unknown,
+        "communityUiOverriddenKeys": sorted(community_overridden),
         "uiUntranslatedKeys": sorted(ui_untranslated),
     }
 
@@ -864,6 +925,24 @@ def _print_translation_report(translation, stats, out_name):
             print(f"  ... and {stats['missing'] - 20} more")
         print(f"\nThese keys are missing from the foreign global.ini.")
         print(f"Fallback: English text is used.")
+
+    unknown = stats.get("communityUiUnknownKeys", [])
+    overridden = stats.get("communityUiOverriddenKeys", [])
+    if unknown or overridden:
+        print(f"\n=== UI sidecar entries that did not apply ({len(unknown) + len(overridden)}) ===")
+        if unknown:
+            print(f"  Not present in this template ({len(unknown)}):")
+            for k in unknown[:20]:
+                print(f"    {k}")
+            if len(unknown) > 20:
+                print(f"    ... and {len(unknown) - 20} more")
+            print(f"  -> typo in the key, a retired key, or a template that")
+            print(f"     predates the string. Nothing was written for these.")
+        if overridden:
+            print(f"  Answered by your global.ini instead ({len(overridden)}):")
+            for k in overridden[:20]:
+                print(f"    {k}")
+            print(f"  -> global.ini wins on purpose; the sidecar value was not used.")
 
     if stats.get("uiUntranslated", 0) > 0:
         print(f"\n=== SCMDB UI strings without translation ({stats['uiUntranslated']}) ===")
