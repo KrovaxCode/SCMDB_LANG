@@ -1,6 +1,6 @@
 {
   "version": "4.10.1-live.12660092",
-  "keyCount": 4504,
+  "keyCount": 4505,
   "keys": {
     "Headhunters_Delivery_Outpost_title_001": "[DESTINATION] Errand",
     "roughready_delivery_station_title_001": "[DESTINATION] Stroll",
@@ -4451,6 +4451,7 @@
     "scmdb_ui_tag_illegal": "ILLEGAL",
     "scmdb_ui_tag_solo": "SOLO",
     "scmdb_ui_tag_unique": "UNIQUE",
+    "scmdb_ui_tag_lockout": "LOCKOUT",
     "scmdb_ui_tag_starter": "STARTER",
     "scmdb_ui_tag_chain": "CHAIN",
     "scmdb_ui_tag_prereq": "PREREQ",
