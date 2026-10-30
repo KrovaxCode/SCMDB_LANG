@@ -1,6 +1,6 @@
 {
-  "version": "4.10.3-ptu.13032516",
-  "keyCount": 4638,
+  "version": "4.10.3-ptu.13055118",
+  "keyCount": 4652,
   "keys": {
     "Headhunters_Delivery_Outpost_title_001": "[DESTINATION] Errand",
     "roughready_delivery_station_title_001": "[DESTINATION] Stroll",
@@ -2925,8 +2925,11 @@
     "_noloc_item_Lumin V \"Valor\" SMG": "Lumin V \"Valor\" SMG",
     "_noloc_item_Lumin V SMG": "Lumin V SMG",
     "_noloc_item_M3A Cannon": "M3A Cannon",
+    "_noloc_item_M3A Cannon Raider Camo": "M3A Cannon Raider Camo",
     "_noloc_item_M4A Cannon": "M4A Cannon",
+    "_noloc_item_M4A Cannon Raider Camo": "M4A Cannon Raider Camo",
     "_noloc_item_M5A Cannon": "M5A Cannon",
+    "_noloc_item_M5A Cannon Raider Camo": "M5A Cannon Raider Camo",
     "_noloc_item_M6A Cannon": "M6A Cannon",
     "_noloc_item_M7A Cannon": "M7A Cannon",
     "_noloc_item_M8A Cannon": "M8A Cannon",
@@ -3318,21 +3321,25 @@
     "_noloc_item_Corbel Arms Halcyon": "Corbel Arms Halcyon",
     "_noloc_item_Corbel Arms Mire": "Corbel Arms Mire",
     "_noloc_item_Corbel Arms Patina": "Corbel Arms Patina",
+    "_noloc_item_Corbel Arms Raider Camo": "Corbel Arms Raider Camo",
     "_noloc_item_Corbel Arms Smolder": "Corbel Arms Smolder",
     "_noloc_item_Corbel Core Crush": "Corbel Core Crush",
     "_noloc_item_Corbel Core Halcyon": "Corbel Core Halcyon",
     "_noloc_item_Corbel Core Mire": "Corbel Core Mire",
     "_noloc_item_Corbel Core Patina": "Corbel Core Patina",
+    "_noloc_item_Corbel Core Raider Camo": "Corbel Core Raider Camo",
     "_noloc_item_Corbel Core Smolder": "Corbel Core Smolder",
     "_noloc_item_Corbel Helmet Crush": "Corbel Helmet Crush",
     "_noloc_item_Corbel Helmet Halcyon": "Corbel Helmet Halcyon",
     "_noloc_item_Corbel Helmet Mire": "Corbel Helmet Mire",
     "_noloc_item_Corbel Helmet Patina": "Corbel Helmet Patina",
+    "_noloc_item_Corbel Helmet Raider Camo": "Corbel Helmet Raider Camo",
     "_noloc_item_Corbel Helmet Smolder": "Corbel Helmet Smolder",
     "_noloc_item_Corbel Legs Crush": "Corbel Legs Crush",
     "_noloc_item_Corbel Legs Halcyon": "Corbel Legs Halcyon",
     "_noloc_item_Corbel Legs Mire": "Corbel Legs Mire",
     "_noloc_item_Corbel Legs Patina": "Corbel Legs Patina",
+    "_noloc_item_Corbel Legs Raider Camo": "Corbel Legs Raider Camo",
     "_noloc_item_Corbel Legs Smolder": "Corbel Legs Smolder",
     "_noloc_item_Deep-Space Undersuit": "Deep-Space Undersuit",
     "_noloc_item_Defiance Arms (Modified)": "Defiance Arms (Modified)",
@@ -3780,23 +3787,28 @@
     "_noloc_item_Palatino Arms Metropolis": "Palatino Arms Metropolis",
     "_noloc_item_Palatino Arms Moonfall": "Palatino Arms Moonfall",
     "_noloc_item_Palatino Arms Necropolis": "Palatino Arms Necropolis",
+    "_noloc_item_Palatino Arms Raider Camo": "Palatino Arms Raider Camo",
     "_noloc_item_Palatino Arms Sunstone": "Palatino Arms Sunstone",
+    "_noloc_item_Palatino Backpack Raider Camo": "Palatino Backpack Raider Camo",
     "_noloc_item_Palatino Core": "Palatino Core",
     "_noloc_item_Palatino Core Daystar": "Palatino Core Daystar",
     "_noloc_item_Palatino Core Metropolis": "Palatino Core Metropolis",
     "_noloc_item_Palatino Core Moonfall": "Palatino Core Moonfall",
     "_noloc_item_Palatino Core Necropolis": "Palatino Core Necropolis",
+    "_noloc_item_Palatino Core Raider Camo": "Palatino Core Raider Camo",
     "_noloc_item_Palatino Core Sunstone": "Palatino Core Sunstone",
     "_noloc_item_Palatino Helmet": "Palatino Helmet",
     "_noloc_item_Palatino Helmet Daystar": "Palatino Helmet Daystar",
     "_noloc_item_Palatino Helmet Metropolis": "Palatino Helmet Metropolis",
     "_noloc_item_Palatino Helmet Moonfall": "Palatino Helmet Moonfall",
+    "_noloc_item_Palatino Helmet Raider Camo": "Palatino Helmet Raider Camo",
     "_noloc_item_Palatino Helmet Sunstone": "Palatino Helmet Sunstone",
     "_noloc_item_Palatino Legs": "Palatino Legs",
     "_noloc_item_Palatino Legs Daystar": "Palatino Legs Daystar",
     "_noloc_item_Palatino Legs Metropolis": "Palatino Legs Metropolis",
     "_noloc_item_Palatino Legs Moonfall": "Palatino Legs Moonfall",
     "_noloc_item_Palatino Legs Necropolis": "Palatino Legs Necropolis",
+    "_noloc_item_Palatino Legs Raider Camo": "Palatino Legs Raider Camo",
     "_noloc_item_Palatino Legs Sunstone": "Palatino Legs Sunstone",
     "_noloc_item_Pembroke Backpack": "Pembroke Backpack",
     "_noloc_item_Pembroke Exploration Suit": "Pembroke Exploration Suit",
@@ -3854,6 +3866,8 @@
     "_noloc_item_Tailwind Flight Helmet Thunderstruck": "Tailwind Flight Helmet Thunderstruck",
     "_noloc_item_Tailwind Flight Suit": "Tailwind Flight Suit",
     "_noloc_item_Tailwind Flight Suit Dominion Camo": "Tailwind Flight Suit Dominion Camo",
+    "_noloc_item_Tailwind Flight Suit Raider Camo": "Tailwind Flight Suit Raider Camo",
+    "_noloc_item_Tailwind Helmet Raider Camo": "Tailwind Helmet Raider Camo",
     "_noloc_item_Testudo Arms": "Testudo Arms",
     "_noloc_item_Testudo Arms Clanguard": "Testudo Arms Clanguard",
     "_noloc_item_Testudo Arms Combustion": "Testudo Arms Combustion",
@@ -7434,10 +7448,10 @@
       "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Intersec_ShipWaveAttack_VH_Van_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Intersec_ShipWaveAttack_VH_Van_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "spacecollect_cargo_title_VE_01": {
       "ObjectiveSetup": "@mission_item_0055",
@@ -8012,10 +8026,10 @@
       "HotColdObject2": "@DataDownload_obj_marker_01a"
     },
     "Intersec_3Way_Title_Hard_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Intersec_3Way_Desc_Hard_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "FTL_Courier_Nyx_Easy_Title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
@@ -8040,10 +8054,10 @@
       "ReputationRank": "@RepScope_Contractor_Rank5"
     },
     "Intersec_ShipWaveAttack_DrawOutBoss_S_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank5"
     },
     "Intersec_ShipWaveAttack_DrawOutBoss_S_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank5"
     },
     "Foxwell_Mercenary_Intro_title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -8553,10 +8567,10 @@
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Intersec_ShipWaveAttack_S_Van_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Intersec_ShipWaveAttack_S_Van_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "CFP_RecoverCargo_Easy_Title": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -9436,10 +9450,10 @@
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Intersec_3Way_Title_VeryHard_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Intersec_3Way_Desc_VeryHard_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Intersec_KillShip_Vanduul_Title_VeryHard_001": {
       "Danger": "@hurston_danger_009",
@@ -10062,10 +10076,10 @@
       "Contractor|SearchBodySpaceDescriptionVeryEasy": "@vaughn_searchbody_space_VE_Desc_001"
     },
     "Intersec_ElimAux_ShatteredBlade_Med_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Intersec_ElimAux_ShatteredBlade_Med_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "headhunters_defendship_multi_VHRT_PA_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank4"
@@ -10482,10 +10496,10 @@
       "ScripAmount": "9"
     },
     "Intersec_BoardShip_ShatteredBlade_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "Intersec_BoardShip_ShatteredBlade_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "cfp_ChainElimAll_2C_ElimSpec_HHAttack_H_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank4"
@@ -10892,10 +10906,10 @@
       "ReputationRank": "@RepStanding_Security_Rank0"
     },
     "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank5"
     },
     "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank5"
     },
     "cfp_defendship_Intro_title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -11254,10 +11268,10 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Intersec_3Way_Title_Super_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Intersec_3Way_Desc_Super_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "headhunters_bombingrun_M_title_001": {
       "ItemsToDestroy": "@destroyItems_BombingRunItem",
@@ -11416,10 +11430,10 @@
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Intersec_ShipWaveAttack_DrawOutBoss_VH_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Intersec_ShipWaveAttack_DrawOutBoss_VH_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Intersec_KillShip_Title_Easy_001": {
       "Danger": "@hurston_danger_009",
@@ -11613,10 +11627,10 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Intersec_ShipWaveAttack_H_Van_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Intersec_ShipWaveAttack_H_Van_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Kaboos_Intro_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
