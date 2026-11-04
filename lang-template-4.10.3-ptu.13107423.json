@@ -1,6 +1,6 @@
 {
-  "version": "4.10.3-ptu.13093654",
-  "keyCount": 4650,
+  "version": "4.10.3-ptu.13107423",
+  "keyCount": 4666,
   "keys": {
     "Headhunters_Delivery_Outpost_title_001": "[DESTINATION] Errand",
     "roughready_delivery_station_title_001": "[DESTINATION] Stroll",
@@ -365,6 +365,7 @@
     "LingFamily_HaulCargo_MultiToSingle_title": "Ling Family Rookie Cargo Haul - Small Scale",
     "LingFamily_RecoverCargo_Easy_Title": "Ling Shipment Recovery",
     "Headhunters_Delivery_Outpost_Multi_title_001": "Little Heavy Lifting at [DESTINATION]",
+    "Intersec_BlueCryo_Title_001": "Living Vanduul Sample",
     "Hockrow_searchbody_space_H_Title_001": "Locate Missing Agent: [TARGET]",
     "Hockcrow_SearchBody_VeryEasy_Title_001": "Locate Missing Clients",
     "Hockcrow_SearchBody_VeryHard_Title_001": "Locate Missing Contractors",
@@ -1229,6 +1230,7 @@
     "LingFamily_HaulCargo_MultiToSingle_desc_CFPAmenities": "Hey, \\n \\nAny chance you’d be willing to do a haul into Pyro? I know it can get dangerous there but this is for a good cause. A group of new CFP members have moved to <EM4>[DESTINATION]</EM4> and had a tough time adjusting to life in the system. They all left stuff behind in Stanton, because their transporter didn’t have room, so we’ve been hired to pick it all up and bring it to them.      \\n\\nHere are the pick ups:   \\n\\nPICK UP LOCATIONS (ANY ORDER)   \\n\\n- [LOCATION 1]\n- [LOCATION 2]\n- [LOCATION 3]\n- [LOCATION 4] \\n\\nCFP leaders hope that bringing them this stuff will make the system feel more like home. Let’s make sure this one goes down smoothly. Remember to equip your <EM4>handheld tractor beam</EM4>, and a ship that can fit <EM4>2 SCU cargo containers</EM4>. \\n \\n\\nHappy Hauling,  \\nReyes Ling \\nCargo Logistics Coordinator \\nLing Family Hauling\\n\\nLing Family Hauling knows it’s a dangerous and unpredictable universe and has established several protocols to protect both you and our client’s cargo. To ensure you aren’t punished for circumstances outside of your control, total payment will be prorated to the percentage of cargo successfully delivered. A delivery timer will be set for each haul. Any cargo that remains undelivered upon its expiration will be flagged as stolen and treated as such. All pick-ups and deliveries must be autoloaded or done at a freight elevator.",
     "LingFamily_RecoverCargo_Easy_Description": "Hello,\\n\\nLooking for a quick job? Got a client who's waiting on a shipment but our hauler ran into some engine trouble. Can't seem to get them up and running so we need someone to take over.\\n\\nFly out to <EM4>[LOCATION]</EM4> and you'll spot their ship. You can't miss it - it's the one that's sitting still in the middle of space. Make sure you bring a <EM4>heavy-duty tractor beam</EM4> along with a decent ship that can carry <EM4>[MAX_SCU] cargo containers</EM4>.\\n\\nOnce you've picked up the goods take them to the freight elevator at <EM4>[DESTINATION]</EM4>.\\n\\nThanks,  \\nReyes Ling \\nCargo Logistics Coordinator \\nLing Family Hauling \\n\\nLing Family Hauling knows it’s a dangerous and unpredictable universe and has established several protocols to protect both you and our client’s cargo. To ensure you aren’t punished for circumstances outside of your control, total payment will be prorated to the percentage of cargo successfully delivered. A delivery timer will be set for each haul. Any cargo that remains undelivered upon its expiration will be flagged as stolen and treated as such. All pick-ups and deliveries must be autoloaded or done at a freight elevator.",
     "Headhunters_Delivery_Outpost_Multi_desc_001": "Got a bunch of boxes sitting at <EM4>[LOCATION]</EM4> that have to be moved to <EM4>[DESTINATION]</EM4>. Seems easy enough, right? Well, guess it ain’t. \\n\\nThe idiot who was supposed to move these things threw out his back trying to carry all of ‘em at once. So, you know, maybe bring a <EM4> handheld tractor beam</EM4> and try taking ‘em one at a time like a normal person. But, hey, don’t let me tell you how to do your job. Just get it done. \\n\\nStows out.",
+    "Intersec_BlueCryo_Desc_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Shattered Blade\\nEquipment Specs: Combat Ready\\nBriefing: \\n\\nIntel has been received that Shattered Blade have possession of a cryopod believed to contain a living Vanduul sample. Reports say that this pod is marked out by having blue trim on its casing.\\n\\nAny Intersec contractor that locates one of these cryopods should consider its acquisition a vital priority and adjust their mission parameters accordingly.\\n\\nOnce secured, the cryopod should be delivered with all due haste to <EM4>[DESTINATION]</EM4>.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "Hockrow_searchbody_space_H_Desc_001": "Hockrow Agency \\nCase File #MP65817\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nA client has hired the agency to look for a missing friend who has not been returning their comms and have been acting increasingly erratic. The client has shared all the information they possess on <EM4>[TARGET]</EM4> and we’ve been able to pinpoint their ship’s location.\\n\\nContract Investigator Actions:\\nTravel to <EM4>[LOCATION]</EM4> and verify the status of <EM4>[TARGET]</EM4>. If they are deceased, examine their body and we will pass the information on to the client.\\n\\nAdditional Notes:\\nOur scout reported heavy outlaw activity in the vicinity and was forced to retreat, meaning we have designated this as a highly dangerous case.",
     "Hockcrow_SearchBody_VeryEasy_Description_001": "Hockrow Agency \\nCase File #MP51643\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nLooking for an operative to confirm the status of a client. They and their partner missed a scheduled meeting and all attempts to contact them have proven in vain. Last we heard they were undertaking some business in [SYSTEM] and fear that they may be the victim of some unfortunate tragedy.\\n\\nContract Investigator Actions:\\nLocate <EM4>[MISSINGPERSONLIST]</EM4> at <EM4>[LOCATION]</EM4> and confirm their status. \\n\\nIf they are deceased, examine the body closely so we can verify their death via your mobiGlas.\\n\\nAdditional Notes:\\nBe cautious while conducting your search. If the client did meet harm, it would be unfortunate for you to meet the same fate.",
     "Hockcrow_SearchBody_VeryHard_Description_001": "Hockrow Agency \\nCase File #MP12854\\nLead Investigator: Arken Mallor\\n\\nCase Summary:\\nWe have been asked to track down two contractors who work for a client of ours after they lost contact with them. They were last known to be traveling together in [SYSTEM]. Until their exact situation can be assessed, our client is stuck in a waiting pattern. \\n\\nContract Investigator Actions:\\nLocate <EM4>[MISSINGPERSONLIST]</EM4> at <EM4>[LOCATION]</EM4> and confirm their status. \\n\\nIf they are deceased, examine the body closely so we can verify their death via your mobiGlas.\\n\\nAdditional Notes:\\nYou'll be heading into what is regarded as a particularly dangerous spot. Backup is highly recommended for this encounter.",
@@ -2491,9 +2493,23 @@
     "vehicle_NameKRIG_P52_Merlin": "Kruger P-52 Merlin",
     "vehicle_NameRSI_Aurora_CL": "RSI Aurora Mk I CL",
     "vehicles_NameOrbital_Sentry": "Broad & Rabiee Overseer Orbital Sentry",
+    "vehicle_NameANVL_Lightning_F8C": "Anvil F8C Lightning",
+    "vehicle_NameANVL_Lightning_F8C_Exec": "Anvil F8C Lightning Executive Edition",
+    "vehicle_NameANVL_Lightning_F8C_Collector_Stealth": "Anvil F8C Lightning Wikelo Sneak Special",
+    "vehicle_NameANVL_Lightning_F8C_Collector_Military": "Anvil F8C Lightning Wikelo War Special",
+    "vehicle_NameCRUS_Starfighter_Inferno_Collector_Military": "Crusader Ares Star Fighter Inferno Wikelo War Special",
+    "vehicle_NameCRUS_Starfighter_Ion_Collector_Stealth": "Crusader Ares Star Fighter Ion Wikelo Sneak Special",
+    "vehicle_NameDRAK_Cutlass_Black_PYAM_Exec": "Cutlass Black PYAM Exec",
+    "vehicle_NameDRAK_Cutlass_Black_ShipShowdown": "Drake Cutlass 2949 Best In Show Edition",
+    "vehicle_NameDRAK_Cutlass_Blue": "Drake Cutlass Blue",
+    "vehicle_NameANVL_Lightning_F8C_PYAM_Exec": "F8C Lightning PYAM Exec",
+    "vehicle_NameORIG_M80": "Origin M80",
+    "vehicle_NameRSI_Meteor": "RSI Meteor",
+    "vehicle_NameRSI_Meteor_Collector_Military": "RSI Meteor PYAM Exec",
+    "vehicle_NameRSI_Meteor_Collector_Stealth": "RSI Meteor Wikelo Sneak Special",
+    "vehicle_NameRSI_Scorpius_Collector_Stealth": "RSI Scorpius Wikelo Sneak Special",
     "vehicle_NameXNAA_SantokYai": "Aopoa San'tok.yāi",
     "vehicle_NameCRUS_Intrepid": "Crusader Intrepid",
-    "vehicle_NameDRAK_Cutlass_Blue": "Drake Cutlass Blue",
     "mobiGlas_Reputation_Stance_Neutral": "Neutral",
     "RepScope_Contractor_Rank1": "Jr. Contractor",
     "RepScope_Contractor_Rank2": "Contractor",
@@ -5345,6 +5361,8 @@
     "LingFamily_RecoverCargo_Easy_Description": "Hello,\\n\\nLooking for a quick job? Got a client who's waiting on a shipment but our hauler ran into some engine trouble. Can't seem to get them up and running so we need someone to take over.\\n\\nFly out to <EM4>~mission(Location|Address)</EM4> and you'll spot their ship. You can't miss it - it's the one that's sitting still in the middle of space. Make sure you bring a <EM4>heavy-duty tractor beam</EM4> along with a decent ship that can carry <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4>.\\n\\nOnce you've picked up the goods take them to the freight elevator at <EM4>~mission(Destination|Address)</EM4>.\\n\\nThanks,  \\nReyes Ling \\nCargo Logistics Coordinator \\nLing Family Hauling \\n\\n\\n\\n\\n\\n\\n\\nLing Family Hauling knows it’s a dangerous and unpredictable universe and has established several protocols to protect both you and our client’s cargo. To ensure you aren’t punished for circumstances outside of your control, total payment will be prorated to the percentage of cargo successfully delivered. A delivery timer will be set for each haul. Any cargo that remains undelivered upon its expiration will be flagged as stolen and treated as such. All pick-ups and deliveries must be autoloaded or done at a freight elevator.",
     "Headhunters_Delivery_Outpost_Multi_title_001": "Little Heavy Lifting at ~mission(Destination)",
     "Headhunters_Delivery_Outpost_Multi_desc_001": "Got a bunch of boxes sitting at <EM4>~mission(Location|Address)</EM4> that have to be moved to <EM4>~mission(Destination|Address)</EM4>. Seems easy enough, right? Well, guess it ain’t. \\n\\nThe idiot who was supposed to move these things threw out his back trying to carry all of ‘em at once. So, you know, maybe bring a <EM4> handheld tractor beam</EM4> and try taking ‘em one at a time like a normal person. But, hey, don’t let me tell you how to do your job. Just get it done. \\n\\nStows out.",
+    "Intersec_BlueCryo_Title_001": "Living Vanduul Sample",
+    "Intersec_BlueCryo_Desc_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Shattered Blade\\nEquipment Specs: Combat Ready\\nBriefing: \\n\\nIntel has been received that Shattered Blade have possession of a cryopod believed to contain a living Vanduul sample. Reports say that this pod is marked out by having blue trim on its casing.\\n\\nAny Intersec contractor that locates one of these cryopods should consider its acquisition a vital priority and adjust their mission parameters accordingly.\\n\\nOnce secured, the cryopod should be delivered with all due haste to <EM4>~mission(Destination|Address)</EM4>.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "Hockrow_searchbody_space_H_Title_001": "Locate Missing Agent: ~mission(TargetName)",
     "Hockrow_searchbody_space_H_Desc_001": "Hockrow Agency \\nCase File #MP65817\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nA client has hired the agency to look for a missing friend who has not been returning their comms and have been acting increasingly erratic. The client has shared all the information they possess on <EM4>~mission(TargetName)</EM4> and we’ve been able to pinpoint their ship’s location.\\n\\nContract Investigator Actions:\\nTravel to <EM4>~mission(Location|Address)</EM4> and verify the status of <EM4>~mission(TargetName)</EM4>. If they are deceased, examine their body and we will pass the information on to the client.\\n\\nAdditional Notes:\\nOur scout reported heavy outlaw activity in the vicinity and was forced to retreat, meaning we have designated this as a highly dangerous case.",
     "Hockcrow_SearchBody_VeryEasy_Title_001": "Locate Missing Clients",
@@ -8794,6 +8812,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Headhunters_Delivery_Outpost_Multi_desc_001": {
+      "ReputationRank": "@RepScope_Contractor_Rank1"
+    },
+    "Intersec_BlueCryo_Title_001": {
+      "ReputationRank": "@RepScope_Contractor_Rank1"
+    },
+    "Intersec_BlueCryo_Desc_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Hockrow_searchbody_space_H_Title_001": {
