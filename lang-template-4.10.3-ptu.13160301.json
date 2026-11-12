@@ -1,6 +1,6 @@
 {
-  "version": "4.10.3-ptu.13145606",
-  "keyCount": 4678,
+  "version": "4.10.3-ptu.13160301",
+  "keyCount": 4682,
   "keys": {
     "Headhunters_Delivery_Outpost_title_001": "[DESTINATION] Errand",
     "roughready_delivery_station_title_001": "[DESTINATION] Stroll",
@@ -236,6 +236,7 @@
     "TheCollector_Recipes_Title_Molten": "Do Lava Suit",
     "searchbodyspace_title_H": "Locate Missing Agent: [TARGET]",
     "vaughn_searchbody_space_H_Title_001": "Down For the Count",
+    "Intersec_ShipWaveAttack_DrawOutBoss_S_Van_Title_001": "Draw Out Maulers",
     "headhunters_ChainElimAll_1C_ElimSpec_AttackCFP_M_title_001": "Driving CFP out",
     "headhunters_EliminateSpecific_XenoThreat_title_001": "Drop a XenoThreat",
     "spacecollect_cargo_title_intro_01": "Red Wind Seeking New Couriers",
@@ -334,6 +335,7 @@
     "CFP_Delivery_Outpost_Multi_title_001": "Inter-Outpost Delivery at Jackson's Swap - Multiple Boxes",
     "Intersec_ShipWaveAttack_S_Van_Title_001": "Intercept Vanduul Fleet",
     "CFP_RecoverCargo_Easy_Title": "Intercepted Supply Run",
+    "Intersec_ShipWaveAttack_DrawOutBoss_VH_Van_Title_001": "Interdict Vanduul Maulers",
     "Foxwell_X2_ShipWaves_Title": "Interdict XenoThreat Attack Force",
     "RAIN_intro_name_01": "Interested in Building a Better Future?",
     "HeadHunters_RecoverCargo_Hard_Title": "Jackpot",
@@ -1097,6 +1099,7 @@
     "TheCollector_Recipes_Desc_Molten": "If you have armor, Wikelo can make it look warm. Good look for useful armor. Bring me things and will do.",
     "searchbodyspace_desc_H": "Hockrow Agency \\nCase File #MP65817\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nA client has hired the agency to look for a missing friend who has not been returning their comms and have been acting increasingly erratic. The client has shared all the information they possess on <EM4>[TARGET]</EM4> and we’ve been able to pinpoint their ship’s location.\\n\\nContract Investigator Actions:\\nTravel to <EM4>[LOCATION]</EM4> and verify the status of <EM4>[TARGET]</EM4>. If they are deceased, examine their body and we will pass the information on to the client.\\n\\nAdditional Notes:\\nOur scout reported heavy outlaw activity in the vicinity and was forced to retreat, meaning we have designated this as a highly dangerous case.",
     "vaughn_searchbody_space_H_Desc_001": "<EM4>[TARGET]</EM4> was a name that proved particularly troublesome for some time. Whether a master of evasion or just unerringly lucky all of our attempts have thus far failed.\\n\\nWith that being said, it seems that someone else may have beaten us to the punch so to speak. We’d like you to visit <EM4>[LOCATION]</EM4> and confirm if the target has indeed been neutralized. But be advised, I suspect they’re former crew may still be in the area, most likely out of a misplaced sense of loyalty. I’d suggest a crew of your own for this one, but will defer to your expertise.\\n\\nSincerely,\\n\\nVaughn",
+    "Intersec_ShipWaveAttack_DrawOutBoss_S_Van_Desc_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nLong-range scans indicate the presence of an extremely dangerous Mauler-led strike group at <EM4>[LOCATION]</EM4>. Intersec are looking for highly-experienced combat pilots with fully combat-ready ships to take part in an operation to draw out and eliminate the Mauler.\\n\\nIt goes without saying that this commission should only be attempted with substantial back-up. Rewards will reflect the high-risk nature of this contract.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "headhunters_ChainElimAll_1C_ElimSpec_AttackCFP_M_desc_001": "We've been trying to play nice with these Citizens for Prosperity people, but they've made it abundantly clear that we don't have a place in their 'safe system.' Their use of mercs for security have been causing all kinds of unreasonable violence like when this asshole [TARGET] opened fire on a group of settlers to drive them away from an outpost they'd been eyeing. So now the gloves are coming off.\\n\\nI need some hard workers to go hit [LOCATION] and take out [TARGET]. Odds are, they'll stay hidden until you prove you're enough of a threat, so make sure you do some damage.\\n\\nStows out.",
     "headhunters_EliminateSpecific_XenoThreat_desc_001": "Got a line on a XenoThreat that's been a pain in the ass. Not sure if you've heard the name, but [TARGET] is a scumbag even by XenoThreat standards. Vicious, sadistic, and a prick to boot. We want someone to punch their number. You up for it?\\n\\nLast word was that they were somewhere around [LOCATION]. Head there and take 'em out. Pretty simple.\\n\\nStows out.",
     "spacecollect_cargo_desc_intro_01": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nRed Wind is excited to announce that we are looking to hire new couriers to help with deliveries across the ’verse. We pride ourselves on been a flexible company that’s eager to meet the needs of all clients, everywhere. We’ll ask no questions; if you want it there, we’ll get it there. If that sounds like you, we have an introductory contract to see if you’re the right fit.\\n\\nWe need a resilient new hire to head to <EM4>[LOCATION]</EM4>, recover the package abandoned by a former employee, and finish the delivery.\\n\\nPACKAGES TO RECOVER\\n     · <EM4>1x [ITEM1]</EM4>\\n\\nDROP OFF LOCATION\\n     · Deliver to <EM4>[DESTINATION]</EM4>\\n\\nIf you’re able to handle this contract we’d be delighted to send you more courier opportunities.\\n\\nTAKE PRIDE IN YOUR WORK – Even as a contractor you are representing Red Wind Linehaul. Do not intentionally do anything to harm the company’s reputation.",
@@ -1197,6 +1200,7 @@
     "CFP_Delivery_Outpost_Multi_desc_001": "Hi,\\n\\nCitizens for Prosperity needs help moving supplies around one of our outposts. The boxes need to be picked up from <EM4>[LOCATION]</EM4> and taken to <EM4>[DESTINATION]</EM4>. \\n\\nDoesn’t sound too difficult, does it? Just make sure you’re wearing a comfy pair of shoes. Also, to make your life easier, I'd bring a <EM4>handheld tractor beam</EM4> with you. \\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "Intersec_ShipWaveAttack_S_Van_Desc_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nA clan-sized fleet of Vanduul vessels has been detected at <EM4>[LOCATION]</EM4>, threatening the integrity of vital commercial routes. Intersec is assembling a counterforce of experienced pilots with combat-ready ships. \\n\\nGiven the size of the Vanduul fleet, pilots should expect to encounter support waves in response to their initial action.\\n\\nPut together a team and head to the co-ordinates with all due speed. The commercial crews are counting on you to keep the routes open.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "CFP_RecoverCargo_Easy_Description": "Life is tough on the frontier, and every delivery to our settlers is important. We really can't afford to lose any more this year.\\n\\nOne of our key suppliers has been hit by a group of outlaws over at <EM4>[LOCATION]</EM4> and gone silent on us. I fear the worst, but if we can still recover the supplies they were transporting, it could make a huge difference.\\n\\nChances are the outlaws who attacked them are still lurking around there so be on your guard. Once you've dealt with them, grab the cargo and take it to the freight elevator at <EM4>[DESTINATION]</EM4>. Make sure you're flying a ship that can carry <EM4>[MAX_SCU] cargo containers</EM4> and bring a <EM4>heavy-duty tractor beam</EM4> too.\\n\\nFly safe out there,\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
+    "Intersec_ShipWaveAttack_DrawOutBoss_VH_Van_Desc_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nIntersec are looking for experienced pilots to join a Mauler-hunting operation being at  <EM4>[LOCATION]</EM4>. The Vanduul ship has been spotted in the area and it poses too large a threat to leave it to its own devices. As such, pilots will be tasked with drawing the Mauler into combat by attacking Vanduul fighters in the area. \\n\\nGiven the risks, Intersec highly recommends assembling a team of experienced pilots with well-armed ships.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "Foxwell_X2_ShipWaves_Desc": "Multiple reports are coming in of XenoThreat ships massing at <EM4>[LOCATION]</EM4>\\nWe're looking for contractors ready to take the fight to them. \\n\\nThey want us to believe that they have right on their side. They want us to believe that they have overwhelming force. This is a chance to show them we know better.\\n\\nI won't lie, this is more than just a simple security contract to me. I really hate those intolerant assholes and everything they stand for.\\n\\nYou with me?\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "RAIN_intro_desc_01": "To all available contractors,\\n\\nRayari Incorporated is looking for independent contractors to provide additional support in our efforts to push the boundaries of science, agriculture, and medicine in the Empire and beyond. \\n\\nA research initiative at <EM4>[DESTINATION]</EM4> is in desperate need of resources, so we are looking for a reliable contractor to obtain and deliver these crucial components.\\n\\nFor more information on the materials in question, refer to \"A Forager's Guide\" in your Journal.\\n\\nRayari offers competitive wages along with the knowledge that you're building a better universe.\\n\\nLet’s grow together,\\n\\nNarina Lerrem\\nSenior Manager\\nClinical Research Outsourcing",
     "HeadHunters_RecoverCargo_Hard_Description": "Looking for a hauler to pick up some cargo for me. Thing is, there’s a catch.\\n\\nThe cargo’s in the back of an abandoned ship located at <EM4>[LOCATION]</EM4>. As you may have figured, this ain’t our cargo, but it sure as hell doesn’t deserve to go to anyone else. I’ll be damned if those CFP assholes get their hands on it before we do.\\n\\nBe lucky as hell if we were the first to know about this, but I’d wager there’s gonna be more ships swarming around there than flies on a kopion carcass. If you got some pals you can trust, bring them along and ghost those assholes. And don’t forget your <EM4>heavy-duty tractor beam</EM4> of course.\\n\\nYou manage to get that cargo and bring it to the freight elevator at <EM4>[DESTINATION]</EM4>, I can get you a nice cut of the sale.\\n\\nStows out.",
@@ -2482,17 +2486,16 @@
     "vehicle_NameESPR_Stinger": "Esperia Stinger",
     "vehicle_NameDRAK_Cutlass_Red": "Drake Cutlass Red",
     "vehicle_Nameprobe_comms_1_a": "CHCO Auris PDC Monitor",
-    "_noloc_ship_@vehicle_NameVNCL_King_Hunter": "@vehicle_NameVNCL_King_Hunter",
-    "vehicle_NameVNCL_Mauler": "Vanduul Mauler Destroyer",
-    "vehicle_NameVNCL_Stinger": "Vanduul Stinger",
     "vehicle_NameRSI_Aurora_LX": "RSI Aurora Mk I  LX",
     "vehicle_NameRSI_Aurora_ES": "RSI Aurora Mk I ES",
     "vehicle_NameRSI_Aurora_MR": "RSI Aurora Mk I MR",
     "vehicle_NameAEGS_Hammerhead": "Aegis Hammerhead",
     "vehicle_NameANVL_Hornet_F7A": "Anvil F7A Hornet Mk I",
+    "vehicle_NameVNCL_Stinger": "Vanduul Stinger",
     "vehicle_NameKRIG_P52_Merlin": "Kruger P-52 Merlin",
     "vehicle_NameRSI_Aurora_CL": "RSI Aurora Mk I CL",
     "vehicles_NameOrbital_Sentry": "Broad & Rabiee Overseer Orbital Sentry",
+    "_noloc_ship_@vehicle_NameVNCL_King_Hunter": "@vehicle_NameVNCL_King_Hunter",
     "vehicle_NameANVL_Lightning_F8C": "Anvil F8C Lightning",
     "vehicle_NameANVL_Lightning_F8C_Exec": "Anvil F8C Lightning Executive Edition",
     "vehicle_NameANVL_Lightning_F8C_Collector_Stealth": "Anvil F8C Lightning Wikelo Sneak Special",
@@ -2519,6 +2522,7 @@
     "vehicle_NameXNAA_SantokYai": "Aopoa San'tok.yāi",
     "vehicle_NameANVL_Hornet_F7A_Mk2_PYAM_Exec": "Hornet F7A Mk II PYAM Exec",
     "vehicle_NameRSI_Scorpius_Collector_Stealth": "RSI Scorpius Wikelo Sneak Special",
+    "vehicle_NameVNCL_Mauler": "Vanduul Mauler Destroyer",
     "vehicle_NameCRUS_Intrepid": "Crusader Intrepid",
     "mobiGlas_Reputation_Stance_Neutral": "Neutral",
     "RepScope_Contractor_Rank1": "Jr. Contractor",
@@ -5105,6 +5109,8 @@
     "vaughn_searchbody_space_H_Title_001": "Down For the Count",
     "searchbodyspace_desc_H": "~mission(Contractor|SearchBodySpaceDescriptionHard)",
     "vaughn_searchbody_space_H_Desc_001": "<EM4>~mission(TargetName)</EM4> was a name that proved particularly troublesome for some time. Whether a master of evasion or just unerringly lucky all of our attempts have thus far failed.\\n\\nWith that being said, it seems that someone else may have beaten us to the punch so to speak. We’d like you to visit <EM4>~mission(Location|Address)</EM4> and confirm if the target has indeed been neutralized. But be advised, I suspect they’re former crew may still be in the area, most likely out of a misplaced sense of loyalty. I’d suggest a crew of your own for this one, but will defer to your expertise.\\n\\nSincerely,\\n\\nVaughn",
+    "Intersec_ShipWaveAttack_DrawOutBoss_S_Van_Title_001": "Draw Out Maulers",
+    "Intersec_ShipWaveAttack_DrawOutBoss_S_Van_Desc_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nLong-range scans indicate the presence of an extremely dangerous Mauler-led strike group at <EM4>~mission(Location|Address)</EM4>. Intersec are looking for highly-experienced combat pilots with fully combat-ready ships to take part in an operation to draw out and eliminate the Mauler.\\n\\nIt goes without saying that this commission should only be attempted with substantial back-up. Rewards will reflect the high-risk nature of this contract.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "headhunters_ChainElimAll_1C_ElimSpec_AttackCFP_M_title_001": "Driving CFP out",
     "headhunters_ChainElimAll_1C_ElimSpec_AttackCFP_M_desc_001": "We've been trying to play nice with these Citizens for Prosperity people, but they've made it abundantly clear that we don't have a place in their 'safe system.' Their use of mercs for security have been causing all kinds of unreasonable violence like when this asshole ~mission(TargetName) opened fire on a group of settlers to drive them away from an outpost they'd been eyeing. So now the gloves are coming off.\\n\\nI need some hard workers to go hit ~mission(Location|Address) and take out ~mission(TargetName|Last). Odds are, they'll stay hidden until you prove you're enough of a threat, so make sure you do some damage.\\n\\nStows out.",
     "headhunters_EliminateSpecific_XenoThreat_title_001": "Drop a XenoThreat",
@@ -5307,6 +5313,8 @@
     "Intersec_ShipWaveAttack_S_Van_Desc_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nA clan-sized fleet of Vanduul vessels has been detected at <EM4>~mission(Location|Address)</EM4>, threatening the integrity of vital commercial routes. Intersec is assembling a counterforce of experienced pilots with combat-ready ships. \\n\\nGiven the size of the Vanduul fleet, pilots should expect to encounter support waves in response to their initial action.\\n\\nPut together a team and head to the co-ordinates with all due speed. The commercial crews are counting on you to keep the routes open.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "CFP_RecoverCargo_Easy_Title": "Intercepted Supply Run",
     "CFP_RecoverCargo_Easy_Description": "Life is tough on the frontier, and every delivery to our settlers is important. We really can't afford to lose any more this year.\\n\\nOne of our key suppliers has been hit by a group of outlaws over at <EM4>~mission(Location|Address)</EM4> and gone silent on us. I fear the worst, but if we can still recover the supplies they were transporting, it could make a huge difference.\\n\\nChances are the outlaws who attacked them are still lurking around there so be on your guard. Once you've dealt with them, grab the cargo and take it to the freight elevator at <EM4>~mission(Destination|Address)</EM4>. Make sure you're flying a ship that can carry <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4> and bring a <EM4>heavy-duty tractor beam</EM4> too.\\n\\nFly safe out there,\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
+    "Intersec_ShipWaveAttack_DrawOutBoss_VH_Van_Title_001": "Interdict Vanduul Maulers",
+    "Intersec_ShipWaveAttack_DrawOutBoss_VH_Van_Desc_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nIntersec are looking for experienced pilots to join a Mauler-hunting operation being at  <EM4>~mission(location|Address)</EM4>. The Vanduul ship has been spotted in the area and it poses too large a threat to leave it to its own devices. As such, pilots will be tasked with drawing the Mauler into combat by attacking Vanduul fighters in the area. \\n\\nGiven the risks, Intersec highly recommends assembling a team of experienced pilots with well-armed ships.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "Foxwell_X2_ShipWaves_Title": "Interdict XenoThreat Attack Force",
     "Foxwell_X2_ShipWaves_Desc": "Multiple reports are coming in of XenoThreat ships massing at <EM4>~mission(Location|Address)</EM4>\\nWe're looking for contractors ready to take the fight to them. \\n\\nThey want us to believe that they have right on their side. They want us to believe that they have overwhelming force. This is a chance to show them we know better.\\n\\nI won't lie, this is more than just a simple security contract to me. I really hate those intolerant assholes and everything they stand for.\\n\\nYou with me?\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "RAIN_intro_name_01": "Interested in Building a Better Future?",
@@ -7947,6 +7955,12 @@
       "Contractor|SearchBodySpaceTitleHard": "@vaughn_searchbody_space_H_Title_001",
       "Contractor|SearchBodySpaceDescriptionHard": "@vaughn_searchbody_space_H_Desc_001"
     },
+    "Intersec_ShipWaveAttack_DrawOutBoss_S_Van_Title_001": {
+      "ReputationRank": "@RepScope_Contractor_Rank6"
+    },
+    "Intersec_ShipWaveAttack_DrawOutBoss_S_Van_Desc_001": {
+      "ReputationRank": "@RepScope_Contractor_Rank6"
+    },
     "headhunters_ChainElimAll_1C_ElimSpec_AttackCFP_M_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank4"
     },
@@ -8603,6 +8617,12 @@
     },
     "CFP_RecoverCargo_Easy_Description": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+    },
+    "Intersec_ShipWaveAttack_DrawOutBoss_VH_Van_Title_001": {
+      "ReputationRank": "@RepScope_Contractor_Rank6"
+    },
+    "Intersec_ShipWaveAttack_DrawOutBoss_VH_Van_Desc_001": {
+      "ReputationRank": "@RepScope_Contractor_Rank6"
     },
     "Foxwell_X2_ShipWaves_Title": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
