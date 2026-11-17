@@ -1,13 +1,7 @@
 {
-  "version": "5.0.0-ptu.13201184",
-  "keyCount": 5128,
+  "version": "5.0.0-ptu.13215521",
+  "keyCount": 5107,
   "keys": {
-    "TheCollector_Recipes_Title_IroncladAssault": "@TheCollector_Recipes_Title_IroncladAssault",
-    "TheCollector_Recipes_Title_IroncladBase": "@TheCollector_Recipes_Title_IroncladBase",
-    "TheCollector_Recipes_Title_M50": "@TheCollector_Recipes_Title_M50",
-    "TheCollector_Recipes_Title_Pitbull": "@TheCollector_Recipes_Title_Pitbull",
-    "TheCollector_Recipes_Title_Starlite": "@TheCollector_Recipes_Title_Starlite",
-    "TheCollector_Recipes_Title_Tiburon": "@TheCollector_Recipes_Title_Tiburon",
     "Headhunters_Delivery_Outpost_title_001": "[DESTINATION] Errand",
     "roughready_delivery_station_title_001": "[DESTINATION] Stroll",
     "headhunters_eliminateall_cfp_M_title_001": "[LOCATION] has been greenlit",
@@ -91,7 +85,6 @@
     "TheCollector_Recipes_Title_SandArmour": "Armor with horn and string",
     "TheCollector_Recipes_Title_SpikeyArmor": "Armor with Vanduul",
     "TheCollector_Ships_Anvil_Asgard_Title": "Asgard Fight Mod",
-    "Intersec_TSG_Assist_Solo_Title_001": "Assist People's Alliance Vessel Tranquility",
     "cfp_defendship_MRT_bombingrun_title_001": "Assist Retreating Ship",
     "cfp_defend_cave_Generic_title_001": "Assistance needed at [LOCATION]",
     "TheCollector_Mod_ATLS_Geo_Grad3_Name": "ATLS Cool Metal Color",
@@ -581,7 +574,6 @@
     "Intersec_DefendShip_Title_Medium_001": "Operative Extraction",
     "Covalex_HaulCargo_AToB_Intro_title": "Opportunity for Independent Cargo Hauler",
     "foxwell_DefendShip_M_title_001": "Orange Level Contract: [SHIP] Needs Assistance",
-    "Foxwell_bombingrun_H_title_001": "Orange Level Contract: Destroy Outlaw Infrastructure",
     "Foxwell_ShipWaveAttack_ClearHostiles_Title_M_001": "Orange Level Contract: Destroy Outlaw Threat",
     "destroyprobelegal_title": "Orange Level Contract: Handle Security Threat",
     "Foxwell_destroyprobe_M_name_001": "Orange Level Contract: Handle Security Threat",
@@ -592,7 +584,6 @@
     "Foxwell_DefendLocation_M_Title_001": "Orange Level Contract: Ship Protection Needed",
     "Foxwell_ShipAmbush_M_title_001": "Orange Level Contract: Spring a Trap",
     "Foxwell_ShipWaveAttack_ClearHostiles_Title_H_001": "Orange Level Contract: Take Out Criminal Fleet",
-    "Foxwell_bombingrun_M_title_001": "Orange Level Contract: Take Out Fuel Supplies",
     "Foxwell_DefendDestructibleEntites_M_Title_001": "Orange Lvl. Contract: Defend Fuel Tanks",
     "Foxwell_DefendEntitesAndEscort_M_Title": "Orange Lvl. Contract: Defend Fuel Tanks and Escort Employees",
     "Foxwell_DefendDestructibleEntites_H_Title_001": "Orange Lvl. Contract: Protect Fuel Tanks",
@@ -720,7 +711,6 @@
     "Foxwell_ShipAmbush_VH_title_001": "Red Level Contract: Ambush Attack Squad",
     "Foxwell_HaulCargo_MultiToSingle_title_01": "Red Level Contract: Clear PAFs, Recover Cargo, and Deliver to OLP",
     "Foxwell_bombingrun_S_title_001": "Red Level Contract: Destroy Outlaw Infrastructure",
-    "Foxwell_bombingrun_VH_title_001": "Red Level Contract: Fuel Container Demolition",
     "Foxwell_SecurityPatrol_VH_Title_001": "Red Level Contract: High-Risk Security Patrol",
     "Foxwell_HaulCargo_AToB_PAF_title_01": "Red Level Contract: Recoup Stolen Cargo Haul",
     "Foxwell_HaulCargo_AToB_OLP_title_01": "Red Level Contract: Retrieve Cargo Haul",
@@ -1042,7 +1032,6 @@
     "Foxwell_EliminateAll_PAF_M_title_001": "Yellow Level Contract: Clear Out PAF",
     "Foxwell_ShipWaveAttack_ClearHostiles_Title_VE_001": "Yellow Level Contract: Clear Shipjacking Group",
     "Foxwell_DefendLocation_E_Title_001": "Yellow Level Contract: Defend [LOCATION]",
-    "Foxwell_bombingrun_E_title_001": "Yellow Level Contract: Disrupt Operations",
     "Foxwell_bombingrun_VE_title_001": "Yellow Level Contract: Limiting Potential Threat",
     "Foxwell_EliminateAll_OLP_M_title_001": "Yellow Level Contract: Merc Work",
     "Foxwell_ShipWaveAttack_ClearHostiles_Title_E_001": "Yellow Level Contract: Neutralize Shipjacking Gang",
@@ -1061,12 +1050,6 @@
     "TheCollector_Ships_ZeusES_TItle": "Zeus Special",
     "Covalex_HaulCargo_AToB_Rehire_title": "Covalex Cargo Hauling Re-evaluation",
     "Covalex_HaulCargo_MultiToSingle_title": "Senior Rank - Large Cargo Haul",
-    "TheCollector_Recipes_Desc_IroncladAssault": "@TheCollector_Recipes_Desc_IroncladAssault",
-    "TheCollector_Recipes_Desc_IroncladBase": "@TheCollector_Recipes_Desc_IroncladBase",
-    "TheCollector_Recipes_Desc_M50": "@TheCollector_Recipes_Desc_M50",
-    "TheCollector_Recipes_Desc_Pitbull": "@TheCollector_Recipes_Desc_Pitbull",
-    "TheCollector_Recipes_Desc_Starlite": "@TheCollector_Recipes_Desc_Starlite",
-    "TheCollector_Recipes_Desc_Tiburon": "@TheCollector_Recipes_Desc_Tiburon",
     "Headhunters_Delivery_Outpost_desc_001": "Got a box sitting at <EM4>[LOCATION]</EM4> that needs to make its way over to <EM4>[DESTINATION]</EM4>. Any chance you can knock this out real quick?\\n\\nMight be the easiest gig I’ve ever assigned out. Only real threat would be tripping over your own feet. A <EM4>handheld tractor beam</EM4> would also be smart to bring along. \\n\\nStows out.",
     "roughready_delivery_station_desc_001": "Any chance you’re at [DESTINATION]?\\n\\nNeed a box hustled from <EM4>[LOCATION]</EM4> to <EM4>[DESTINATION]</EM4>. Get it there on time and unbroken and it’ll be the easiest creds you’ll ever earn.   \\n\\n-Smokey",
     "headhunters_eliminateall_cfp_M_desc_001": "Word came down from the Judge that we're to hit [LOCATION]. It's owned by CFP and security there have been less than hospitable to some of the locals, so they gotta go.\\n\\nThey may talk a big game about bringing security, but they got guns and are more than happy to use 'em.\\n\\nStows out.",
@@ -1153,7 +1136,6 @@
     "TheCollector_Recipes_Desc_SandArmour": "Hello, know many humans want saldynium for regen problem. Credits good, yes, but Wikelo can use that, kopion horn, and other things to make special armor. \\n\\nOnce done, you be very tough. Very scary.\\n\\nYou see items needed. Bring to <EM4>[DESTINATIONS]</EM4> and I make for you.\\n\\nBye.",
     "TheCollector_Recipes_Desc_SpikeyArmor": "Vanduul have strange ways. I never talk to them, old souli used to, but not Wikelo. Anyway, though not friendly, they make interesting thing. If you like, Wikelo can make you look more like.\\n\\nBring things. Will do.\\n\\nBye.",
     "TheCollector_Ships_Anvil_Asgard_Desc": "Wikelo mod Asgard and so that it fights more. You in a fight, this mod is what you want. Plus, good deal on the trade. Just bring items here and I give you the ship.",
-    "Intersec_TSG_Assist_Solo_Desc_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat Ready\\nBriefing: \\nAn Idris-class People's Alliance security vessel named Tranquility is currently engaged with a <EM>Vanduul capital ship</EM4> near an old <EM4>QV Extraction station</EM4> and Intersec is looking for combat pilots to lend some support.\\n\\nScramble to the AO and <EM4>engage Vanduul fighters so the Tranquility can focus on the capital ship</EM4>. \\n\\nGood luck,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "cfp_defendship_MRT_bombingrun_desc_001": "One of our people is currently under attack at [LOCATION]. They have attempted to elude their attackers to get to safely, but the outlaws have proven too skilled for them to break away. \\n\\nWe need you to fly there, engage with the attackers, and then destroy the nearby fuel reserves. The hope is that this display of destruction will dissuade them from continuing pursuit.\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "cfp_defend_cave_Generic_desc_001": "We received a distress call from [LOCATION] saying that they're being robbed by a small group of outlaws. [LOCATION] Though remote, this outpost is a crucial piece of CFP's infrastructure in the area so we need to take it back.\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "TheCollector_Mod_ATLS_Geo_Grad3_Desc": "Wikelo give deep red and green colors to make ATLS legs look like they cooling from heat. Very pretty.",
@@ -1668,7 +1650,6 @@
     "Intersec_DefendShip_Desc_Medium_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Outlaws\\nEquipment Specs: Combat-rated Ships\\nBriefing: An undercover agent of ours was compromised and is now being pursued by the outlaw pack they had infiltrated. As such, they are in need of immediate extraction at <EM4>[LOCATION]</EM4>. \\n\\nOnce on site, engage with all hostiles in order to provide cover so our operative can QT away.\\n\\n<EM4>Bring additional backup</EM4> and don't underestimate these outlaws. They are violent and motivated so they are unlikely to give up anytime soon.\\n\\nRespectfully,\\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "Covalex_HaulCargo_AToB_Intro_desc": "Earning such accolades as 'Imperial Finances' Top 10 Shipping Companies' and 'Delivery Digest's 2945's Most Trusted Transport,' Covalex is busier than ever. And that means more cargo going to more places. That's where you come in.  \\n\\nCovalex is looking for dependable and industrious pilots to join our expanding family. Do you have access to a ship that can hold <EM4>1 SCU cargo containers</EM4>? Can you pass an Advocacy background check if required? Then a universe of opportunity is waiting for you. \\n\\nSimply complete an 'Evaluation Trial’ by picking up a shipment of <EM4>Quartz</EM4> from a freight elevator at <EM4>[LOCATION]</EM4> and successfully delivering it to a freight elevator at <EM4>[DESTINATION]</EM4>.\\n\\nUpon satisfactory completion, you'll be eligible to become part of Covalex Shipping's vast network of independent transport specialists*.\\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\n*Covalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "foxwell_DefendShip_M_desc_001": "Got an orange level contract for any available combat pilots. A [SHIP] is under attack around [LOCATION] and is in desperate need for assistance. We're not sure how many perpetrators there are, but they seem motivated and dangerous so exercise caution.\\n\\nOnce on site, engage and destroy any hostiles you encounter and protect the client. Once they've transferred the credits, we'll route you your payment.\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
-    "Foxwell_bombingrun_H_desc_001": "An opportunity has presented itself for a client to take action against a group of criminals who have been harassing their business.\\n\\nAccording to reports, this group of outlaws are currently laying low at <EM4>[LOCATION]</EM4>. The client thinks this is a good time to catch them off guard and bring them to justice. The job is to take out their fuel tanks and putting an end to their smuggling operations once and for all.\\n\\nThese folks are not to be underestimated. You better bring some backup and fly low to avoid the turrets. Priority as always is the fuel tanks.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_ShipWaveAttack_ClearHostiles_Desc_M_001": "A splinter group of outlaws have broken off from one of the main gangs in the system and have been trying to strike out on their own. With the amount of trouble they've been causing its clear they're looking to establish a name for themselves as quickly as they can. It's going to be up to you and your support crew to put a stop to them.\\n\\nOnce your crew is ready, head over to [LOCATION] and engage with the gang. Not all of them will just be waiting there on site. Expect reinforcements to arrive once you begin your assault. Just be sure to stay until every last one of them has been take care of.\\n \\nGood luck,\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.\"",
     "destroyprobelegal_desc": "After a contractor successfully recovered data stolen from one of our clients, a security analyst verified that it was captured by unauthorized surveillance monitors illegally installed around <EM4>[LOCATION]</EM4>. We’re looking for someone to follow up and take out those monitors.\\n\\nYou will need to find the <EM4>[MONITOR_COUNT]</EM4> and destroy them before any more data can be gathered. Passive 'Skimmers' like these typically are hard to find so be thorough in your search.\\n\\nOnce attacked, their security protocols will cause them to begin transmitting the contents of their drives, so it’s imperative that you stop the upload before it can complete. There’s also a good chance that whoever’s responsible might be in the area, so be careful.\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_destroyprobe_M_desc_001": "After a contractor successfully recovered data stolen from one of our clients, a security analyst verified that it was captured by unauthorized surveillance monitors illegally installed around <EM4>[LOCATION]</EM4>. We’re looking for someone to follow up and take out those monitors.\\n\\nYou will need to find the <EM4>[MONITOR_COUNT]</EM4> and destroy them before any more data can be gathered. Passive 'Skimmers' like these typically are hard to find so be thorough in your search.\\n\\nOnce attacked, their security protocols will cause them to begin transmitting the contents of their drives, so it’s imperative that you stop the upload before it can complete. There’s also a good chance that whoever’s responsible might be in the area, so be careful.\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
@@ -1679,7 +1660,6 @@
     "Foxwell_DefendLocation_M_Desc_001": "We’ve got clients reporting outlaw attacks on ships around <EM4>[LOCATION]</EM4>. They got locked down tight and anybody heading in or out is a target. Any attempts to solve the issue have just been met with more outlaw reinforcements appearing. \\n\\nThe client is desperate for a solution, so we’re hiring a contractor to go and restore peace in the area. If any other issues flare up once you're there, I’ll comm you directions on how to help.  \\n\\nReally need someone on this fast. So to sweeten the pot, the main contractor will also get a bonus payment of <EM4>5 MG Scrip</EM4>.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_ShipAmbush_M_desc_001": "Foxwell has been tracking a <EM4>[TARGET]</EM4> used by outlaws and discovered a pattern to its movements. The ship should be passing by <EM4>[LOCATION]</EM4> soon.\\n\\nLooking for a contractor willing to hustle there, hide in the emission cloud, and then spring the trap when the time is right. There’s usually escort ships with the <EM4>[TARGET]</EM4>. Careful not to jump the gun and blow your cover. The element of surprise is crucial from what I’ve read.\\n\\nPull this off and we'll give the main contractor a bonus payment of <EM4>5 MG Scrip</EM4>.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_ShipWaveAttack_ClearHostiles_Desc_H_001": "It seems that a couple of different small-time gangs have decided to pool their resources and start doing coordinated attacks. Alone, they weren't much, but all together they're proving to be a serious threat that has to be dealt with.\\n\\nRecruit some backup you can rely on and the fly over to [LOCATION]. Once you attack the initial gang members you find there, the other groups will arrive to support them. Make sure you wait around to take out all of them.\\n \\nGood luck,\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
-    "Foxwell_bombingrun_M_desc_001": "We're in need of a sharp contractor for a hit and run operation. Client says some local thugs have been congregating in concerning numbers and we have been tasked with disrupting their base of operations.\\n\\nGet on over to <EM4>[LOCATION]</EM4> and take out their fuel tanks. If you're successful we can set these folks plans back a while, and most importantly, without having to deal with them directly.\\n\\nReports are showing there's a couple of ships buzzing around the area and some defense turrets. Just focus on the fuel tanks and you should be alright.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_DefendDestructibleEntites_M_Desc_001": "I'm hoping that you'll be able to provide protection services at <EM4>[LOCATION]</EM4>. One of our high priority clients is having some real trouble with a band of outlaws targeting their [OBJECTS]. Need to be able to keep the assets as safe and intact as possible. Client’s expecting the service they pay for, so don’t mess this up or we might lose a loyal customer.\\n\\nFor now, we’re still a little in the dark when it comes to these outlaws, but if you manage to nail this to the Foxwell standards, we’re offering  <EM4>4 MG Scrip</EM4> to the main contractor. \\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_DefendEntitesAndEscort_M_Desc": "We need a contractor to provide convoy and protection services at <EM4>[LOCATION]</EM4>. One of our elite clients' are under attack from a band of outlaws targeting their <EM4>[OBJECTS] and ships</EM4>. You'll need to keep the crew safe as they traverse the area, as well as make sure the assets stay as intact. These thugs look like they can do some real damage, so be sure you engage them with caution or the client might not be the only one to take heavy losses.\\n\\nIf you manage to nail this to the Foxwell standards, we’re offering <EM4>3 MG Scrip</EM4> as compensation to the main contractor. \\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_DefendDestructibleEntites_H_Desc_001": "One of our high priority clients is under attack from a criminal gang targeting their <EM4>[OBJECTS]</EM4> in <EM4>[LOCATION]</EM4>. The client’s assets are valuable, so we need to keep those safe at all costs, but I won’t kid – it’ll be a challenge and a half with these thugs determined to do some real damage. \\n\\nIf it were me, I wouldn’t hesitate to <EM>bring backup</EM4> to deal with them. They’re no joke, so we’re offering a well-earned <EM4>6 MG Scrip</EM4> to the main contractor who deals with these guys successfully. \\n\\nBest of luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
@@ -1777,7 +1757,6 @@
     "Foxwell_ShipAmbush_VH_desc_001": "Foxwell got word from an important client that outlaws have put together a squad that’s been stalking the system with sub-capital ships and escort fighters. Our client is concerned that if left unchecked, outlaws will create more of these attack squads and destabilize system security. We’ve been hired to wipe out this group before that happens. \\n\\nWe need a confident and skilled contractor for this task. Good news is that we have a plan in place. One of the ships used by this squad, a <EM4>[TARGET]</EM4>, was stolen from our client, who’s still able to track its movements. They’ve shared the location data with us and we’ve discovered that this squad often goes by <EM4>[LOCATION]</EM4>. We’ve scouted the location and discovered a large emission cloud makes an ideal spot for an ambush.  \\n\\nNot going to lie, this isn’t going to be easy. We don’t have any additional forces available to deploy, so it would be good to bring your own support. \\n\\nYou manage to pull this off, I've arranged for a bonus payment of <EM4>12 MG Scrip</EM4> for the main contractor.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_HaulCargo_MultiToSingle_desc_01": "Something weird is going on at the old Hathor mining facilities. Both the platform alignment facilities and orbital laser platforms have been abandoned and gathering dust for decades, but outlaws have started using them as a base of operations.\\n\\nWe’ve been hired by a concerned party who’s recently lost a lot of important cargo to one such gang. Currently, their stuff is stashed at <EM4>[LOCATION1]</EM4> and <EM4>[LOCATION2]</EM4>, but there’s a growing fear that the gang may be offloading their goods soon. That’s why we’ve been hired to hit both of those Hathor facilities, retrieve the cargo from the freight elevators, and bring it to the freight elevator at <EM4>[DESTINATION]</EM4>. \\n\\nHere’s the specifics on what to grab from each location. Doesn’t matter in what order you do this, as long as it all gets collected and delivered. Just be sure to bring a ship that can handle <EM4>32 SCU cargo containers</EM4>.  It also wouldn't hurt to bring a <EM4>handheld tractor beam</EM4> with you.   \\n\\n- [LOCATION 1]\n- [LOCATION 2]\n- [LOCATION 3]\\n\\nFoxwell hasn’t been able to scout these locations, but if I were you, I’d expect to face some serious armed resistance. Best bring a bunch of gear and some friends.\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_bombingrun_S_desc_001": "We are looking for a highly competent mercenary team to assist with a challenging demolition for a VIP client.\\n\\nThe outlaws operating at <EM4>[LOCATION]</EM4> has been identified as a threat of growing concern in the area and to help deal with this situation your team is being tasked with taking out the fuel tanks at the location. \\n\\nHowever, it won't be as easy as just slipping in and out - expect to deal with multiple hostiles and turrets that will be expecting you. The stronger your crew the better your chances at completing this operation successfully.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
-    "Foxwell_bombingrun_VH_desc_001": "Foxwell have been hired by a client to take part in a multi-stage operation on a known outlaw base at <EM4>[LOCATION]</EM4> and need a strong pilot to play their part in this.\\n\\nYou, and whatever additional support ships you arrange, will be tasked with taking out the fuel tanks located there to set the stage for the rest of the operation to follow. \\n\\nUnfortunately, this place is swarming with ships and anti-air turrets. So make sure you and your people are ready, and remember, the fuel tanks are your priority. No need to be a hero.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_SecurityPatrol_VH_Desc_001": "A client needs our help. Outlaws are roaming certain sectors where they do business and attacking anyone they come across. Our client has already lost several ships and can’t afford to lose anymore. \\n\\nWe need someone to patrol those areas and draw out any hostile forces. The job begins with you heading to the <EM4>location marker</EM4> on your HUD and scanning. Then we’ll share a handful of other patrol points for you to scan. \\n\\nFrom the sound of it, these packs of ships feature skilled and aggressive pilots. Best be ready to rumble if you run into any of them. Would be good to have at least <EM4>two trusted pilots</EM4> by your side for this one.\\n\\nAt the end of a successful patrol, the main contractor will get a bonus payment of <EM4>18 MG Scrip.</EM4>\\n\\nStay chilly,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_HaulCargo_AToB_PAF_desc_01": "A crew recently raided a distribution center and made off with <EM4>[CARGOGRADETOKEN] load of cargo</EM4>. Foxwell has been hired to get all those goods back. We’re getting reports of these outlaws using old Hathor facilities as stash houses and we believe the stolen items are currently at <EM4>[LOCATION]</EM4>.\\n\\nIf interested, you’ll need a ship that can handle <EM4>32 SCU cargo containers</EM4>. Doubt you’ll be able to slip in and out of that PAF without being noticed either, so best be prepared to clear the location. Once safe, grab the goods from the freight elevator and deliver them to the <EM4>freight elevator at [DESTINATION]</EM4>. \\n\\nIt also wouldn't hurt to bring a <EM4>handheld tractor beam</EM4> with you.   \\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_HaulCargo_AToB_OLP_desc_01": "Looking for a contractor with the right skills and ship for an important mission. Outlaws ambushed a Hull C carrying a <EM4>[CARGOGRADETOKEN]</EM4> load of cargo and took it to <EM4>[LOCATION]</EM4>. We’ve been hired to get it all back.  \\n\\nThe cargo is being stored somewhere at a defunct Hathor facility. The place is big and crawling with outlaws. Need someone to retrieve the goods from the freight elevator there and deliver it all back to the <EM4>freight elevator at [DESTINATION]</EM4>. Don’t think this will be a walk in the park. Bring lots of ammo and a ship that can handle <EM4>32 SCU cargo containers</EM4>. \\n\\nIt also wouldn't hurt to bring a <EM4>handheld tractor beam</EM4> with you.   \\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
@@ -2106,7 +2085,6 @@
     "Foxwell_EliminateAll_PAF_M_desc_001": "We’ve been tracking a group of outlaws who’ve been causing trouble for one of our clients. Seems they’ve taken up residence at an old Hathor facility. Don’t know what their plans with that old facility are but our client is eager to have them taken care of.\\n\\nLooking for someone to go to <EM4>[LOCATION]</EM4> and neutralize these targets.\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_ShipWaveAttack_ClearHostiles_Desc_VE_001": "There's a small group of criminals that have been marking their territory, striking out any freighters that get close enough. They got a little too greedy though, because now someone's paying us to go deal with them.\\n\\nOnce you and whoever you're bringing are ready, go to [LOCATION] and engage with these criminals. Since they like to fly in separate packs, be sure you wait around to clear every last one of them out.\\n \\nGood luck,\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_DefendLocation_E_Desc_001": "Ships coming and going from <EM4>[LOCATION]</EM4> are being targeted by hostile forces. The folks there have hired us to deal with this problem immediately.\\n\\nNeed someone to get there pronto and start fighting off these ships. The situation appears to be constantly evolving, so I’ll keep you updated on where you’re needed most. \\n\\nFor the hustle and effort, we’ll also be paying a bonus of <EM4>3 MG Scrip</EM4> to the main contractor for dealing with this.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
-    "Foxwell_bombingrun_E_desc_001": "We've just received the location of an outlaw outpost where some up-and-coming criminals have been hanging out. Now, our client says there's no reason to engage these folks directly. Instead you will be targeting their supply lines.\\n\\nFly on over to <EM4>[LOCATION]</EM4> and take out their fuel stores while dealing with any minimal resistance they may put up. It will be your call on how much you engage with the hostile forces, just don't forget that your main objective is ensuring those fuel tanks are out of action.\\n\\nThis is a yellow level contract so pay will be proportionate.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_bombingrun_VE_desc_001": "A bunch of outlaws have been harassing our client and recently things have taken a turn for the worse. They've taken over their property and we've exhausted all other options.\\n\\nWe need a decent pilot to head to <EM4>[LOCATION]</EM4> and take out their fuel tanks. If you can cut off their supplies, you can pave the way for the client to take back their property.\\n\\nThis shouldn't be a tough one. You might run into a ship or two and maybe a few turrets, but you've been authorized to use lethal force. All we need for you to do is get in there, get the fuel tanks, and get out.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_EliminateAll_OLP_M_desc_001": "We’ve been following a group of outlaws on behalf of a client, and it looks like they’ve taken a permanent pit stop on an old orbital platform. \\n\\nWe’re looking for a contractor who can head over to <EM4>[LOCATION]</EM4> and neutralize the targets. The platform is crawling with a bunch of armed and dangerous thugs, so we’ve designated this a yellow level contract.\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_ShipWaveAttack_ClearHostiles_Desc_E_001": "Okay, this might be a bit of stretch to do on your own, so if you got any favors to call in, it could be good to cash those chits now. There's a group of desperados striking delivery ships up and down this sector and we've been tasked with cleaning them up. \\n\\nOnce your crew is ready, head over to [LOCATION] and take the hostiles there down. Now, these bastards are a bit clever so they tend to split up into smaller packs. Make sure you wait around to clear every last one of them out.\\n \\nGood luck,\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.\"",
@@ -2949,6 +2927,7 @@
     "vehicle_NameANVL_Hornet_F7CR_Mk2": "Anvil F7C-R Hornet Tracker Mk II",
     "vehicle_NameANVL_Hornet_F7CS_Mk2": "Anvil F7C-S Hornet Ghost Mk II",
     "vehicle_NameXNAA_SantokYai": "Aopoa San'tok.yāi",
+    "vehicle_NameDRAK_Marauder": "Drake Marauder",
     "vehicle_NameANVL_Hornet_F7A_Mk2_PYAM_Exec": "Hornet F7A Mk II PYAM Exec",
     "vehicle_NameRSI_Scorpius_Collector_Stealth": "RSI Scorpius Wikelo Sneak Special",
     "vehicle_NameVNCL_Mauler": "Vanduul Mauler Destroyer",
@@ -3046,7 +3025,6 @@
     "WallaceKlim_RepUI_Name": "Wallace Klim",
     "Wikelo_RepUI_Name": "Wikelo Emporium",
     "Xenothreat_RepUI_Name": "XenoThreat",
-    "TheCollector_From": "Wikelo",
     "headhunters_from": "Headhunters",
     "roughready_from": "Rough & Ready",
     "cfp_from": "Citizens for Prosperity",
@@ -3058,7 +3036,7 @@
     "FTL_from": "FTL Courier",
     "Rayari_from": "Rayari Inc.",
     "foxwell_from": "Foxwell Enforcement",
-    "InterSec_From": "InterSec Defense Solutions",
+    "TheCollector_From": "Wikelo",
     "Local_from": "~mission(Owner)",
     "Hockrow_from": "Hockrow Agency",
     "MissionGivers_ReccoBattaglia": "Recco Battaglia",
@@ -3071,6 +3049,7 @@
     "SalvageContractor_From": "Adagio Holdings",
     "deadsaints_from": "Dead Saints",
     "GFS_From": "Gilly's Flight School",
+    "InterSec_From": "InterSec Defense Solutions",
     "UWC_From": "United Wayfarers Club",
     "Highpoint_from": "Highpoint Wilderness Specialists",
     "LingFamily_From": "Ling Family Hauling",
@@ -3078,7 +3057,6 @@
     "ConerstoneDevelopments_From": "Cornerstone Developments",
     "iasi_faction_name": "Roberts Space Industries",
     "Guild_United_Wayfarers_Club": "United Wayfarers Club",
-    "ContractManager_TempTab_Vehicles": "Wikelo - Vehicles",
     "mobiGlas_ui_MissionType_Delivery": "Delivery",
     "mobiglas_ui_Mercenary": "Mercenary",
     "mobiglas_ui_Maintenance": "Maintenance",
@@ -3088,6 +3066,7 @@
     "mobiGlas_ui_MissionType_Collection": "Collection",
     "mobiglas_ui_Priority": "Priority",
     "ContractManager_TempTab_Small_Items": "Wikelo - Other Items",
+    "ContractManager_TempTab_Vehicles": "Wikelo - Vehicles",
     "mobiGlas_ui_MissionType_Battaglia": "Battaglia",
     "mobiGlas_ui_MissionType_Hauling": "Hauling",
     "mobiGlas_ui_MissionType_Hauling_Solar": "Hauling - Stellar",
@@ -5301,8 +5280,6 @@
     "TheCollector_Recipes_Desc_SpikeyArmor": "Vanduul have strange ways. I never talk to them, old souli used to, but not Wikelo. Anyway, though not friendly, they make interesting thing. If you like, Wikelo can make you look more like.\\n\\nBring things. Will do.\\n\\nBye.",
     "TheCollector_Ships_Anvil_Asgard_Title": "Asgard Fight Mod",
     "TheCollector_Ships_Anvil_Asgard_Desc": "Wikelo mod Asgard and so that it fights more. You in a fight, this mod is what you want. Plus, good deal on the trade. Just bring items here and I give you the ship.",
-    "Intersec_TSG_Assist_Solo_Title_001": "Assist People's Alliance Vessel Tranquility",
-    "Intersec_TSG_Assist_Solo_Desc_001": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat Ready\\nBriefing: \\nAn Idris-class People's Alliance security vessel named Tranquility is currently engaged with a <EM>Vanduul capital ship</EM4> near an old <EM4>QV Extraction station</EM4> and Intersec is looking for combat pilots to lend some support.\\n\\nScramble to the AO and <EM4>engage Vanduul fighters so the Tranquility can focus on the capital ship</EM4>. \\n\\nGood luck,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "cfp_defendship_MRT_bombingrun_title_001": "Assist Retreating Ship",
     "cfp_defendship_MRT_bombingrun_desc_001": "One of our people is currently under attack at ~mission(Location|Address). They have attempted to elude their attackers to get to safely, but the outlaws have proven too skilled for them to break away. \\n\\nWe need you to fly there, engage with the attackers, and then destroy the nearby fuel reserves. The hope is that this display of destruction will dissuade them from continuing pursuit.\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
     "cfp_defend_cave_Generic_title_001": "Assistance needed at ~mission(Location)",
@@ -6253,8 +6230,6 @@
     "Covalex_HaulCargo_AToB_Intro_desc": "Earning such accolades as 'Imperial Finances' Top 10 Shipping Companies' and 'Delivery Digest's 2945's Most Trusted Transport,' Covalex is busier than ever. And that means more cargo going to more places. That's where you come in.  \\n\\nCovalex is looking for dependable and industrious pilots to join our expanding family. Do you have access to a ship that can hold <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4>? Can you pass an Advocacy background check if required? Then a universe of opportunity is waiting for you. \\n\\nSimply complete an 'Evaluation Trial’ by picking up a shipment of <EM4>~mission(Item)</EM4> from a freight elevator at <EM4>~mission(Location|Address)</EM4> and successfully delivering it to a freight elevator at <EM4>~mission(Destination|Address)</EM4>.\\n\\nUpon satisfactory completion, you'll be eligible to become part of Covalex Shipping's vast network of independent transport specialists*.\\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\n\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\n\\n\\n\\n\\n\\n\\n*Covalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "foxwell_DefendShip_M_title_001": "Orange Level Contract: ~mission(Ship) Needs Assistance",
     "foxwell_DefendShip_M_desc_001": "Got an orange level contract for any available combat pilots. A ~mission(Ship) is under attack around ~mission(Location|Address) and is in desperate need for assistance. We're not sure how many perpetrators there are, but they seem motivated and dangerous so exercise caution.\\n\\nOnce on site, engage and destroy any hostiles you encounter and protect the client. Once they've transferred the credits, we'll route you your payment.\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
-    "Foxwell_bombingrun_H_title_001": "Orange Level Contract: Destroy Outlaw Infrastructure",
-    "Foxwell_bombingrun_H_desc_001": "An opportunity has presented itself for a client to take action against a group of criminals who have been harassing their business.\\n\\nAccording to reports, this group of outlaws are currently laying low at <EM4>~mission(Location|Address)</EM4>. The client thinks this is a good time to catch them off guard and bring them to justice. The job is to take out their fuel tanks and putting an end to their smuggling operations once and for all.\\n\\nThese folks are not to be underestimated. You better bring some backup and fly low to avoid the turrets. Priority as always is the fuel tanks.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_ShipWaveAttack_ClearHostiles_Title_M_001": "Orange Level Contract: Destroy Outlaw Threat",
     "Foxwell_ShipWaveAttack_ClearHostiles_Desc_M_001": "A splinter group of outlaws have broken off from one of the main gangs in the system and have been trying to strike out on their own. With the amount of trouble they've been causing its clear they're looking to establish a name for themselves as quickly as they can. It's going to be up to you and your support crew to put a stop to them.\\n\\nOnce your crew is ready, head over to ~mission(Location|Address) and engage with the gang. Not all of them will just be waiting there on site. Expect reinforcements to arrive once you begin your assault. Just be sure to stay until every last one of them has been take care of.\\n \\nGood luck,\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.\"",
     "destroyprobelegal_title": "~mission(Contractor|DestroyProbeTitle)",
@@ -6275,8 +6250,6 @@
     "Foxwell_ShipAmbush_M_desc_001": "Foxwell has been tracking a <EM4>~mission(AmbushTarget)</EM4> used by outlaws and discovered a pattern to its movements. The ship should be passing by <EM4>~mission(Location|Address)</EM4> soon.\\n\\nLooking for a contractor willing to hustle there, hide in the emission cloud, and then spring the trap when the time is right. There’s usually escort ships with the <EM4>~mission(AmbushTarget)</EM4>. Careful not to jump the gun and blow your cover. The element of surprise is crucial from what I’ve read.\\n\\nPull this off and we'll give the main contractor a bonus payment of <EM4>~mission(ScripAmount) MG Scrip</EM4>.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_ShipWaveAttack_ClearHostiles_Title_H_001": "Orange Level Contract: Take Out Criminal Fleet",
     "Foxwell_ShipWaveAttack_ClearHostiles_Desc_H_001": "It seems that a couple of different small-time gangs have decided to pool their resources and start doing coordinated attacks. Alone, they weren't much, but all together they're proving to be a serious threat that has to be dealt with.\\n\\nRecruit some backup you can rely on and the fly over to ~mission(Location|Address). Once you attack the initial gang members you find there, the other groups will arrive to support them. Make sure you wait around to take out all of them.\\n \\nGood luck,\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
-    "Foxwell_bombingrun_M_title_001": "Orange Level Contract: Take Out Fuel Supplies",
-    "Foxwell_bombingrun_M_desc_001": "We're in need of a sharp contractor for a hit and run operation. Client says some local thugs have been congregating in concerning numbers and we have been tasked with disrupting their base of operations.\\n\\nGet on over to <EM4>~mission(Location|Address)</EM4> and take out their fuel tanks. If you're successful we can set these folks plans back a while, and most importantly, without having to deal with them directly.\\n\\nReports are showing there's a couple of ships buzzing around the area and some defense turrets. Just focus on the fuel tanks and you should be alright.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_DefendDestructibleEntites_M_Title_001": "Orange Lvl. Contract: Defend ~mission(Objects)",
     "Foxwell_DefendDestructibleEntites_M_Desc_001": "I'm hoping that you'll be able to provide protection services at <EM4>~mission(Location|Address)</EM4>. One of our high priority clients is having some real trouble with a band of outlaws targeting their ~mission(Objects). Need to be able to keep the assets as safe and intact as possible. Client’s expecting the service they pay for, so don’t mess this up or we might lose a loyal customer.\\n\\nFor now, we’re still a little in the dark when it comes to these outlaws, but if you manage to nail this to the Foxwell standards, we’re offering  <EM4>~mission(ScripAmount) MG Scrip</EM4> to the main contractor. \\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_DefendEntitesAndEscort_M_Title": "Orange Lvl. Contract: Defend ~mission(Objects) and Escort Employees",
@@ -6507,8 +6480,6 @@
     "Foxwell_HaulCargo_MultiToSingle_desc_01": "Something weird is going on at the old Hathor mining facilities. Both the platform alignment facilities and orbital laser platforms have been abandoned and gathering dust for decades, but outlaws have started using them as a base of operations.\\n\\nWe’ve been hired by a concerned party who’s recently lost a lot of important cargo to one such gang. Currently, their stuff is stashed at <EM4>~mission(Location1|Address)</EM4> and <EM4>~mission(Location2|Address)</EM4>, but there’s a growing fear that the gang may be offloading their goods soon. That’s why we’ve been hired to hit both of those Hathor facilities, retrieve the cargo from the freight elevators, and bring it to the freight elevator at <EM4>~mission(Destination|Address)</EM4>. \\n\\nHere’s the specifics on what to grab from each location. Doesn’t matter in what order you do this, as long as it all gets collected and delivered. Just be sure to bring a ship that can handle <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4>.  It also wouldn't hurt to bring a <EM4>handheld tractor beam</EM4> with you.   \\n\\n~mission(MultiToSingleToken)\\n\\nFoxwell hasn’t been able to scout these locations, but if I were you, I’d expect to face some serious armed resistance. Best bring a bunch of gear and some friends.\\n\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_bombingrun_S_title_001": "Red Level Contract: Destroy Outlaw Infrastructure",
     "Foxwell_bombingrun_S_desc_001": "We are looking for a highly competent mercenary team to assist with a challenging demolition for a VIP client.\\n\\nThe outlaws operating at <EM4>~mission(Location|Address)</EM4> has been identified as a threat of growing concern in the area and to help deal with this situation your team is being tasked with taking out the fuel tanks at the location. \\n\\nHowever, it won't be as easy as just slipping in and out - expect to deal with multiple hostiles and turrets that will be expecting you. The stronger your crew the better your chances at completing this operation successfully.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
-    "Foxwell_bombingrun_VH_title_001": "Red Level Contract: Fuel Container Demolition",
-    "Foxwell_bombingrun_VH_desc_001": "Foxwell have been hired by a client to take part in a multi-stage operation on a known outlaw base at <EM4>~mission(Location|Address)</EM4> and need a strong pilot to play their part in this.\\n\\nYou, and whatever additional support ships you arrange, will be tasked with taking out the fuel tanks located there to set the stage for the rest of the operation to follow. \\n\\nUnfortunately, this place is swarming with ships and anti-air turrets. So make sure you and your people are ready, and remember, the fuel tanks are your priority. No need to be a hero.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_SecurityPatrol_VH_Title_001": "Red Level Contract: High-Risk Security Patrol",
     "Foxwell_SecurityPatrol_VH_Desc_001": "A client needs our help. Outlaws are roaming certain sectors where they do business and attacking anyone they come across. Our client has already lost several ships and can’t afford to lose anymore. \\n\\nWe need someone to patrol those areas and draw out any hostile forces. The job begins with you heading to the <EM4>location marker</EM4> on your HUD and scanning. Then we’ll share a handful of other patrol points for you to scan. \\n\\nFrom the sound of it, these packs of ships feature skilled and aggressive pilots. Best be ready to rumble if you run into any of them. Would be good to have at least <EM4>two trusted pilots</EM4> by your side for this one.\\n\\nAt the end of a successful patrol, the main contractor will get a bonus payment of <EM4>~mission(ScripAmount) MG Scrip.</EM4>\\n\\nStay chilly,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_HaulCargo_AToB_PAF_title_01": "Red Level Contract: Recoup Stolen Cargo Haul",
@@ -7174,8 +7145,6 @@
     "Foxwell_ShipWaveAttack_ClearHostiles_Desc_VE_001": "There's a small group of criminals that have been marking their territory, striking out any freighters that get close enough. They got a little too greedy though, because now someone's paying us to go deal with them.\\n\\nOnce you and whoever you're bringing are ready, go to ~mission(Location|Address) and engage with these criminals. Since they like to fly in separate packs, be sure you wait around to clear every last one of them out.\\n \\nGood luck,\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_DefendLocation_E_Title_001": "Yellow Level Contract: Defend ~mission(DefendLocationWrapperLocation)",
     "Foxwell_DefendLocation_E_Desc_001": "Ships coming and going from <EM4>~mission(DefendLocationWrapperLocation|Address)</EM4> are being targeted by hostile forces. The folks there have hired us to deal with this problem immediately.\\n\\nNeed someone to get there pronto and start fighting off these ships. The situation appears to be constantly evolving, so I’ll keep you updated on where you’re needed most. \\n\\nFor the hustle and effort, we’ll also be paying a bonus of <EM4>~mission(ScripAmount) MG Scrip</EM4> to the main contractor for dealing with this.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
-    "Foxwell_bombingrun_E_title_001": "Yellow Level Contract: Disrupt Operations",
-    "Foxwell_bombingrun_E_desc_001": "We've just received the location of an outlaw outpost where some up-and-coming criminals have been hanging out. Now, our client says there's no reason to engage these folks directly. Instead you will be targeting their supply lines.\\n\\nFly on over to <EM4>~mission(Location|Address)</EM4> and take out their fuel stores while dealing with any minimal resistance they may put up. It will be your call on how much you engage with the hostile forces, just don't forget that your main objective is ensuring those fuel tanks are out of action.\\n\\nThis is a yellow level contract so pay will be proportionate.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_bombingrun_VE_title_001": "Yellow Level Contract: Limiting Potential Threat",
     "Foxwell_bombingrun_VE_desc_001": "A bunch of outlaws have been harassing our client and recently things have taken a turn for the worse. They've taken over their property and we've exhausted all other options.\\n\\nWe need a decent pilot to head to <EM4>~mission(Location|Address)</EM4> and take out their fuel tanks. If you can cut off their supplies, you can pave the way for the client to take back their property.\\n\\nThis shouldn't be a tough one. You might run into a ship or two and maybe a few turrets, but you've been authorized to use lethal force. All we need for you to do is get in there, get the fuel tanks, and get out.\\n\\nGood luck,\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
     "Foxwell_EliminateAll_OLP_M_title_001": "Yellow Level Contract: Merc Work",
@@ -10662,27 +10631,27 @@
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Shubin_Industrial_SMine_Nyx_MedQuantity_AlCopTinTia_Hub_Title_001": {
-      "System": "@StantonSystem",
+      "System": "@Nyx_Star",
       "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "Shubin_Industrial_SMine_Nyx_MedQuantity_AlCopTinTia_Hub_Desc_001": {
-      "System": "@StantonSystem",
+      "System": "@Nyx_Star",
       "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "Shubin_Industrial_SMine_Nyx_MedQuantity_Alum_Hub_Title_001": {
-      "System": "@StantonSystem",
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "System": "@Nyx_Star",
+      "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Shubin_Industrial_SMine_Nyx_MedQuantity_Alum_Hub_Desc_001": {
-      "System": "@StantonSystem",
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "System": "@Nyx_Star",
+      "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Shubin_Industrial_SMine_Nyx_MedQuantity_Ice_Hub_Title_001": {
-      "System": "@StantonSystem",
+      "System": "@Nyx_Star",
       "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "Shubin_Industrial_SMine_Nyx_MedQuantity_Ice_Hub_Desc_001": {
-      "System": "@StantonSystem",
+      "System": "@Nyx_Star",
       "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "Shubin_Industrial_ShipMining_Nyx_M_Solar_Title_001": {
@@ -10711,18 +10680,18 @@
     },
     "Shubin_Industrial_GVMine_Nyx_MedQuantity_Glac_Feyn_Hub_Title_001": {
       "System": "@StantonSystem",
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank3"
     },
     "Shubin_Industrial_GVMine_Nyx_MedQuantity_Glac_Feyn_Hub_Desc_001": {
       "System": "@StantonSystem",
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank3"
     },
     "Shubin_Industrial_GVMine_Nyx_MedQuantity_Glac_Hub_Title_001": {
-      "System": "@StantonSystem",
+      "System": "@Nyx_Star",
       "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "Shubin_Industrial_GVMine_Nyx_MedQuantity_Glac_Hub_Desc_001": {
-      "System": "@StantonSystem",
+      "System": "@Nyx_Star",
       "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "Shubin_Industrial_GroundVehicle_Pyro_M_PlanetarySystem_Title_001": {
@@ -11239,14 +11208,6 @@
     "foxwell_DefendShip_M_desc_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
-    "Foxwell_bombingrun_H_title_001": {
-      "ItemsToDestroy": "@destroyItems_BombingRunItem",
-      "ReputationRank": "@RepScope_Contractor_Rank3"
-    },
-    "Foxwell_bombingrun_H_desc_001": {
-      "ItemsToDestroy": "@destroyItems_BombingRunItem",
-      "ReputationRank": "@RepScope_Contractor_Rank3"
-    },
     "Foxwell_ShipWaveAttack_ClearHostiles_Title_M_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
     },
@@ -11330,14 +11291,6 @@
     },
     "Foxwell_ShipWaveAttack_ClearHostiles_Desc_H_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
-    },
-    "Foxwell_bombingrun_M_title_001": {
-      "ItemsToDestroy": "@destroyItems_BombingRunItem",
-      "ReputationRank": "@RepScope_Contractor_Rank2"
-    },
-    "Foxwell_bombingrun_M_desc_001": {
-      "ItemsToDestroy": "@destroyItems_BombingRunItem",
-      "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "Foxwell_DefendDestructibleEntites_M_Title_001": {
       "Objects": "@destroyItems_BombingRunItem",
@@ -11904,14 +11857,6 @@
     "Foxwell_bombingrun_S_desc_001": {
       "ItemsToDestroy": "@destroyItems_BombingRunItem",
       "ReputationRank": "@RepScope_Contractor_Rank5"
-    },
-    "Foxwell_bombingrun_VH_title_001": {
-      "ItemsToDestroy": "@destroyItems_BombingRunItem",
-      "ReputationRank": "@RepScope_Contractor_Rank4"
-    },
-    "Foxwell_bombingrun_VH_desc_001": {
-      "ItemsToDestroy": "@destroyItems_BombingRunItem",
-      "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Foxwell_SecurityPatrol_VH_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank4",
@@ -13030,11 +12975,11 @@
       "ReputationRank": "@RepScope_Contractor_Rank0"
     },
     "Shubin_Industrial_SMine_Nyx_IntroQuantity_Alum_Hub_Title_001": {
-      "System": "@StantonSystem",
+      "System": "@Nyx_Star",
       "ReputationRank": "@RepScope_Contractor_Rank0"
     },
     "Shubin_Industrial_SMine_Nyx_IntroQuantity_Alum_Hub_Desc_001": {
-      "System": "@StantonSystem",
+      "System": "@Nyx_Star",
       "ReputationRank": "@RepScope_Contractor_Rank0"
     },
     "Shubin_Industrial_ShipMining_Nyx_E_Local_Title_001": {
@@ -14035,14 +13980,6 @@
     "Foxwell_DefendLocation_E_Desc_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
       "ScripAmount": "3"
-    },
-    "Foxwell_bombingrun_E_title_001": {
-      "ItemsToDestroy": "@destroyItems_BombingRunItem",
-      "ReputationRank": "@RepScope_Contractor_Rank1"
-    },
-    "Foxwell_bombingrun_E_desc_001": {
-      "ItemsToDestroy": "@destroyItems_BombingRunItem",
-      "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Foxwell_bombingrun_VE_title_001": {
       "ItemsToDestroy": "@destroyItems_BombingRunItem",
