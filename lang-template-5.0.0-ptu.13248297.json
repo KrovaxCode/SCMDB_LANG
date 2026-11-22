@@ -1,6 +1,6 @@
 {
-  "version": "5.0.0-ptu.13238477",
-  "keyCount": 5107,
+  "version": "5.0.0-ptu.13248297",
+  "keyCount": 5105,
   "keys": {
     "Headhunters_Delivery_Outpost_title_001": "[DESTINATION] Errand",
     "roughready_delivery_station_title_001": "[DESTINATION] Stroll",
@@ -244,7 +244,6 @@
     "DeadSaints_HaulCargo_MultiToSingle_title": "DEAD SAINTS - Rookie Rank - Medium Cargo Haul",
     "DeadSaints_HaulCargo_AToB_intro_title": "DEAD SAINTS - Trial Cargo Haul",
     "DeadSaints_HaulCargo_AToB_title": "DEAD SAINTS -- Rookie Rank, Small Scale Cargo Run",
-    "EckhartSecurity_MultiEliminateAllAndBoss_DC_Title_001": "Deal with [TARGET] and Support Forces",
     "headhunters_eliminateall_retrievestolen_base_Generic_M_title_001": "Death and cargo",
     "headhunters_EliminateSpecific_Asteroid_Generic_VE_title_001": "Deep space hit",
     "HeadHunters_DefendEntitesAndEscort_VH_Title": "Defend [LOCATION] From Mercs",
@@ -1296,7 +1295,6 @@
     "DeadSaints_HaulCargo_AToB_intro_desc": "Call me Twitch. I run the Dead Saints. \\n\\nI doubt this is the first time you've heard of us, but in case you haven't, we do a lot of things, but one of them is transporting goods that need discreet handling. \\n\\nI got your info from one of my contacts. They say you've got the stuff we like in a hauler, which works for me, because we're looking for one. \\n\\nHere's my proposal – we're offering creds to the pilot that can transport some special cargo for us. Your ship’s hold will need room for <EM4>2 SCU cargo containers</EM4>, and you'll need a <EM4>handheld tractor beam</EM4> for loading and unloading. All you have to do is get everything from <EM4>[LOCATION]</EM4> to <EM4>[DESTINATION]</EM4> without getting security involved. \\n \\nIf you can pull the job off, the Saints will have more contracts for you down the line. \\n\\n-Twitch",
     "DeadSaints_HaulCargo_AToB_desc_ToGrimHEX_Danger": "If you're looking for creds, the Saints need someone with hauling experience to do a supply run from <EM4>[LOCATION]</EM4> to <EM4>[DESTINATION]</EM4>. \\n\\nYou're gonna need a ship that can hold size <EM4>16 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4> to move the boxes around. \\n\\nDon't open the crates but just so you know, most of this stuff is legal but not all of it. Try not to cross paths with anyone who might make that a problem for you. Get me?\\n\\n-Twitch",
     "DeadSaints_HaulCargo_AToB_desc_Cryopods_Danger": "Got an interesting one. Some folks who were suckered into life/labor contracts with Hurston Dynamics want to get as far from Lorville as they possibly can. They struck a deal with a people mover and got themselves put on ice. Now they just need someone to pick them up and give them a ride. \\n\\nIf you're up for some popsicle smuggling, you'll find [TOTAL] cryopods at <EM4>[LOCATION]</EM4> that need to go to <EM4>[DESTINATION]</EM4>. Make sure you have space in your cargo hold for size <EM4>2 SCU</EM4> containers. If you use a <EM4>handheld tractor beam</EM4>, you should be able to get everyone loaded up before Hurston security catches on. \\n\\nHD isn't too keen on anyone slipping out of their contracts, so watch your back. They shoot to kill. \\n\\nIf you can pull this off, there's a nice paycheck in it for you.\\n\\n-Twitch",
-    "EckhartSecurity_MultiEliminateAllAndBoss_DC_Desc_001": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Bounty\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nGot a big league bounty contract that’s primed to be executed. <EM4>[TARGET]</EM4> and their crew were identified executing a raid on <EM4>[LOCATION]</EM4>. If their MO holds true, <EM4>[TARGET]</EM4> has surfaced to land a big score and then will disappear into the ether. Let's not allow that to happen again. \\n\\nWord is the hostile forces have spread themselves across the location. That’ll make hunting down the precise location of <EM4>[TARGET]</EM4> difficult. In addition, expect the target to act defensively when under attack. In previous engagements, they remained hidden and directed their forces from afar. It is our recommendation that you focus on thinning out their allies first and force <EM4>[TARGET]</EM4> to come to their own defense. Would also advise you to bring plenty of ammo and even some support to help keep you from being overwhelmed.    \\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "headhunters_eliminateall_retrievestolen_base_Generic_M_desc_001": "Local crew decided to hit one of our convoys and steal our shit. They got away, but we aren't gonna let them celebrate for long. I want you to head out to [LOCATION] where they got a base, blast them into ash, and get our stuff back. \\n\\nOnce you got the cargo, take it over to [DESTINATION] and we can all forget these assholes ever existed.\\n\\nStows out.",
     "headhunters_EliminateSpecific_Asteroid_Generic_VE_desc_001": "Got word of crew that's been pulling jobs and building a rep for themselves. Since they've said they don't want anything to do with Headhunters, we're looking to break 'em apart before they become a problem. Their leader is some punk named [TARGET] and we figure if they met the wrong end of a bullet, the rest of them would break apart.\\n\\nWe're told you can find [TARGET] around [LOCATION]. Head over and take care of it.\\n\\nThey shouldn't pose much of a problem to a pro like you.\\n\\nStows out.",
     "HeadHunters_DefendEntitesAndEscort_VH_Desc": "So, I thought we had done a good job of keeping things on the quiet side, but looks like the fact <EM4>[LOCATION]</EM4> has Headhunters ties has gotten out. Now there are some heavy operators causing major problems there, targeting the <EM>[OBJECTS]</EM4> and generally causing me a massive headache.\\n\\nWith the amount of firepower these interlopers are packing, you're gonna need to bring along a <EM4>crew of your own</EM4> to pull this off. Especially since I need you to be protecting any <EM4>friendly ships</EM4> that need help.\\n\\nThis op needs to go off without a hitch, so I’m offering the main contractor <EM4>6 Council Scrip</EM4> for a job well done. \\n\\nStows out.",
@@ -5550,8 +5548,6 @@
     "DeadSaints_HaulCargo_AToB_title": "DEAD SAINTS -- ~mission(ReputationRank) Rank, ~mission(CargoGradeToken) Scale Cargo Run",
     "DeadSaints_HaulCargo_AToB_desc_ToGrimHEX_Danger": "If you're looking for creds, the Saints need someone with hauling experience to do a supply run from <EM4>~mission(Location|Address)</EM4> to <EM4>~mission(Destination|Address)</EM4>. \\n\\nYou're gonna need a ship that can hold size <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4> and a <EM4>handheld tractor beam</EM4> to move the boxes around. \\n\\nDon't open the crates but just so you know, most of this stuff is legal but not all of it. Try not to cross paths with anyone who might make that a problem for you. Get me?\\n\\n-Twitch",
     "DeadSaints_HaulCargo_AToB_desc_Cryopods_Danger": "Got an interesting one. Some folks who were suckered into life/labor contracts with Hurston Dynamics want to get as far from Lorville as they possibly can. They struck a deal with a people mover and got themselves put on ice. Now they just need someone to pick them up and give them a ride. \\n\\nIf you're up for some popsicle smuggling, you'll find ~mission(total) cryopods at <EM4>~mission(Location|Address)</EM4> that need to go to <EM4>~mission(Destination|Address)</EM4>. Make sure you have space in your cargo hold for size <EM4>~mission(MissionMaxSCUSize)</EM4> containers. If you use a <EM4>handheld tractor beam</EM4>, you should be able to get everyone loaded up before Hurston security catches on. \\n\\nHD isn't too keen on anyone slipping out of their contracts, so watch your back. They shoot to kill. \\n\\nIf you can pull this off, there's a nice paycheck in it for you.\\n\\n-Twitch",
-    "EckhartSecurity_MultiEliminateAllAndBoss_DC_Title_001": "Deal with ~mission(TargetName) and Support Forces",
-    "EckhartSecurity_MultiEliminateAllAndBoss_DC_Desc_001": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Bounty\\nAPPROVAL CODE = ~mission(ApprovalCode)\\n\\nFOR IMMEDIATE PROCESSING\\n\\nGot a big league bounty contract that’s primed to be executed. <EM4>~mission(TargetName)</EM4> and their crew were identified executing a raid on <EM4>~mission(Location|Address)</EM4>. If their MO holds true, <EM4>~mission(TargetName|Last)</EM4> has surfaced to land a big score and then will disappear into the ether. Let's not allow that to happen again. \\n\\nWord is the hostile forces have spread themselves across the location. That’ll make hunting down the precise location of <EM4>~mission(TargetName|Last)</EM4> difficult. In addition, expect the target to act defensively when under attack. In previous engagements, they remained hidden and directed their forces from afar. It is our recommendation that you focus on thinning out their allies first and force <EM4>~mission(TargetName|Last)</EM4> to come to their own defense. Would also advise you to bring plenty of ammo and even some support to help keep you from being overwhelmed.    \\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
     "headhunters_eliminateall_retrievestolen_base_Generic_M_title_001": "Death and cargo",
     "headhunters_eliminateall_retrievestolen_base_Generic_M_desc_001": "Local crew decided to hit one of our convoys and steal our shit. They got away, but we aren't gonna let them celebrate for long. I want you to head out to ~mission(Location|Address) where they got a base, blast them into ash, and get our stuff back. \\n\\nOnce you got the cargo, take it over to ~mission(Destination|Address) and we can all forget these assholes ever existed.\\n\\nStows out.",
     "headhunters_EliminateSpecific_Asteroid_Generic_VE_title_001": "Deep space hit",
@@ -8792,12 +8788,6 @@
       "ReputationRank": "@RepStanding_TransportGuild_Rank1",
       "MissionMaxSCUSize": "@FreightElevator_2SCU"
     },
-    "EckhartSecurity_MultiEliminateAllAndBoss_DC_Title_001": {
-      "ReputationRank": "@RepStanding_Security_Rank4"
-    },
-    "EckhartSecurity_MultiEliminateAllAndBoss_DC_Desc_001": {
-      "ReputationRank": "@RepStanding_Security_Rank4"
-    },
     "headhunters_eliminateall_retrievestolen_base_Generic_M_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
     },
@@ -9169,10 +9159,10 @@
       "ScripAmount": "3"
     },
     "EckhartSecurity_EliminateAll_DC_Title_001": {
-      "ReputationRank": "@RepStanding_Security_Rank2"
+      "ReputationRank": "@RepStanding_Security_Rank1"
     },
     "EckhartSecurity_EliminateAll_DC_Desc_001": {
-      "ReputationRank": "@RepStanding_Security_Rank2"
+      "ReputationRank": "@RepStanding_Security_Rank1"
     },
     "RedWind_HaulCargo_AToB_title_01": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
@@ -9584,10 +9574,10 @@
       "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "EckhartSecurity_EliminateBoss_DC_Title_001": {
-      "ReputationRank": "@RepStanding_Security_Rank1"
+      "ReputationRank": "@RepStanding_Security_Rank2"
     },
     "EckhartSecurity_EliminateBoss_DC_Desc_001": {
-      "ReputationRank": "@RepStanding_Security_Rank1"
+      "ReputationRank": "@RepStanding_Security_Rank2"
     },
     "eckhart_defendship_multi_HRT_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
